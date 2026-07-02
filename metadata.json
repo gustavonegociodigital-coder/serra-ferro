@@ -1,0 +1,6 @@
+{
+  "name": "Serra-Ferro",
+  "description": "Fábrica e instalação de esquadrias de alumínio, vidraçaria e serralheria de alto padrão na Grande São Paulo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
