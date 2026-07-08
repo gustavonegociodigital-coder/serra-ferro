@@ -49,8 +49,7 @@ export default function App() {
   };
 
   const getWhatsAppLink = () => {
-    const text = 'Olá! Gostaria de um orçamento personalizado para o meu projeto de esquadrias ou vidraçaria.';
-    return `https://wa.me/5511913243623?text=${encodeURIComponent(text)}`;
+    return 'https://api.whatsapp.com/send/?phone=5511913243623&text=Ol%C3%A1%21+Gostaria+de+fazer+uma+cota%C3%A7%C3%A3o+direta+de+f%C3%A1brica+para+as+esquadrias+da+minha+obra.&type=phone_number&app_absent=0';
   };
 
   const renderContent = () => {
@@ -242,7 +241,7 @@ export default function App() {
         href={getWhatsAppLink()}
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 z-40 w-14 h-14 bg-emerald-600 text-white rounded-full flex items-center justify-center shadow-2xl hover:bg-emerald-700 hover:scale-105 transition-all duration-300 group cursor-pointer"
+        className="fixed bottom-6 right-6 z-40 w-14 h-14 bg-emerald-600 text-white rounded-full flex items-center justify-center shadow-2xl hover:bg-emerald-700 hover:scale-105 transition-colors duration-300 group cursor-pointer animate-pulse-whatsapp"
         title="Falar com Engenheiro no WhatsApp"
         id="floating-whatsapp-trigger"
       >

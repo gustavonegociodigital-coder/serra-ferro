@@ -53,6 +53,22 @@
   }
 }
 
+@keyframes pulsate-whatsapp {
+  0% {
+    box-shadow: 0 0 0 0 rgba(5, 150, 105, 0.6);
+  }
+  70% {
+    box-shadow: 0 0 0 18px rgba(5, 150, 105, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(5, 150, 105, 0);
+  }
+}
+
+.animate-pulse-whatsapp {
+  animation: pulsate-whatsapp 2s infinite ease-out;
+}
+
 .animate-pulse-orange {
   animation: pulsate-cta 2s infinite ease-in-out;
 }
