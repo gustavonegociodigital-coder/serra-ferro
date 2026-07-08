@@ -80,7 +80,7 @@ export default function AboutUs({ setView }: AboutUsProps) {
             <PlaceholderImage
               category="geral"
               heightClass="h-[340px] md:h-[400px]"
-              src="/src/assets/images/portfolio_house_luxury_card_1782740031450.jpg"
+              src="/assets/images/portfolio_house_luxury_card_1782740031450.jpg"
               label="Projetos de Alto Padrão Serra-Ferro"
               className="shadow-lg animate-fade-in"
             />

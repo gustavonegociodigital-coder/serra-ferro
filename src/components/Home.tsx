@@ -28,11 +28,11 @@ export default function Home({ setView }: HomeProps) {
   const getPortfolioImageSrc = (id: string) => {
     switch (id) {
       case 'obra-1':
-        return '/src/assets/images/portfolio_house_luxury_card_1782740031450.jpg';
+        return '/assets/images/portfolio_house_luxury_card_1782740031450.jpg';
       case 'obra-2':
-        return '/src/assets/images/minimal_aluminum_frames_1782306022668.jpg';
+        return '/assets/images/minimal_aluminum_frames_1782306022668.jpg';
       case 'obra-3':
-        return '/src/assets/images/modern_facade_glass_1782306036555.jpg';
+        return '/assets/images/modern_facade_glass_1782306036555.jpg';
       default:
         return undefined;
     }
@@ -43,7 +43,7 @@ export default function Home({ setView }: HomeProps) {
   const slides = [
     {
       id: 1,
-      image: '/src/assets/images/luxury_villa_glazing_1782306007983.jpg',
+      image: '/assets/images/luxury_villa_glazing_1782306007983.jpg',
       tag: 'SERRA-FERRO • FÁBRICA DE ESQUADRIAS',
       titleNormal: 'As legítimas ',
       titleHighlight: 'esquadrias de alumínio em São Paulo',
@@ -56,7 +56,7 @@ export default function Home({ setView }: HomeProps) {
     },
     {
       id: 2,
-      image: '/src/assets/images/minimal_aluminum_frames_1782306022668.jpg',
+      image: '/assets/images/minimal_aluminum_frames_1782306022668.jpg',
       tag: 'VEDAÇÃO • SEM MAIS VAZAMENTOS OU BARULHO',
       titleNormal: 'A tranquilidade de ter ',
       titleHighlight: 'esquadrias de alumínio em São Paulo',
@@ -69,7 +69,7 @@ export default function Home({ setView }: HomeProps) {
     },
     {
       id: 3,
-      image: '/src/assets/images/modern_facade_glass_1782306036555.jpg',
+      image: '/assets/images/modern_facade_glass_1782306036555.jpg',
       tag: 'COMPRA SEGURA • 100% SOB MEDIDA',
       titleNormal: 'Sua escolha segura de ',
       titleHighlight: 'esquadrias de alumínio em São Paulo',
@@ -278,7 +278,7 @@ export default function Home({ setView }: HomeProps) {
               <PlaceholderImage 
                 category="esquadrias" 
                 heightClass="h-48" 
-                src="/src/assets/images/esquadrias_aluminio_luxury_card_1782739998198.jpg"
+                src="/assets/images/esquadrias_aluminio_luxury_card_1782739998198.jpg"
                 label="Portas e Janelas sob Medida"
               />
               <div className="p-6">
@@ -312,7 +312,7 @@ export default function Home({ setView }: HomeProps) {
               <PlaceholderImage 
                 category="vidracaria" 
                 heightClass="h-48" 
-                src="/src/assets/images/vidracaria_balcony_luxury_card_1782740008784.jpg"
+                src="/assets/images/vidracaria_balcony_luxury_card_1782740008784.jpg"
                 label="Guarda-Corpos e Sacadas"
               />
               <div className="p-6">
@@ -346,7 +346,7 @@ export default function Home({ setView }: HomeProps) {
               <PlaceholderImage 
                 category="serralheria" 
                 heightClass="h-48" 
-                src="/src/assets/images/serralheria_staircase_luxury_card_1782740019768.jpg"
+                src="/assets/images/serralheria_staircase_luxury_card_1782740019768.jpg"
                 label="Escadas e Portões Finos"
               />
               <div className="p-6">
@@ -480,7 +480,7 @@ export default function Home({ setView }: HomeProps) {
                 <PlaceholderImage
                   category="esquadrias"
                   heightClass="h-[240px] sm:h-[280px]"
-                  src="/src/assets/images/esquadrias_aluminio_luxury_card_1782739998198.jpg"
+                  src="/assets/images/esquadrias_aluminio_luxury_card_1782739998198.jpg"
                   label="Instalação de Esquadrias de Alumínio de Alto Padrão"
                   className="shadow-md animate-fade-in"
                 />
@@ -575,7 +575,7 @@ export default function Home({ setView }: HomeProps) {
       {/* DOBRA 5: COMO FUNCIONA */}
       <section 
         className="relative bg-fixed bg-cover bg-center py-20 overflow-hidden border-t border-neutral-100" 
-        style={{ backgroundImage: `url('/src/assets/images/minimal_aluminum_frames_1782306022668.jpg')` }}
+        style={{ backgroundImage: `url('/assets/images/minimal_aluminum_frames_1782306022668.jpg')` }}
         id="processo-de-obra"
       >
         {/* Semi-transparent overlay to ensure legibility of text */}
@@ -814,7 +814,7 @@ export default function Home({ setView }: HomeProps) {
             <PlaceholderImage
               category="geral"
               heightClass="h-[360px]"
-              src="/src/assets/images/minimal_aluminum_frames_1782306022668.jpg"
+              src="/assets/images/minimal_aluminum_frames_1782306022668.jpg"
               label="Soluções Sob Medida Serra-Ferro"
               className="shadow-lg animate-fade-in"
             />
@@ -901,7 +901,7 @@ export default function Home({ setView }: HomeProps) {
             <div className="bg-white border border-neutral-200 rounded-xl overflow-hidden shadow-sm group relative">
               <div className="relative aspect-square overflow-hidden bg-neutral-100">
                 <img
-                  src="/src/assets/images/esquadrias_aluminio_luxury_card_1782739998198.jpg"
+                  src="/assets/images/esquadrias_aluminio_luxury_card_1782739998198.jpg"
                   alt="Esquadrias em São Paulo"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   referrerPolicy="no-referrer"
@@ -926,7 +926,7 @@ export default function Home({ setView }: HomeProps) {
             <div className="bg-white border border-neutral-200 rounded-xl overflow-hidden shadow-sm group relative">
               <div className="relative aspect-square overflow-hidden bg-neutral-100">
                 <img
-                  src="/src/assets/images/vidracaria_balcony_luxury_card_1782740008784.jpg"
+                  src="/assets/images/vidracaria_balcony_luxury_card_1782740008784.jpg"
                   alt="Guarda corpo de vidro"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   referrerPolicy="no-referrer"
@@ -951,7 +951,7 @@ export default function Home({ setView }: HomeProps) {
             <div className="bg-white border border-neutral-200 rounded-xl overflow-hidden shadow-sm group relative">
               <div className="relative aspect-square overflow-hidden bg-neutral-100">
                 <img
-                  src="/src/assets/images/serralheria_staircase_luxury_card_1782740019768.jpg"
+                  src="/assets/images/serralheria_staircase_luxury_card_1782740019768.jpg"
                   alt="Escada metálica"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   referrerPolicy="no-referrer"
@@ -1070,7 +1070,7 @@ export default function Home({ setView }: HomeProps) {
               <div>
                 <div className="h-48 overflow-hidden relative bg-neutral-200">
                   <img 
-                    src="/src/assets/images/esquadrias_aluminio_luxury_card_1782739998198.jpg" 
+                    src="/assets/images/esquadrias_aluminio_luxury_card_1782739998198.jpg" 
                     alt="Linha Gold vs Suprema" 
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     referrerPolicy="no-referrer"
@@ -1109,7 +1109,7 @@ export default function Home({ setView }: HomeProps) {
               <div>
                 <div className="h-48 overflow-hidden relative bg-neutral-200">
                   <img 
-                    src="/src/assets/images/vidracaria_balcony_luxury_card_1782740008784.jpg" 
+                    src="/assets/images/vidracaria_balcony_luxury_card_1782740008784.jpg" 
                     alt="Evitar infiltrações" 
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     referrerPolicy="no-referrer"
@@ -1148,7 +1148,7 @@ export default function Home({ setView }: HomeProps) {
               <div>
                 <div className="h-48 overflow-hidden relative bg-neutral-200">
                   <img 
-                    src="/src/assets/images/portfolio_house_luxury_card_1782740031450.jpg" 
+                    src="/assets/images/portfolio_house_luxury_card_1782740031450.jpg" 
                     alt="Segurança Guarda Corpos" 
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     referrerPolicy="no-referrer"

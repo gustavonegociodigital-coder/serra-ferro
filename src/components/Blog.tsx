@@ -97,7 +97,7 @@ export default function Blog({ setView }: BlogProps) {
   const [formTags, setFormTags] = useState('');
   const [formAuthorName, setFormAuthorName] = useState('Eng. Maurício Santos');
   const [formAuthorRole, setFormAuthorRole] = useState('Diretor Técnico da Serra-Ferro');
-  const [formCoverImage, setFormCoverImage] = useState('/src/assets/images/minimal_aluminum_frames_1782306022668.jpg');
+  const [formCoverImage, setFormCoverImage] = useState('/assets/images/minimal_aluminum_frames_1782306022668.jpg');
   const [formSeoTitle, setFormSeoTitle] = useState('');
   const [formSeoDescription, setFormSeoDescription] = useState('');
   const [formQuickSummary, setFormQuickSummary] = useState('');
@@ -365,7 +365,7 @@ export default function Blog({ setView }: BlogProps) {
     setFormTags(post.tags ? post.tags.join(', ') : '');
     setFormAuthorName(post.author?.name || 'Eng. Maurício Santos');
     setFormAuthorRole(post.author?.role || 'Diretor Técnico da Serra-Ferro');
-    setFormCoverImage(post.coverImage || '/src/assets/images/minimal_aluminum_frames_1782306022668.jpg');
+    setFormCoverImage(post.coverImage || '/assets/images/minimal_aluminum_frames_1782306022668.jpg');
     setFormSeoTitle(post.seoTitle || '');
     setFormSeoDescription(post.seoDescription || '');
     setFormQuickSummary(post.quickSummary || '');
@@ -388,7 +388,7 @@ export default function Blog({ setView }: BlogProps) {
     setFormTags('');
     setFormAuthorName('Eng. Maurício Santos');
     setFormAuthorRole('Diretor Técnico da Serra-Ferro');
-    setFormCoverImage('/src/assets/images/minimal_aluminum_frames_1782306022668.jpg');
+    setFormCoverImage('/assets/images/minimal_aluminum_frames_1782306022668.jpg');
     setFormSeoTitle('');
     setFormSeoDescription('');
     setFormQuickSummary('');
@@ -523,7 +523,7 @@ export default function Blog({ setView }: BlogProps) {
     setFormTags('');
     setFormAuthorName('Eng. Maurício Santos');
     setFormAuthorRole('Diretor Técnico da Serra-Ferro');
-    setFormCoverImage('/src/assets/images/minimal_aluminum_frames_1782306022668.jpg');
+    setFormCoverImage('/assets/images/minimal_aluminum_frames_1782306022668.jpg');
     setFormSeoTitle('');
     setFormSeoDescription('');
     setFormQuickSummary('');
@@ -811,10 +811,10 @@ export default function Blog({ setView }: BlogProps) {
                         onChange={(e) => setFormCoverImage(e.target.value)}
                         className="w-full bg-white border border-neutral-300 rounded-lg px-3 py-2 text-xs font-sans text-brand-charcoal focus:border-brand-orange focus:outline-none"
                       >
-                        <option value="/src/assets/images/minimal_aluminum_frames_1782306022668.jpg">Portas Minimalistas de Alumínio</option>
-                        <option value="/src/assets/images/modern_facade_glass_1782306036555.jpg">Vidros de Controle Térmico</option>
-                        <option value="/src/assets/images/serralheria_staircase_luxury_card_1782740019768.jpg">Escada Helicoidal Metálica</option>
-                        <option value="/src/assets/images/luxury_villa_glazing_1782306007983.jpg">Fachada Pele de Vidro Jumbo</option>
+                        <option value="/assets/images/minimal_aluminum_frames_1782306022668.jpg">Portas Minimalistas de Alumínio</option>
+                        <option value="/assets/images/modern_facade_glass_1782306036555.jpg">Vidros de Controle Térmico</option>
+                        <option value="/assets/images/serralheria_staircase_luxury_card_1782740019768.jpg">Escada Helicoidal Metálica</option>
+                        <option value="/assets/images/luxury_villa_glazing_1782306007983.jpg">Fachada Pele de Vidro Jumbo</option>
                       </select>
                     </div>
                   </div>

@@ -42,7 +42,7 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
       titleHighlight: "Sob Medida SP",
       titleSuffix: " de Alto Padrão",
       description: "Esquadrias Premium projetadas com excelência acústica, vedação termoacústica absoluta e esquadro perfeito. Proteja o seu investimento com prazos de entrega rigorosamente garantidos em contrato físico.",
-      image: "/src/assets/images/luxury_villa_glazing_1782306007983.jpg",
+      image: "/assets/images/luxury_villa_glazing_1782306007983.jpg",
       highlights: [
         "Entrega no prazo (com multa em contrato)",
         "Garantia de vedação total por escrito",
@@ -56,7 +56,7 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
       titleHighlight: "Vidraçaria em São Paulo",
       titleSuffix: " de Alto Padrão",
       description: "Procurando por um vidraceiro em São Paulo de confiança? Na nossa vidraçaria em São Paulo, projetamos guarda-corpos autoportantes, fechamentos de sacadas panorâmicas e espelhos monumentais de cristal. Soluções exclusivas instaladas com perfeição por equipe técnica própria.",
-      image: "/src/assets/images/modern_facade_glass_1782306036555.jpg",
+      image: "/assets/images/modern_facade_glass_1782306036555.jpg",
       highlights: [
         "Vidros laminados de alta segurança",
         "Instalação cuidadosa por técnicos próprios",
@@ -70,7 +70,7 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
       titleHighlight: "Serralheria em São Paulo",
       titleSuffix: " de Alto Padrão",
       description: "Se você procura por um serralheiro em São Paulo experiente, nossa serralheria em São Paulo projeta escadas plissadas com solda invisível, portas pivotantes monumentais de aço e mezaninos calculados por engenharia aplicada.",
-      image: "/src/assets/images/serralheria_staircase_luxury_card_1782740019768.jpg",
+      image: "/assets/images/serralheria_staircase_luxury_card_1782740019768.jpg",
       highlights: [
         "Acabamento fino sem soldas aparentes",
         "Pintura eletrostática especial duradoura",
@@ -88,96 +88,96 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
       {
         title: "Portas de Alumínio de Alto Padrão",
         description: "Portas pivotantes monumentais, portas de correr integradas de grandes vãos e portas de giro. Perfis robustos, fechaduras de alta segurança e deslizamento extremamente leve e silencioso.",
-        image: "/src/assets/images/minimal_aluminum_frames_1782306022668.jpg"
+        image: "/assets/images/minimal_aluminum_frames_1782306022668.jpg"
       },
       {
         title: "Janelas Acústicas e com Persiana Integrada",
         description: "Janelas de correr, maxim-ar e integradas com persianas motorizadas por controle ou automação. Máximo bloqueio de luz (blackout) e atenuação acústica para garantir noites tranquilas de sono.",
-        image: "/src/assets/images/luxury_villa_glazing_1782306007983.jpg"
+        image: "/assets/images/luxury_villa_glazing_1782306007983.jpg"
       },
       {
         title: "Guarda-Corpos de Alta Segurança",
         description: "Projetados em alumínio estrutural e vidros temperados laminados de alta resistência. Soluções autoportantes com fixação oculta ou canaletes embutidos para sacadas, mezaninos e escadas.",
-        image: "/src/assets/images/vidracaria_balcony_luxury_card_1782740008784.jpg"
+        image: "/assets/images/vidracaria_balcony_luxury_card_1782740008784.jpg"
       },
       {
         title: "Fachadas Integradas e Pele de Vidro",
         description: "Peles de vidro (Structural Glazing) contínuas onde a estrutura de alumínio fica oculta no exterior. Visual limpo e imponente com excelente controle térmico e proteção solar contra raios UV.",
-        image: "/src/assets/images/modern_facade_glass_1782306036555.jpg"
+        image: "/assets/images/modern_facade_glass_1782306036555.jpg"
       },
       {
         title: "Coberturas de Alumínio e Vidro Herméticas",
         description: "Coberturas fixas ou retráteis projetadas para receber vidros laminados de controle térmico. Vedação dupla e sistema de calhas integradas que evitam goteiras ou infiltrações em dias de chuva forte.",
-        image: "/src/assets/images/esquadrias_aluminio_luxury_card_1782739998198.jpg"
+        image: "/assets/images/esquadrias_aluminio_luxury_card_1782739998198.jpg"
       },
       {
         title: "Projetos Especiais Sob Medida",
         description: "Engenharia dedicada a solucionar grandes vãos arquitetônicos, como cantos de vidro sem coluna estrutural, painéis de correr jumbo e portas de entrada gigantescas de alumínio composto.",
-        image: "/src/assets/images/portfolio_house_luxury_card_1782740031450.jpg"
+        image: "/assets/images/portfolio_house_luxury_card_1782740031450.jpg"
       }
     ],
     vidracaria: [
       {
         title: "Guarda-Corpos Autoportantes em Vidro (Vidraçaria em São Paulo)",
         description: "Projetados pela nossa vidraçaria de alto padrão em São Paulo com vidros temperados laminados de alta resistência mecânica e perfis embutidos de alumínio estrutural para máxima transparência.",
-        image: "/src/assets/images/vidracaria_balcony_luxury_card_1782740008784.jpg"
+        image: "/assets/images/vidracaria_balcony_luxury_card_1782740008784.jpg"
       },
       {
         title: "Fechamento de Sacadas e Vidraçaria Premium em São Paulo",
         description: "Instalação executada por experientes vidraceiros em São Paulo com sistema de roldanas ocultas, abertura total das folhas de vidro e vedação de alta densidade contra chuvas.",
-        image: "/src/assets/images/luxury_villa_glazing_1782306007983.jpg"
+        image: "/assets/images/luxury_villa_glazing_1782306007983.jpg"
       },
       {
         title: "Espelhos Monumentais e Revestimentos de Luxo",
         description: "Serviços de vidraçaria em São Paulo para colagem e instalação de espelhos de cristal de alta definição com corte bizotê e lapidação impecável para salas de jantar e closets.",
-        image: "/src/assets/images/portfolio_house_luxury_card_1782740031450.jpg"
+        image: "/assets/images/portfolio_house_luxury_card_1782740031450.jpg"
       },
       {
         title: "Pele de Vidro e Fachadas Glazing",
         description: "Projetos de fachadas contínuas com vidros especiais de controle térmico sob medida, executados com total segurança e estanqueidade pela nossa vidraçaria.",
-        image: "/src/assets/images/modern_facade_glass_1782306036555.jpg"
+        image: "/assets/images/modern_facade_glass_1782306036555.jpg"
       },
       {
         title: "Divisórias e Portas de Vidro Temperado",
         description: "Divisórias acústicas elegantes e portas de correr gigantescas planejadas com vidros temperados de segurança de alta espessura e ferragens de alta performance.",
-        image: "/src/assets/images/minimal_aluminum_frames_1782306022668.jpg"
+        image: "/assets/images/minimal_aluminum_frames_1782306022668.jpg"
       },
       {
         title: "Coberturas de Vidro com Controle Solar",
         description: "Estruturas modernas com vidros laminados especiais de controle térmico instalados com vedação dupla absoluta contra infiltrações e goteiras em São Paulo.",
-        image: "/src/assets/images/esquadrias_aluminio_luxury_card_1782739998198.jpg"
+        image: "/assets/images/esquadrias_aluminio_luxury_card_1782739998198.jpg"
       }
     ],
     serralheria: [
       {
         title: "Escadas Plissadas de Design (Serralheria em São Paulo)",
         description: "Desenvolvidas por nossa renomada serralheria de alto padrão em São Paulo com soldas 100% invisíveis ao toque, vigas estruturais reforçadas e degraus metálicos perfeitos.",
-        image: "/src/assets/images/serralheria_staircase_luxury_card_1782740019768.jpg"
+        image: "/assets/images/serralheria_staircase_luxury_card_1782740019768.jpg"
       },
       {
         title: "Portas Pivotantes e Serviços de Serralheria em São Paulo",
         description: "Portas monumentais de entrada sob medida de aço executadas por serralheiros em São Paulo especializados em grandes vãos, folhas estruturadas e fechaduras de alta segurança.",
-        image: "/src/assets/images/portfolio_house_luxury_card_1782740031450.jpg"
+        image: "/assets/images/portfolio_house_luxury_card_1782740031450.jpg"
       },
       {
         title: "Mezaninos e Estruturas Metálicas (Serralheria Fina em São Paulo)",
         description: "Cálculo técnico e montagem de mezaninos robustos. Projetos de serralheria em São Paulo com vigas de aço laminadas e laudos assinados com ART por equipe de engenharia.",
-        image: "/src/assets/images/minimal_aluminum_frames_1782306022668.jpg"
+        image: "/assets/images/minimal_aluminum_frames_1782306022668.jpg"
       },
       {
         title: "Portões Rápidos e de Alta Segurança",
         description: "Portões basculantes e deslizantes rápidos fabricados pela nossa serralheria fina em chapa de aço estrutural cortada a laser em CNC para um visual moderno e seguro.",
-        image: "/src/assets/images/esquadrias_aluminio_luxury_card_1782739998198.jpg"
+        image: "/assets/images/esquadrias_aluminio_luxury_card_1782739998198.jpg"
       },
       {
         title: "Pérgolas e Coberturas de Aço Corten",
         description: "Estruturas contemporâneas com vigamento em aço corten oxidado de forma natural controlada ou aço carbono com pintura eletrostática anticorrosiva de alto desempenho.",
-        image: "/src/assets/images/luxury_villa_glazing_1782306007983.jpg"
+        image: "/assets/images/luxury_villa_glazing_1782306007983.jpg"
       },
       {
         title: "Brises e Painéis Pantográficos Metálicos",
         description: "Painéis móveis de privacidade e brises de sombreamento produzidos com cortes a laser micrométricos sob medida em chapas de aço resistentes.",
-        image: "/src/assets/images/modern_facade_glass_1782306036555.jpg"
+        image: "/assets/images/modern_facade_glass_1782306036555.jpg"
       }
     ]
   };
@@ -190,21 +190,21 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
         badge: "Excelente Custo-Benefício",
         description: "Ideal para vãos de tamanhos tradicionais e médios. Garante a qualidade, a vedação acústica e a resistência mecânica padrão da Serra-Ferro com excelente custo-benefício.",
         features: ["Perfis compactos e discretos", "Deslizamento suave", "Vedação de alta densidade", "Acabamento impecável"],
-        image: "/src/assets/images/esquadrias_aluminio_luxury_card_1782739998198.jpg"
+        image: "/assets/images/esquadrias_aluminio_luxury_card_1782739998198.jpg"
       },
       {
         name: "Linha Gold",
         badge: "O Padrão Mais Procurado",
         description: "A linha mais especificada por arquitetos para grandes vãos residenciais. Perfis robustos que suportam vidros mais espessos, garantindo excelente estabilidade estrutural e atenuação de ruídos.",
         features: ["Ideal para vãos gigantes", "Suporta vidros acústicos ou duplos", "Fechamentos de alta segurança", "Estética moderna e marcante"],
-        image: "/src/assets/images/luxury_villa_glazing_1782306007983.jpg"
+        image: "/assets/images/luxury_villa_glazing_1782306007983.jpg"
       },
       {
         name: "Linha Minimalista (Slim)",
         badge: "Arquitetura e Luz Natural",
         description: "Perfis de alumínio ultra finos que maximizam a passagem de luz e integram o ambiente interno à área de lazer. O caixilho de alumínio quase desaparece, mantendo total estabilidade estrutural.",
         features: ["Trilhos embutidos no piso", "Perfis verticais super estreitos", "Vista limpa panorâmica", "Máxima sofisticação arquitetônica"],
-        image: "/src/assets/images/minimal_aluminum_frames_1782306022668.jpg"
+        image: "/assets/images/minimal_aluminum_frames_1782306022668.jpg"
       }
     ],
     vidracaria: [
@@ -213,21 +213,21 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
         badge: "Transparência Absoluta",
         description: "Vidros especiais com baixo teor de ferro lapidados por nossa vidraçaria de alto padrão em São Paulo para eliminação do tom verde das bordas, trazendo pureza máxima.",
         features: ["Totalmente transparente e puro", "Sem distorções cromáticas", "Lapidação fina a laser", "Ideal para espelhos premium e vitrines"],
-        image: "/src/assets/images/luxury_villa_glazing_1782306007983.jpg"
+        image: "/assets/images/luxury_villa_glazing_1782306007983.jpg"
       },
       {
         name: "Linha SafeTemp (Laminados e Temperados)",
         badge: "Máxima Segurança Física",
         description: "Junção de têmpera térmica de alta resistência com películas PVB ou SentryGlas estruturais de alta aderência. Solução de vidraçaria em São Paulo recomendada para guarda-corpos.",
         features: ["Proteção contra quedas e impactos", "Conformidade integral com NBR 14718", "Isolamento acústico otimizado", "Ideal para guarda-corpos e vãos livres"],
-        image: "/src/assets/images/vidracaria_balcony_luxury_card_1782740008784.jpg"
+        image: "/assets/images/vidracaria_balcony_luxury_card_1782740008784.jpg"
       },
       {
         name: "Linha SolarControl (Vidros Inteligentes)",
         badge: "Conforto Térmico Avançado",
         description: "Vidros de alta performance em São Paulo com deposição de óxidos metálicos que bloqueiam até 70% da energia solar térmica sem escurecer o ambiente, poupando energia.",
         features: ["Bloqueia até 99% de raios UV", "Redução perceptível de calor", "Estética neutra ou refletiva", "Economia real de ar condicionado"],
-        image: "/src/assets/images/modern_facade_glass_1782306036555.jpg"
+        image: "/assets/images/modern_facade_glass_1782306036555.jpg"
       }
     ],
     serralheria: [
@@ -236,21 +236,21 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
         badge: "Acabamento Artesanal de Luxo",
         description: "Peças autorais criadas por nossa serralheria fina em São Paulo com soldas completamente lixadas e invisíveis ao toque, cantos alinhados e pintura microtexturizada.",
         features: ["Sem vestígios ou rebarbas de solda", "Tubos e perfis metálicos finos", "Foco em móveis e divisórias", "Elegância industrial geométrica"],
-        image: "/src/assets/images/serralheria_staircase_luxury_card_1782740019768.jpg"
+        image: "/assets/images/serralheria_staircase_luxury_card_1782740019768.jpg"
       },
       {
         name: "Linha Heavy Duty (Serralheria Estrutural)",
         badge: "Robustez e Cálculo Civil",
         description: "Estruturas e mezaninos robustos calculados e certificados pela nossa equipe de serralheria de alto padrão em São Paulo, com laudos de engenharia aplicados.",
         features: ["Suporta toneladas de carga estática", "Projetos em conformidade com NBR 8800", "Galvanização total anti-ferrugem", "Projetos dimensionados contra fadiga"],
-        image: "/src/assets/images/minimal_aluminum_frames_1782306022668.jpg"
+        image: "/assets/images/minimal_aluminum_frames_1782306022668.jpg"
       },
       {
         name: "Linha Corten & Design Laser CNC",
         badge: "Arquitetura Monumental Autoral",
         description: "Criação de brises, portões e painéis decorativos por experientes serralheiros em São Paulo utilizando aço corten legítimo oxidado naturalmente ou chapas sob alta precisão laser.",
         features: ["Oxidação protetora natural (pátina)", "Corte sob desenho customizado", "Longevidade temporal insuperável", "Brises funcionais autônomos"],
-        image: "/src/assets/images/portfolio_house_luxury_card_1782740031450.jpg"
+        image: "/assets/images/portfolio_house_luxury_card_1782740031450.jpg"
       }
     ]
   };
@@ -262,42 +262,42 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
         title: "Residência Minimalista - Jardins (São Paulo)",
         region: "Zona Oeste - Capital",
         description: "Substituição completa de esquadrias antigas por painéis minimalistas integrados com vãos livres de 8 metros. Vidros acústicos laminados para isolamento total contra o ruído urbano.",
-        image: "/src/assets/images/minimal_aluminum_frames_1782306022668.jpg",
+        image: "/assets/images/minimal_aluminum_frames_1782306022668.jpg",
         highlight: "Integração Total"
       },
       {
         title: "Mansão Contemporânea - Alphaville (Barueri)",
         region: "Região Metropolitana",
         description: "Projeto de esquadrias Linha Gold com acabamento em pintura eletrostática preta fosca. Inclui uma imponente porta pivotante de alumínio de 6 metros de altura no hall de entrada.",
-        image: "/src/assets/images/portfolio_house_luxury_card_1782740031450.jpg",
+        image: "/assets/images/portfolio_house_luxury_card_1782740031450.jpg",
         highlight: "Porta Monumental"
       },
       {
         title: "Cobertura Duplex - Morumbi (São Paulo)",
         region: "Zona Sul - Capital",
         description: "Fechamento panorâmico com pele de vidro acústica de alto desempenho e guarda-corpos autoportantes de alumínio estrutural, garantindo segurança total contra a força do vento em altura.",
-        image: "/src/assets/images/luxury_villa_glazing_1782306007983.jpg",
+        image: "/assets/images/luxury_villa_glazing_1782306007983.jpg",
         highlight: "Segurança de Ventos"
       },
       {
         title: "Residência de Alto Padrão - Pinheiros (São Paulo)",
         region: "Zona Oeste - Capital",
         description: "Esquadrias de correr integradas com persianas blackout motorizadas. Esquadros perfeitos compatibilizados milimetricamente com o contramarco e acabamento em gesso da obra.",
-        image: "/src/assets/images/esquadrias_aluminio_luxury_card_1782739998198.jpg",
+        image: "/assets/images/esquadrias_aluminio_luxury_card_1782739998198.jpg",
         highlight: "Persianas Integradas"
       },
       {
         title: "Espaço Corporativo Premium - Itaim Bibi (São Paulo)",
         region: "Zona Sul - Capital",
         description: "Fachada cortina contínua (Pele de Vidro / Structural Glazing) instalada em sede corporativa, utilizando vidros refletivos de controle térmico para redução do uso de ar condicionado.",
-        image: "/src/assets/images/modern_facade_glass_1782306036555.jpg",
+        image: "/assets/images/modern_facade_glass_1782306036555.jpg",
         highlight: "Controle Térmico"
       },
       {
         title: "Casa de Alto Padrão - Moema (São Paulo)",
         region: "Zona Sul - Capital",
         description: "Janelas e portas de correr sob medida projetadas com tratamento de atenuação acústica especial, bloqueando o ruído de tráfego urbano e trazendo silêncio e conforto absoluto para a área íntima.",
-        image: "/src/assets/images/luxury_villa_glazing_1782306007983.jpg",
+        image: "/assets/images/luxury_villa_glazing_1782306007983.jpg",
         highlight: "Atenuação Acústica"
       }
     ],
@@ -306,42 +306,42 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
         title: "Cobertura Duplex - Morumbi (São Paulo)",
         region: "Zona Sul - Capital",
         description: "Instalação de guarda-corpos autoportantes de vidro temperado laminado de alta segurança realizada por nossa equipe de vidraçaria em São Paulo, garantindo sofisticação e total estanqueidade.",
-        image: "/src/assets/images/vidracaria_balcony_luxury_card_1782740008784.jpg",
+        image: "/assets/images/vidracaria_balcony_luxury_card_1782740008784.jpg",
         highlight: "Guarda-Corpo Clean"
       },
       {
         title: "Mansão Contemporânea - Alphaville (Barueri)",
         region: "Região Metropolitana",
         description: "Fechamento de fachada monumental de grandes dimensões sob medida. Serviços de vidraçaria em São Paulo utilizando painéis Extra Clear com fixação structural glazing oculta e alinhamento a laser.",
-        image: "/src/assets/images/luxury_villa_glazing_1782306007983.jpg",
+        image: "/assets/images/luxury_villa_glazing_1782306007983.jpg",
         highlight: "Pele de Vidro Jumbo"
       },
       {
         title: "Apartamento de Luxo - Jardins (São Paulo)",
         region: "Zona Oeste - Capital",
         description: "Instalação de espelhos de cristal de alta definição monumentais com corte bisotê fino, colados por nosso vidraceiro em São Paulo experiente e integrado à marcenaria clássica de alto padrão.",
-        image: "/src/assets/images/portfolio_house_luxury_card_1782740031450.jpg",
+        image: "/assets/images/portfolio_house_luxury_card_1782740031450.jpg",
         highlight: "Espelhos Monumentais"
       },
       {
         title: "Residência Minimalista - Pinheiros (São Paulo)",
         region: "Zona Oeste - Capital",
         description: "Divisórias acústicas internas de vidro laminado acústico com caixilhos de alumínio pretos embutidos, separando com elegância e luz a cozinha e a sala de jantar.",
-        image: "/src/assets/images/minimal_aluminum_frames_1782306022668.jpg",
+        image: "/assets/images/minimal_aluminum_frames_1782306022668.jpg",
         highlight: "Divisórias Acústicas"
       },
       {
         title: "Sede Corporativa Premium - Itaim Bibi (São Paulo)",
         region: "Zona Sul - Capital",
         description: "Coberturas de vidro plano de alta tecnologia de controle térmico e solar, garantindo proteção contra raios UV e reduzindo significativamente o calor na recepção.",
-        image: "/src/assets/images/modern_facade_glass_1782306036555.jpg",
+        image: "/assets/images/modern_facade_glass_1782306036555.jpg",
         highlight: "Cobertura de Vidro"
       },
       {
         title: "Apartamento Gourmet - Granja Viana (Cotia)",
         region: "Região Metropolitana",
         description: "Fechamento de sacada panorâmico retrátil de alta performance com trilhos embutidos, escovas de alta densidade contra chuvas e roldanas super resistentes de aço inoxidável.",
-        image: "/src/assets/images/esquadrias_aluminio_luxury_card_1782739998198.jpg",
+        image: "/assets/images/esquadrias_aluminio_luxury_card_1782739998198.jpg",
         highlight: "Sacada Panorâmica"
       }
     ],
@@ -350,42 +350,42 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
         title: "Residência de Design - Jardins (São Paulo)",
         region: "Zona Oeste - Capital",
         description: "Fabricação de escada helicoidal metálica sob medida realizada por nossa serralheria em São Paulo com soldas 100% invisíveis ao toque e pintura eletrostática microtexturizada de extrema durabilidade.",
-        image: "/src/assets/images/serralheria_staircase_luxury_card_1782740019768.jpg",
+        image: "/assets/images/serralheria_staircase_luxury_card_1782740019768.jpg",
         highlight: "Escada Helicoidal"
       },
       {
         title: "Loft Industrial - Vila Olímpia (São Paulo)",
         region: "Zona Sul - Capital",
         description: "Execução rápida de mezanino metálico estrutural sob medida por nossa equipe de serralharia em São Paulo, dobrando a área com total segurança.",
-        image: "/src/assets/images/minimal_aluminum_frames_1782306022668.jpg",
+        image: "/assets/images/minimal_aluminum_frames_1782306022668.jpg",
         highlight: "Mezanino Industrial"
       },
       {
         title: "Mansão Contemporânea - Alphaville (Barueri)",
         region: "Região Metropolitana",
         description: "Instalação de imponente porta de entrada pivotante monumental revestida em chapas de aço corten genuíno, fabricada sob medida por nosso serralheiro em São Paulo altamente capacitado.",
-        image: "/src/assets/images/portfolio_house_luxury_card_1782740031450.jpg",
+        image: "/assets/images/portfolio_house_luxury_card_1782740031450.jpg",
         highlight: "Porta Monumental"
       },
       {
         title: "Apartamento Contemporâneo - Pinheiros (São Paulo)",
         region: "Zona Oeste - Capital",
         description: "Instalação de divisórias de metal pretas em formato de serralheria fina clássica industrial com vidros aramados e batentes com vedação de borracha acústica.",
-        image: "/src/assets/images/esquadrias_aluminio_luxury_card_1782739998198.jpg",
+        image: "/assets/images/esquadrias_aluminio_luxury_card_1782739998198.jpg",
         highlight: "Divisória Estilo Industrial"
       },
       {
         title: "Edifício Comercial - Itaim Bibi (São Paulo)",
         region: "Zona Sul - Capital",
         description: "Fachada ornamentada com painéis metálicos pantográficos em chapas de aço cortadas milimetricamente com tecnologia a laser CNC para controle dinâmico da luz solar.",
-        image: "/src/assets/images/modern_facade_glass_1782306036555.jpg",
+        image: "/assets/images/modern_facade_glass_1782306036555.jpg",
         highlight: "Fachada Laser CNC"
       },
       {
         title: "Residência Alto Padrão - Morumbi (São Paulo)",
         region: "Zona Sul - Capital",
         description: "Execução de pérgola externa de design de grande porte estruturada em aço galvanizado e pintura eletrostática preta fosca, suportando vidros autolimpantes.",
-        image: "/src/assets/images/luxury_villa_glazing_1782306007983.jpg",
+        image: "/assets/images/luxury_villa_glazing_1782306007983.jpg",
         highlight: "Pérgola Estrutural"
       }
     ]
@@ -527,7 +527,7 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
         { title: "Garantia e NFe", description: "Contrato formal e nota fiscal de faturamento integral de todos os componentes fornecidos." }
       ],
       buttonText: "Cadastrar Escritório via WhatsApp",
-      image: "/src/assets/images/minimal_aluminum_frames_1782306022668.jpg"
+      image: "/assets/images/minimal_aluminum_frames_1782306022668.jpg"
     },
     vidracaria: {
       title: "Parceria Técnica de Vidraçaria para Profissionais",
@@ -538,7 +538,7 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
         { title: "Instalação com Equipe Própria", description: "Instaladores próprios treinados e certificados nas NR-35 (Trabalho em Altura) com logística de içamento completa." }
       ],
       buttonText: "Cadastrar Escritório via WhatsApp",
-      image: "/src/assets/images/modern_facade_glass_1782306036555.jpg"
+      image: "/assets/images/modern_facade_glass_1782306036555.jpg"
     },
     serralheria: {
       title: "Parceria Técnica de Serralheria para Profissionais",
@@ -549,7 +549,7 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
         { title: "Qualidade de Soldagem e Pintura", description: "Tratamento galvânico anticorrosivo severo e pintura com acabamento liso e livre de soldas aparentes." }
       ],
       buttonText: "Cadastrar Escritório via WhatsApp",
-      image: "/src/assets/images/serralheria_staircase_luxury_card_1782740019768.jpg"
+      image: "/assets/images/serralheria_staircase_luxury_card_1782740019768.jpg"
     }
   };
 

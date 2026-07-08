@@ -9,7 +9,7 @@ export const BLOG_POSTS_RICH: BlogPost[] = [
     date: '2026-06-28',
     category: 'planejamento',
     readTime: '6 min de leitura',
-    coverImage: '/src/assets/images/minimal_aluminum_frames_1782306022668.jpg',
+    coverImage: '/assets/images/minimal_aluminum_frames_1782306022668.jpg',
     views: 1420,
     likes: 85,
     author: {
@@ -105,7 +105,7 @@ Para garantir um projeto bem-sucedido e sem surpresas negativas em sua obra, sig
     date: '2026-06-15',
     category: 'técnico',
     readTime: '5 min de leitura',
-    coverImage: '/src/assets/images/modern_facade_glass_1782306036555.jpg',
+    coverImage: '/assets/images/modern_facade_glass_1782306036555.jpg',
     views: 980,
     likes: 62,
     author: {
@@ -178,7 +178,7 @@ Toda instalação de vidros na construção civil deve respeitar estritamente as
     date: '2026-06-08',
     category: 'técnico',
     readTime: '7 min de leitura',
-    coverImage: '/src/assets/images/serralheria_staircase_luxury_card_1782740019768.jpg',
+    coverImage: '/assets/images/serralheria_staircase_luxury_card_1782740019768.jpg',
     views: 1150,
     likes: 92,
     author: {
@@ -251,7 +251,7 @@ A pintura de acabamento de fábrica é realizada com tinta em pó poliéster apl
     date: '2026-05-12',
     category: 'normas',
     readTime: '5 min de leitura',
-    coverImage: '/src/assets/images/luxury_villa_glazing_1782306007983.jpg',
+    coverImage: '/assets/images/luxury_villa_glazing_1782306007983.jpg',
     views: 1650,
     likes: 110,
     author: {
