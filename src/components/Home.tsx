@@ -375,6 +375,18 @@ export default function Home({ setView }: HomeProps) {
           </div>
 
         </div>
+
+        <div className="mt-12 text-center">
+          <a
+            href="https://api.whatsapp.com/send/?phone=5511913243623&text=Ol%C3%A1%21+Gostaria+de+fazer+uma+cota%C3%A7%C3%A3o+direta+de+f%C3%A1brica+para+as+esquadrias+da+minha+obra.&type=phone_number&app_absent=0"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-display text-sm font-bold uppercase tracking-wider rounded-xl transition-all duration-300 shadow-lg hover:shadow-emerald-600/30 hover:scale-[1.02] active:scale-[0.98] group cursor-pointer"
+          >
+            <MessageCircle className="w-5 h-5 mr-2.5 group-hover:scale-110 transition-transform" />
+            Fazer Cotação de Fábrica no WhatsApp
+          </a>
+        </div>
       </section>
 
       {/* DOBRA 3: PORTFÓLIO + RESULTADOS EXCLUSIVOS */}
@@ -428,6 +440,18 @@ export default function Home({ setView }: HomeProps) {
                 </div>
               </div>
             ))}
+          </div>
+
+          <div className="mt-12 text-center">
+            <a
+              href="https://api.whatsapp.com/send/?phone=5511913243623&text=Ol%C3%A1%21+Gostaria+de+fazer+uma+cota%C3%A7%C3%A3o+direta+de+f%C3%A1brica+para+as+esquadrias+da+minha+obra.&type=phone_number&app_absent=0"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-display text-sm font-bold uppercase tracking-wider rounded-xl transition-all duration-300 shadow-lg hover:shadow-emerald-600/30 hover:scale-[1.02] active:scale-[0.98] group cursor-pointer"
+            >
+              <MessageCircle className="w-5 h-5 mr-2.5 group-hover:scale-110 transition-transform" />
+              Solicitar Orçamento de Obra via WhatsApp
+            </a>
           </div>
         </div>
       </section>
@@ -532,6 +556,18 @@ export default function Home({ setView }: HomeProps) {
 
             </div>
 
+          </div>
+
+          <div className="mt-12 text-center">
+            <a
+              href="https://api.whatsapp.com/send/?phone=5511913243623&text=Ol%C3%A1%21+Gostaria+de+fazer+uma+cota%C3%A7%C3%A3o+direta+de+f%C3%A1brica+para+as+esquadrias+da+minha+obra.&type=phone_number&app_absent=0"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-display text-sm font-bold uppercase tracking-wider rounded-xl transition-all duration-300 shadow-lg hover:shadow-emerald-600/30 hover:scale-[1.02] active:scale-[0.98] group cursor-pointer"
+            >
+              <MessageCircle className="w-5 h-5 mr-2.5 group-hover:scale-110 transition-transform" />
+              Falar Conosco no WhatsApp
+            </a>
           </div>
         </div>
       </section>
