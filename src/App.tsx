@@ -17,34 +17,47 @@ import Blog from './components/Blog';
 import CityLanding from './components/CityLanding';
 import ContactForm from './components/ContactForm';
 import { FAQ_DATA } from './data';
+import { applySeo, getPathForView } from './seo';
 
 export default function App() {
   const [view, setViewState] = useState<AppView>('home');
 
-  // Roteador sutil baseado em Hash de URL para navegação SPA impecável (suporte a botões voltar/avançar)
+  // Roteador baseado em caminhos limpos (History API) para URLs reais e indexáveis por página,
+  // com retrocompatibilidade para links antigos em hash (#esquadrias).
+  const resolveViewFromLocation = (): AppView => {
+    const path = window.location.pathname.replace(/^\/+|\/+$/g, '');
+    if (path) return path;
+    const hash = window.location.hash.replace(/^#\/?/, '');
+    if (hash) return hash;
+    return 'home';
+  };
+
   useEffect(() => {
-    const handleHashChange = () => {
-      const hash = window.location.hash.replace('#', '');
-      if (hash) {
-        setViewState(hash);
-      } else {
-        setViewState('home');
-      }
-    };
+    const handleLocationChange = () => setViewState(resolveViewFromLocation());
+
+    // Normaliza um eventual link antigo em hash para o caminho limpo equivalente.
+    const legacyHash = window.location.hash.replace(/^#\/?/, '');
+    if (legacyHash && window.location.pathname === '/') {
+      window.history.replaceState({ view: legacyHash }, '', `/${legacyHash}`);
+    }
 
     // Inicialização
-    handleHashChange();
+    handleLocationChange();
 
-    window.addEventListener('hashchange', handleHashChange);
-    return () => window.removeEventListener('hashchange', handleHashChange);
+    window.addEventListener('popstate', handleLocationChange);
+    return () => window.removeEventListener('popstate', handleLocationChange);
   }, []);
+
+  // Aplica título, meta description, canonical e Open Graph a cada mudança de rota.
+  useEffect(() => {
+    applySeo(view);
+  }, [view]);
 
   const setView = (newView: AppView) => {
     setViewState(newView);
-    if (newView === 'home') {
-      window.location.hash = '';
-    } else {
-      window.location.hash = newView;
+    const nextPath = getPathForView(newView);
+    if (window.location.pathname !== nextPath) {
+      window.history.pushState({ view: newView }, '', nextPath);
     }
   };
 
