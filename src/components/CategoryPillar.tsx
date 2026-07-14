@@ -632,7 +632,8 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
         <div className="absolute inset-0 z-0">
           <img
             src={currentBanner.image}
-            alt={currentBanner.tag}
+            alt={`${(currentBanner.titleNormal + currentBanner.titleHighlight + currentBanner.titleSuffix).trim()} — Serra Ferro`}
+            title={`${currentCategoryData.title} | Serra Ferro`}
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover"
           />
@@ -729,7 +730,8 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
               <div className="relative h-48 overflow-hidden bg-neutral-100">
                 <img
                   src={service.image}
-                  alt={service.title}
+                  alt={`${service.title} — ${currentCategoryData.title} em São Paulo`}
+                  title={`${service.title} | ${currentCategoryData.title}`}
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
@@ -798,7 +800,8 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
                 <div className="h-48 overflow-hidden bg-neutral-800 relative">
                   <img
                     src={line.image}
-                    alt={line.name}
+                    alt={`${line.name} — ${currentCategoryData.title} sob medida em São Paulo`}
+                    title={`${line.name} | ${currentCategoryData.title}`}
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
@@ -867,7 +870,8 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
               <div className="relative h-48 overflow-hidden bg-neutral-100">
                 <img
                   src={project.image}
-                  alt={project.title}
+                  alt={`${project.title} — obra de ${currentCategoryData.title} em São Paulo | Serra Ferro`}
+                  title={`${project.title} | ${currentCategoryData.title} em São Paulo`}
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
@@ -1008,9 +1012,10 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
 
           {/* Lado Direito: Imagem representativa de Engenharia e Parceria */}
           <div className="md:col-span-7">
-            <img 
+            <img
               src={currentB2B.image}
-              alt="Parceria de Especificação B2B"
+              alt={`Parceria B2B em ${currentCategoryData.title} para arquitetos e construtoras em São Paulo — Serra Ferro`}
+              title={`Parceria B2B — ${currentCategoryData.title} | Serra Ferro`}
               referrerPolicy="no-referrer"
               className="w-full h-[280px] sm:h-[350px] object-cover rounded-xl shadow-md"
             />

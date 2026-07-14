@@ -38,13 +38,13 @@ export default function PlaceholderImage({
     if (label) return label;
     switch (category) {
       case 'esquadrias':
-        return 'Instalação Real - Esquadrias Linha Gold';
+        return 'Esquadrias de alumínio sob medida em São Paulo — instalação Linha Gold';
       case 'vidracaria':
-        return 'Fechamento de Sacada Premium / Guarda-Corpo';
+        return 'Vidraçaria em São Paulo — guarda-corpo de vidro e fechamento de sacada';
       case 'serralheria':
-        return 'Escada Plissada / Estrutura de Mezanino';
+        return 'Serralheria em São Paulo — escada metálica e estrutura de mezanino';
       default:
-        return 'Portfólio Serra-Ferro — Projeto de Alto Padrão';
+        return 'Serra Ferro — serviços de esquadrias de alumínio de alto padrão em São Paulo';
     }
   };
 
@@ -57,6 +57,7 @@ export default function PlaceholderImage({
         <img
           src={src}
           alt={getOverlayLabel()}
+          title={getOverlayLabel()}
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
         />

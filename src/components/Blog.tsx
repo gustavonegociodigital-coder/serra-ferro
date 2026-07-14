@@ -1197,9 +1197,10 @@ export default function Blog({ setView }: BlogProps) {
                   {/* Hero Banner Imagem da Capa */}
                   <div className="h-44 sm:h-64 md:h-80 w-full relative bg-neutral-950 overflow-hidden">
                     {selectedPost.coverImage ? (
-                      <img 
-                        src={selectedPost.coverImage} 
-                        alt={`Capa do artigo ${selectedPost.title}`} 
+                      <img
+                        src={selectedPost.coverImage}
+                        alt={`Capa do artigo: ${selectedPost.title} — Serra Ferro`}
+                        title={`${selectedPost.title} | Blog Serra Ferro`}
                         className="w-full h-full object-cover opacity-85"
                         loading="lazy"
                       />
@@ -1540,7 +1541,7 @@ export default function Blog({ setView }: BlogProps) {
                         >
                           <div className="h-28 bg-neutral-100 relative overflow-hidden">
                             {related.coverImage ? (
-                              <img src={related.coverImage} alt={related.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                              <img src={related.coverImage} alt={`${related.title} — Blog Serra Ferro`} title={`${related.title} | Blog Serra Ferro`} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                             ) : (
                               <div className="w-full h-full bg-neutral-100 flex items-center justify-center text-brand-orange font-bold font-mono text-[10px]">SERRA-FERRO</div>
                             )}
@@ -1729,9 +1730,10 @@ export default function Blog({ setView }: BlogProps) {
                 
                 <div className="md:col-span-7 h-48 sm:h-64 md:h-full relative overflow-hidden bg-neutral-900">
                   {filteredPosts[0].coverImage ? (
-                    <img 
-                      src={filteredPosts[0].coverImage} 
-                      alt={filteredPosts[0].title}
+                    <img
+                      src={filteredPosts[0].coverImage}
+                      alt={`${filteredPosts[0].title} — Blog Serra Ferro`}
+                      title={`${filteredPosts[0].title} | Blog Serra Ferro`}
                       className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-500 opacity-90"
                       loading="lazy"
                     />
@@ -1833,9 +1835,10 @@ export default function Blog({ setView }: BlogProps) {
                           {/* Image box with Simulated Lazy Loading */}
                           <div className="h-44 bg-neutral-950 overflow-hidden relative">
                             {post.coverImage ? (
-                              <img 
-                                src={post.coverImage} 
-                                alt={`Capa do artigo ${post.title}`}
+                              <img
+                                src={post.coverImage}
+                                alt={`Capa do artigo: ${post.title} — Serra Ferro`}
+                                title={`${post.title} | Blog Serra Ferro`}
                                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90"
                                 loading="lazy"
                               />

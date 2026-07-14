@@ -114,7 +114,8 @@ export default function Home({ setView }: HomeProps) {
             >
               <img
                 src={slide.image}
-                alt={slide.tag}
+                alt={`${(slide.titleNormal + slide.titleHighlight + slide.titleSuffix).trim()} — Serra Ferro`}
+                title={`${slide.titleHighlight} | Serra Ferro`}
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"
               />
@@ -573,9 +574,12 @@ export default function Home({ setView }: HomeProps) {
       </section>
 
       {/* DOBRA 5: COMO FUNCIONA */}
-      <section 
-        className="relative bg-fixed bg-cover bg-center py-20 overflow-hidden border-t border-neutral-100" 
+      <section
+        className="relative bg-fixed bg-cover bg-center py-20 overflow-hidden border-t border-neutral-100"
         style={{ backgroundImage: `url('/assets/images/minimal_aluminum_frames_1782306022668.jpg')` }}
+        role="img"
+        aria-label="Esquadrias de alumínio sob medida em São Paulo — processo de obra Serra Ferro"
+        title="Esquadrias de Alumínio em São Paulo | Serra Ferro"
         id="processo-de-obra"
       >
         {/* Semi-transparent overlay to ensure legibility of text */}
@@ -902,7 +906,8 @@ export default function Home({ setView }: HomeProps) {
               <div className="relative aspect-square overflow-hidden bg-neutral-100">
                 <img
                   src="/assets/images/esquadrias_aluminio_luxury_card_1782739998198.jpg"
-                  alt="Esquadrias em São Paulo"
+                  alt="Esquadrias de alumínio sob medida em São Paulo — portas e janelas Serra Ferro"
+                  title="Esquadrias de Alumínio em São Paulo | Serra Ferro"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   referrerPolicy="no-referrer"
                 />
@@ -927,7 +932,8 @@ export default function Home({ setView }: HomeProps) {
               <div className="relative aspect-square overflow-hidden bg-neutral-100">
                 <img
                   src="/assets/images/vidracaria_balcony_luxury_card_1782740008784.jpg"
-                  alt="Guarda corpo de vidro"
+                  alt="Vidraçaria em São Paulo — guarda-corpo de vidro e fechamento de sacada Serra Ferro"
+                  title="Vidraçaria em São Paulo | Serra Ferro"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   referrerPolicy="no-referrer"
                 />
@@ -952,7 +958,8 @@ export default function Home({ setView }: HomeProps) {
               <div className="relative aspect-square overflow-hidden bg-neutral-100">
                 <img
                   src="/assets/images/serralheria_staircase_luxury_card_1782740019768.jpg"
-                  alt="Escada metálica"
+                  alt="Serralheria em São Paulo — escada metálica sob medida Serra Ferro"
+                  title="Serralheria em São Paulo | Serra Ferro"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   referrerPolicy="no-referrer"
                 />
@@ -1070,8 +1077,9 @@ export default function Home({ setView }: HomeProps) {
               <div>
                 <div className="h-48 overflow-hidden relative bg-neutral-200">
                   <img 
-                    src="/assets/images/esquadrias_aluminio_luxury_card_1782739998198.jpg" 
-                    alt="Linha Gold vs Suprema" 
+                    src="/assets/images/esquadrias_aluminio_luxury_card_1782739998198.jpg"
+                    alt="Esquadrias de alumínio em São Paulo: Linha Gold vs Suprema — Serra Ferro"
+                    title="Esquadrias de Alumínio em São Paulo — Linha Gold vs Suprema"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     referrerPolicy="no-referrer"
                   />
@@ -1109,8 +1117,9 @@ export default function Home({ setView }: HomeProps) {
               <div>
                 <div className="h-48 overflow-hidden relative bg-neutral-200">
                   <img 
-                    src="/assets/images/vidracaria_balcony_luxury_card_1782740008784.jpg" 
-                    alt="Evitar infiltrações" 
+                    src="/assets/images/vidracaria_balcony_luxury_card_1782740008784.jpg"
+                    alt="Como evitar infiltrações em esquadrias de alumínio em São Paulo — Serra Ferro"
+                    title="Vedação de Esquadrias de Alumínio em São Paulo — Serra Ferro"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     referrerPolicy="no-referrer"
                   />
@@ -1148,8 +1157,9 @@ export default function Home({ setView }: HomeProps) {
               <div>
                 <div className="h-48 overflow-hidden relative bg-neutral-200">
                   <img 
-                    src="/assets/images/portfolio_house_luxury_card_1782740031450.jpg" 
-                    alt="Segurança Guarda Corpos" 
+                    src="/assets/images/portfolio_house_luxury_card_1782740031450.jpg"
+                    alt="Segurança de guarda-corpos de vidro e sacadas em São Paulo — Serra Ferro"
+                    title="Guarda-Corpo de Vidro em São Paulo — Segurança | Serra Ferro"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     referrerPolicy="no-referrer"
                   />
