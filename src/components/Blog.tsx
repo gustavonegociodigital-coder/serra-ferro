@@ -169,7 +169,7 @@ export default function Blog({ setView }: BlogProps) {
       document.title = 'Blog Serra Ferro | Guia Técnico de Esquadrias de Alumínio em São Paulo | SP';
       const metaDesc = document.querySelector('meta[name="description"]');
       if (metaDesc) {
-        metaDesc.setAttribute('content', 'Guia técnico de esquadrias de alumínio em São Paulo: linhas, vedação, normas e dicas de fábrica para sua obra em SP. Decida melhor e economize com a Serra Ferro.');
+        metaDesc.setAttribute('content', 'Guia técnico de esquadrias de alumínio em São Paulo: linhas, vedação, normas e dicas de instalação para sua obra em SP. Decida melhor com os serviços da Serra Ferro.');
       }
     }
   }, [selectedPost]);

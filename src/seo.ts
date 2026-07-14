@@ -25,47 +25,47 @@ export const SEO_META: Record<string, PageSeo> = {
   home: {
     title: 'Esquadrias de Alumínio em São Paulo | Esquadrias de Alumínio em SP | Serra Ferro',
     description:
-      'Esquadrias de alumínio em São Paulo sob medida: fábrica própria, prazo garantido em contrato e vedação total contra chuva. Peça sua cotação de fábrica em SP no WhatsApp.',
+      'Serviços de esquadrias de alumínio em São Paulo sob medida: projeto, instalação e vedação garantida em contrato, com equipe técnica própria. Peça seu orçamento em SP no WhatsApp.',
   },
   esquadrias: {
     title: 'Esquadrias de Alumínio sob Medida em São Paulo | Portas e Janelas em SP | Serra Ferro',
     description:
-      'Portas e janelas de alumínio sob medida em São Paulo: linhas Gold e Suprema, isolamento acústico e vedação garantida. Solicite seu orçamento de esquadrias em SP.',
+      'Serviços de esquadrias de alumínio sob medida em São Paulo: projeto, instalação e regulagem de portas e janelas com isolamento acústico e vedação. Peça seu orçamento em SP.',
   },
   vidracaria: {
     title: 'Vidraçaria em São Paulo | Guarda-Corpo de Vidro e Box de Luxo em SP | Serra Ferro',
     description:
-      'Vidraçaria de alto padrão em São Paulo: guarda-corpo de vidro, fechamento de sacada e box sob medida com fixação invisível. Peça seu orçamento de vidraçaria em SP.',
+      'Serviços de vidraçaria de alto padrão em São Paulo: instalação de guarda-corpo de vidro, fechamento de sacada e box sob medida com fixação invisível. Orçamento em SP.',
   },
   serralheria: {
     title: 'Serralheria em São Paulo | Portões, Escadas e Estruturas Metálicas em SP | Serra Ferro',
     description:
-      'Serralheria fina em São Paulo: portões automáticos, escadas metálicas e mezaninos sob medida com solda invisível. Solicite seu orçamento de serralheria em SP.',
+      'Serviços de serralheria fina em São Paulo: execução e instalação de portões, escadas e mezaninos sob medida com solda invisível. Solicite seu orçamento de serralheria em SP.',
   },
   portfolio: {
     title: 'Portfólio de Obras em São Paulo | Esquadrias de Alumínio de Alto Padrão | Serra Ferro',
     description:
-      'Veja o portfólio de esquadrias de alumínio, vidraçaria e serralheria de alto padrão em São Paulo. Obras reais entregues em SP — inspire-se e peça sua cotação.',
+      'Veja obras de esquadrias de alumínio, vidraçaria e serralheria de alto padrão executadas em São Paulo. Serviços entregues em SP — inspire-se e peça seu orçamento.',
   },
   b2b: {
     title: 'Esquadrias de Alumínio para Arquitetos e Construtoras em SP | Parceria B2B | Serra Ferro',
     description:
-      'Parceria B2B em esquadrias de alumínio em São Paulo para arquitetos, engenheiros e construtoras: respeito ao projeto, faturamento direto e prazo em contrato.',
+      'Serviços de esquadrias de alumínio em São Paulo para arquitetos, engenheiros e construtoras: execução fiel ao projeto, instalação técnica e prazo garantido em contrato.',
   },
   sobre: {
-    title: 'Sobre a Serra Ferro | Fábrica de Esquadrias de Alumínio em São Paulo | SP',
+    title: 'Sobre a Serra Ferro | Serviços de Esquadrias de Alumínio em São Paulo | SP',
     description:
-      'Conheça a Serra Ferro: fábrica própria de esquadrias de alumínio em São Paulo com engenharia, precisão milimétrica e pontualidade. Alto padrão em SP sob medida.',
+      'Conheça a Serra Ferro: serviços de esquadrias de alumínio, vidraçaria e serralheria em São Paulo com engenharia, equipe própria e instalação de precisão em SP sob medida.',
   },
   blog: {
     title: 'Blog Serra Ferro | Guia Técnico de Esquadrias de Alumínio em São Paulo | SP',
     description:
-      'Guia técnico de esquadrias de alumínio em São Paulo: linhas, vedação, normas e dicas de fábrica para sua obra em SP. Decida melhor e economize com a Serra Ferro.',
+      'Guia técnico de esquadrias de alumínio em São Paulo: linhas, vedação, normas e dicas de instalação para sua obra em SP. Decida melhor com os serviços da Serra Ferro.',
   },
   contato: {
     title: 'Orçamento de Esquadrias de Alumínio em São Paulo | Fale com a Serra Ferro em SP',
     description:
-      'Peça seu orçamento de esquadrias de alumínio em São Paulo com o engenheiro comercial. Atendimento por WhatsApp e visita técnica em SP. Fale com a Serra Ferro.',
+      'Peça seu orçamento de serviços de esquadrias de alumínio em São Paulo com o engenheiro comercial. Atendimento por WhatsApp e visita técnica em SP. Fale com a Serra Ferro.',
   },
 };
 
@@ -76,7 +76,7 @@ function getCitySeo(view: string): PageSeo | null {
   if (!city) return null;
   return {
     title: `Esquadrias de Alumínio em ${city.name} | Esquadrias de Alumínio ${city.initials} | Serra Ferro`,
-    description: `Esquadrias de alumínio sob medida em ${city.name}: fábrica própria, vedação total e prazo garantido em contrato. Peça sua cotação de fábrica em ${city.name} no WhatsApp.`,
+    description: `Serviços de esquadrias de alumínio sob medida em ${city.name}: projeto, instalação e vedação garantida em contrato, com equipe técnica própria. Peça seu orçamento em ${city.name} no WhatsApp.`,
   };
 }
 
