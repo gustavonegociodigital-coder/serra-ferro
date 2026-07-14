@@ -62,7 +62,7 @@ export default function App() {
   };
 
   const getWhatsAppLink = () => {
-    return 'https://api.whatsapp.com/send/?phone=5511913243623&text=Ol%C3%A1%21+Gostaria+de+fazer+uma+cota%C3%A7%C3%A3o+direta+de+f%C3%A1brica+para+as+esquadrias+da+minha+obra.&type=phone_number&app_absent=0';
+    return 'https://api.whatsapp.com/send/?phone=5511913243623&text=Gostaria+de+solicitar+um+or%C3%A7amento%21&type=phone_number&app_absent=0';
   };
 
   const renderContent = () => {

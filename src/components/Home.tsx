@@ -378,7 +378,7 @@ export default function Home({ setView }: HomeProps) {
 
         <div className="mt-12 text-center">
           <a
-            href="https://api.whatsapp.com/send/?phone=5511913243623&text=Ol%C3%A1%21+Gostaria+de+fazer+uma+cota%C3%A7%C3%A3o+direta+de+f%C3%A1brica+para+as+esquadrias+da+minha+obra.&type=phone_number&app_absent=0"
+            href="https://api.whatsapp.com/send/?phone=5511913243623&text=Gostaria+de+solicitar+um+or%C3%A7amento%21&type=phone_number&app_absent=0"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-8 py-4 bg-brand-orange hover:bg-brand-orange/95 text-white font-display text-sm font-extrabold uppercase tracking-widest rounded-xl transition-all duration-300 shadow-lg shadow-brand-orange/20 hover:scale-[1.02] active:scale-[0.98] group cursor-pointer animate-pulse-orange"
@@ -444,7 +444,7 @@ export default function Home({ setView }: HomeProps) {
 
           <div className="mt-12 text-center">
             <a
-              href="https://api.whatsapp.com/send/?phone=5511913243623&text=Ol%C3%A1%21+Gostaria+de+fazer+uma+cota%C3%A7%C3%A3o+direta+de+f%C3%A1brica+para+as+esquadrias+da+minha+obra.&type=phone_number&app_absent=0"
+              href="https://api.whatsapp.com/send/?phone=5511913243623&text=Gostaria+de+solicitar+um+or%C3%A7amento%21&type=phone_number&app_absent=0"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 bg-brand-orange hover:bg-brand-orange/95 text-white font-display text-sm font-extrabold uppercase tracking-widest rounded-xl transition-all duration-300 shadow-lg shadow-brand-orange/20 hover:scale-[1.02] active:scale-[0.98] group cursor-pointer animate-pulse-orange"
@@ -560,7 +560,7 @@ export default function Home({ setView }: HomeProps) {
 
           <div className="mt-12 text-center">
             <a
-              href="https://api.whatsapp.com/send/?phone=5511913243623&text=Ol%C3%A1%21+Gostaria+de+fazer+uma+cota%C3%A7%C3%A3o+direta+de+f%C3%A1brica+para+as+esquadrias+da+minha+obra.&type=phone_number&app_absent=0"
+              href="https://api.whatsapp.com/send/?phone=5511913243623&text=Gostaria+de+solicitar+um+or%C3%A7amento%21&type=phone_number&app_absent=0"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 bg-brand-orange hover:bg-brand-orange/95 text-white font-display text-sm font-extrabold uppercase tracking-widest rounded-xl transition-all duration-300 shadow-lg shadow-brand-orange/20 hover:scale-[1.02] active:scale-[0.98] group cursor-pointer animate-pulse-orange"
@@ -754,7 +754,7 @@ export default function Home({ setView }: HomeProps) {
 
           <div className="flex flex-col sm:flex-row gap-4 w-full justify-center pt-2 max-w-md">
             <a
-              href={getWhatsAppLink('Olá! Gostaria de fazer uma cotação direta de fábrica para as esquadrias da minha obra.')}
+              href={getWhatsAppLink('Gostaria de solicitar um orçamento!')}
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 bg-brand-orange hover:bg-brand-orange/90 text-white rounded-lg font-display text-xs font-bold uppercase tracking-wider transition-colors shadow-md cursor-pointer"
