@@ -7,6 +7,7 @@ import React from 'react';
 import { Compass, Mail, Phone, MapPin, ShieldCheck, CheckCircle2, ChevronRight } from 'lucide-react';
 import { AppView } from '../types';
 import { CITIES_LIST } from '../data';
+import { ESQUADRIAS_SP_SLUG } from '../seo';
 import SerraFerroLogo from './SerraFerroLogo';
 
 interface FooterProps {
@@ -66,7 +67,7 @@ export default function Footer({ setView, currentView }: FooterProps) {
             <ul className="space-y-2.5 text-xs font-medium">
               {[
                 { label: 'Início', view: 'home' },
-                { label: 'Esquadrias', view: 'esquadrias' },
+                { label: 'Esquadrias', view: ESQUADRIAS_SP_SLUG },
                 { label: 'Vidraçaria', view: 'vidracaria' },
                 { label: 'Serralheria', view: 'serralheria' },
                 { label: 'Portfólio', view: 'portfolio' },

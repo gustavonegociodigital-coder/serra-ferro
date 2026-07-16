@@ -7,6 +7,7 @@ import React, { useState, useEffect } from 'react';
 import { ArrowRight, Phone, Clock, FileCheck, Shield, Hammer, Users, Calendar, Settings, Compass, Sparkles, AlertTriangle, ChevronLeft, ChevronRight, Instagram, Heart, MessageCircle, Bookmark, BookOpen, MapPin, Building2, Award, Check } from 'lucide-react';
 import { AppView } from '../types';
 import { PORTFOLIO_DATA, TESTIMONIALS_DATA } from '../data';
+import { ESQUADRIAS_SP_SLUG } from '../seo';
 import PlaceholderImage from './PlaceholderImage';
 import ContactForm from './ContactForm';
 
@@ -52,7 +53,7 @@ export default function Home({ setView }: HomeProps) {
       ctaPrimaryText: 'Solicitar Orçamento de Fábrica',
       ctaSecondaryText: 'Ver Linhas Premium',
       ctaPrimaryLink: getWhatsAppLink('Olá! Gostaria de um orçamento personalizado para as esquadrias de alumínio da minha obra em São Paulo com a Serra-Ferro.'),
-      ctaSecondaryAction: 'esquadrias'
+      ctaSecondaryAction: ESQUADRIAS_SP_SLUG
     },
     {
       id: 2,
@@ -299,7 +300,7 @@ export default function Home({ setView }: HomeProps) {
             </div>
             <div className="p-6 pt-0">
               <button
-                onClick={() => handlePortaClick('esquadrias')}
+                onClick={() => handlePortaClick(ESQUADRIAS_SP_SLUG)}
                 className="w-full py-2.5 bg-neutral-50 hover:bg-brand-charcoal hover:text-white text-brand-charcoal rounded-lg font-display text-xs font-bold uppercase tracking-wider transition-colors text-center cursor-pointer"
               >
                 Conhecer Esquadrias

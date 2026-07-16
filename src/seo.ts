@@ -11,6 +11,9 @@ export const SITE_URL = 'https://www.serraferro.com.br';
 /** Imagem social padrão (Open Graph / Twitter). */
 export const DEFAULT_OG_IMAGE = `${SITE_URL}/assets/images/esquadrias_aluminio_luxury_card_1782739998198.jpg`;
 
+/** Slug/rota canônica da página de Esquadrias (São Paulo). Antes era apenas "esquadrias". */
+export const ESQUADRIAS_SP_SLUG = 'esquadrias-de-aluminio-em-sao-paulo-sp';
+
 export interface PageSeo {
   title: string;
   description: string;
@@ -68,6 +71,10 @@ export const SEO_META: Record<string, PageSeo> = {
       'Peça seu orçamento de serviços de esquadrias de alumínio em São Paulo com o engenheiro comercial. Atendimento por WhatsApp e visita técnica em SP. Fale com a Serra Ferro.',
   },
 };
+
+// A página de Esquadrias passou a responder na URL /esquadrias-de-aluminio-em-sao-paulo-sp,
+// mantendo o mesmo conteúdo/meta. Mantemos "esquadrias" como alias para retrocompatibilidade.
+SEO_META[ESQUADRIAS_SP_SLUG] = SEO_META.esquadrias;
 
 /** Gera a meta de uma landing de cidade (rota "city-<slug>") a partir da lista de cidades. */
 function getCitySeo(view: string): PageSeo | null {

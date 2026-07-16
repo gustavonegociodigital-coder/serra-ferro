@@ -17,7 +17,7 @@ import Blog from './components/Blog';
 import CityLanding from './components/CityLanding';
 import ContactForm from './components/ContactForm';
 import { FAQ_DATA } from './data';
-import { applySeo, getPathForView } from './seo';
+import { applySeo, getPathForView, ESQUADRIAS_SP_SLUG } from './seo';
 
 export default function App() {
   const [view, setViewState] = useState<AppView>('home');
@@ -69,7 +69,7 @@ export default function App() {
     if (view === 'home') {
       return <Home setView={setView} />;
     }
-    if (view === 'esquadrias') {
+    if (view === ESQUADRIAS_SP_SLUG || view === 'esquadrias') {
       return <CategoryPillar category="esquadrias" setView={setView} />;
     }
     if (view === 'vidracaria') {

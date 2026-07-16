@@ -3,6 +3,9 @@
   "framework": "vite",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
+  "redirects": [
+    { "source": "/esquadrias", "destination": "/esquadrias-de-aluminio-em-sao-paulo-sp", "permanent": true }
+  ],
   "rewrites": [
     { "source": "/((?!assets/|sitemap.xml|robots.txt|logo.png|favicon.ico).*)", "destination": "/index.html" }
   ]
