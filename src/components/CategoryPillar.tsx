@@ -18,18 +18,24 @@ import {
 } from 'lucide-react';
 import { AppView } from '../types';
 import { SERVICES_CATEGORIES } from '../data';
+import { EsquadriasRegion } from '../regionsEsquadrias';
 
 interface CategoryPillarProps {
   category: 'esquadrias' | 'vidracaria' | 'serralheria';
   setView: (view: AppView) => void;
+  region?: EsquadriasRegion;
 }
 
-export default function CategoryPillar({ category, setView }: CategoryPillarProps) {
+export default function CategoryPillar({ category, setView, region }: CategoryPillarProps) {
   const currentCategoryData = SERVICES_CATEGORIES[category];
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
+  // Rótulos localizados: em páginas regionais usamos a cidade e a palavra-chave da região.
+  const cityLabel = region?.city ?? 'São Paulo';
+  const serviceLabel = region?.keyword ?? currentCategoryData.title;
+
   const getWhatsAppLink = (messageText?: string) => {
-    const defaultText = `Olá! Gostaria de falar com o comercial técnico da Serra-Ferro para solicitar um orçamento de ${currentCategoryData.title} para minha obra.`;
+    const defaultText = `Olá! Gostaria de falar com o comercial técnico da Serra-Ferro para solicitar um orçamento de ${serviceLabel} para minha obra.`;
     const textToUse = messageText || defaultText;
     return `https://wa.me/5511913243623?text=${encodeURIComponent(textToUse)}`;
   };
@@ -80,7 +86,17 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
     }
   };
 
-  const currentBanner = bannerConfig[category];
+  const currentBanner = region
+    ? {
+        tag: region.hero.tag,
+        titleNormal: '',
+        titleHighlight: region.keyword,
+        titleSuffix: '',
+        description: region.hero.description,
+        image: bannerConfig.esquadrias.image,
+        highlights: region.hero.highlights,
+      }
+    : bannerConfig[category];
 
   // SERVICES DETAILED FOR EACH CATEGORY (SESSION 2)
   const servicesMap = {
@@ -616,11 +632,11 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
 
   const currentServices = servicesMap[category];
   const currentLines = linesMap[category];
-  const currentCases = casesMap[category];
-  const currentTestimonials = testimonialsMap[category];
-  const currentFAQ = faqMap[category];
+  const currentCases = region ? region.cases : casesMap[category];
+  const currentTestimonials = region ? region.testimonials : testimonialsMap[category];
+  const currentFAQ = region ? region.faqs : faqMap[category];
   const currentB2B = b2bMap[category];
-  const currentHeaders = headerMap[category];
+  const currentHeaders = region ? { ...headerMap.esquadrias, ...region.headers } : headerMap[category];
 
   return (
     <div className="space-y-20 pb-20 animate-fade-in" id={`category-pillar-${category}`}>
@@ -710,6 +726,42 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
       {/* ANCORAGEM DE CONTEÚDO */}
       <div id="proximas-secoes" />
 
+      {/* SESSÃO LOCAL: CONTEXTO DA REGIÃO (apenas em páginas regionais) */}
+      {region && (
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+          <div className="grid md:grid-cols-12 gap-8 items-center">
+            <div className="md:col-span-7 space-y-4">
+              <span className="font-mono text-xs font-bold text-brand-orange uppercase tracking-widest block">
+                {region.localIntro.tag}
+              </span>
+              <h2 className="font-display text-2xl sm:text-3xl font-extrabold text-brand-charcoal tracking-tight">
+                {region.localIntro.title}
+              </h2>
+              {region.localIntro.paragraphs.map((paragraph, idx) => (
+                <p key={idx} className="text-xs sm:text-sm text-brand-muted leading-relaxed font-medium">
+                  {paragraph}
+                </p>
+              ))}
+            </div>
+            <div className="md:col-span-5">
+              <div className="bg-neutral-50 border border-neutral-200 rounded-2xl p-6 space-y-3 shadow-sm">
+                <span className="text-[10px] font-mono font-bold text-brand-orange uppercase tracking-widest block">
+                  POR QUE A SERRA-FERRO EM {cityLabel.toUpperCase()}
+                </span>
+                <ul className="space-y-2.5">
+                  {region.localIntro.bullets.map((bullet, idx) => (
+                    <li key={idx} className="flex items-start text-xs text-brand-charcoal font-medium">
+                      <Check className="w-4 h-4 text-brand-orange mr-2 shrink-0 mt-0.5" />
+                      <span>{bullet}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* SESSÃO 2: PRODUTOS E SERVIÇOS ATENDIDOS (ALTO PADRÃO COM IMAGENS REAIS) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <div className="text-center max-w-3xl mx-auto mb-12">
@@ -730,7 +782,7 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
               <div className="relative h-48 overflow-hidden bg-neutral-100">
                 <img
                   src={service.image}
-                  alt={`${service.title} — ${currentCategoryData.title} em São Paulo`}
+                  alt={`${service.title} — ${currentCategoryData.title} em ${cityLabel}`}
                   title={`${service.title} | ${currentCategoryData.title}`}
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
@@ -800,7 +852,7 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
                 <div className="h-48 overflow-hidden bg-neutral-800 relative">
                   <img
                     src={line.image}
-                    alt={`${line.name} — ${currentCategoryData.title} sob medida em São Paulo`}
+                    alt={`${line.name} — ${currentCategoryData.title} sob medida em ${cityLabel}`}
                     title={`${line.name} | ${currentCategoryData.title}`}
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
@@ -870,8 +922,8 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
               <div className="relative h-48 overflow-hidden bg-neutral-100">
                 <img
                   src={project.image}
-                  alt={`${project.title} — obra de ${currentCategoryData.title} em São Paulo | Serra Ferro`}
-                  title={`${project.title} | ${currentCategoryData.title} em São Paulo`}
+                  alt={`${project.title} — obra de ${currentCategoryData.title} em ${cityLabel} | Serra Ferro`}
+                  title={`${project.title} | ${currentCategoryData.title} em ${cityLabel}`}
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
@@ -895,7 +947,7 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
                 </div>
                 <div className="pt-2 border-t border-neutral-100">
                   <a
-                    href={getWhatsAppLink(`Olá! Vi o case de sucesso "${project.title}" em São Paulo e gostaria de obter um orçamento de alto padrão semelhante sob medida para minha obra.`)}
+                    href={getWhatsAppLink(`Olá! Vi o case de sucesso "${project.title}" em ${cityLabel} e gostaria de obter um orçamento de alto padrão semelhante sob medida para minha obra.`)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-xs font-bold text-brand-orange hover:text-brand-orange/85 transition-colors group/link cursor-pointer"
@@ -912,7 +964,7 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
         {/* CTA Button for Sessão 4 */}
         <div className="text-center mt-12">
           <a
-            href={getWhatsAppLink(`Olá! Vi os cases técnicos de ${currentCategoryData.title} em São Paulo e gostaria de obter um orçamento técnico sob medida para o meu projeto de arquitetura.`)}
+            href={getWhatsAppLink(`Olá! Vi os cases técnicos de ${currentCategoryData.title} em ${cityLabel} e gostaria de obter um orçamento técnico sob medida para o meu projeto de arquitetura.`)}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-8 py-4 bg-brand-orange hover:bg-brand-orange/95 text-white rounded-lg font-display text-xs font-bold uppercase tracking-widest transition-colors shadow-lg shadow-brand-orange/20 cursor-pointer animate-pulse-orange"
@@ -1014,7 +1066,7 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
           <div className="md:col-span-7">
             <img
               src={currentB2B.image}
-              alt={`Parceria B2B em ${currentCategoryData.title} para arquitetos e construtoras em São Paulo — Serra Ferro`}
+              alt={`Parceria B2B em ${currentCategoryData.title} para arquitetos e construtoras em ${cityLabel} — Serra Ferro`}
               title={`Parceria B2B — ${currentCategoryData.title} | Serra Ferro`}
               referrerPolicy="no-referrer"
               className="w-full h-[280px] sm:h-[350px] object-cover rounded-xl shadow-md"

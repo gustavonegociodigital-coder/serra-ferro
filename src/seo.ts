@@ -4,6 +4,7 @@
  */
 
 import { CITIES_LIST } from './data';
+import { ESQUADRIAS_REGION_BY_SLUG } from './regionsEsquadrias';
 
 /** Domínio canônico de produção. Trocar aqui caso o domínio final mude. */
 export const SITE_URL = 'https://www.serraferro.com.br';
@@ -90,6 +91,10 @@ function getCitySeo(view: string): PageSeo | null {
 /** Resolve a meta de uma view, com fallback para a home. */
 export function getSeoForView(view: string): PageSeo {
   if (SEO_META[view]) return SEO_META[view];
+  const esquadriasRegion = ESQUADRIAS_REGION_BY_SLUG[view];
+  if (esquadriasRegion) {
+    return { title: esquadriasRegion.metaTitle, description: esquadriasRegion.metaDescription };
+  }
   if (view.startsWith('city-')) {
     const citySeo = getCitySeo(view);
     if (citySeo) return citySeo;

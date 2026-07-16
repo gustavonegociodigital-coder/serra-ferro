@@ -18,6 +18,7 @@ import CityLanding from './components/CityLanding';
 import ContactForm from './components/ContactForm';
 import { FAQ_DATA } from './data';
 import { applySeo, getPathForView, ESQUADRIAS_SP_SLUG } from './seo';
+import { ESQUADRIAS_REGION_BY_SLUG } from './regionsEsquadrias';
 
 export default function App() {
   const [view, setViewState] = useState<AppView>('home');
@@ -71,6 +72,10 @@ export default function App() {
     }
     if (view === ESQUADRIAS_SP_SLUG || view === 'esquadrias') {
       return <CategoryPillar category="esquadrias" setView={setView} />;
+    }
+    const esquadriasRegion = ESQUADRIAS_REGION_BY_SLUG[view];
+    if (esquadriasRegion) {
+      return <CategoryPillar category="esquadrias" setView={setView} region={esquadriasRegion} />;
     }
     if (view === 'vidracaria') {
       return <CategoryPillar category="vidracaria" setView={setView} />;
