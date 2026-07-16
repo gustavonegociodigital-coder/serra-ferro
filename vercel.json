@@ -7,6 +7,6 @@
     { "source": "/esquadrias", "destination": "/esquadrias-de-aluminio-em-sao-paulo-sp", "permanent": true }
   ],
   "rewrites": [
-    { "source": "/((?!assets/|sitemap.xml|robots.txt|logo.png|favicon.ico).*)", "destination": "/index.html" }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
