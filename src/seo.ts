@@ -28,7 +28,7 @@ export const SEO_META: Record<string, PageSeo> = {
       'Serviços de esquadrias de alumínio em São Paulo sob medida: projeto, instalação e vedação garantida em contrato, com equipe técnica própria. Peça seu orçamento em SP no WhatsApp.',
   },
   esquadrias: {
-    title: 'Esquadrias de Alumínio sob Medida em São Paulo | Portas e Janelas em SP | Serra Ferro',
+    title: 'Esquadrias de Alumínio em SP | Portas e Janelas de Alumínio em São Paulo | Serra Ferro',
     description:
       'Serviços de esquadrias de alumínio sob medida em São Paulo: projeto, instalação e regulagem de portas e janelas com isolamento acústico e vedação. Peça seu orçamento em SP.',
   },

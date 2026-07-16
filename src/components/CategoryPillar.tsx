@@ -37,9 +37,9 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
   // BANNER CONFIGURATION (FIRST FOLD) FOR THE THREE SERVICES
   const bannerConfig = {
     esquadrias: {
-      tag: "SERRA-FERRO • ESQUADRIAS DE ALUMÍNIO SOB MEDIDA SP",
-      titleNormal: "Esquadrias de Alumínio ",
-      titleHighlight: "Sob Medida SP",
+      tag: "SERRA-FERRO • ESQUADRIAS DE ALUMÍNIO EM SP",
+      titleNormal: "",
+      titleHighlight: "Esquadrias de Alumínio em SP",
       titleSuffix: " de Alto Padrão",
       description: "Esquadrias Premium projetadas com excelência acústica, vedação termoacústica absoluta e esquadro perfeito. Proteja o seu investimento com prazos de entrega rigorosamente garantidos em contrato físico.",
       image: "/assets/images/luxury_villa_glazing_1782306007983.jpg",
@@ -557,7 +557,7 @@ export default function CategoryPillar({ category, setView }: CategoryPillarProp
   const headerMap = {
     esquadrias: {
       servicesTag: "SOLUÇÕES SOB MEDIDA",
-      servicesTitle: "Esquadrias de Alumínio Sob Medida SP: Serviços de Alto Padrão",
+      servicesTitle: "Esquadrias de Alumínio em SP: Serviços de Alto Padrão",
       servicesSubtitle: "Desenvolvemos projetos de esquadrias de alumínio estruturadas sob medida para atender às demandas arquitetônicas mais exigentes do mercado de luxo.",
       linesTag: "LINHAS TECNOLÓGICAS",
       linesTitle: "Linhas de Esquadrias de Alumínio: Escolha o Padrão do seu Projeto",
