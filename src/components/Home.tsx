@@ -752,6 +752,17 @@ export default function Home({ setView }: HomeProps) {
               </div>
             ))}
           </div>
+          <div className="mt-12 text-center">
+            <a
+              href="https://api.whatsapp.com/send/?phone=5511913243623&text=Gostaria+de+solicitar+um+or%C3%A7amento%21&type=phone_number&app_absent=0"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-display text-sm font-bold uppercase tracking-widest rounded-xl transition-colors shadow-lg shadow-emerald-600/20 cursor-pointer"
+            >
+              <MessageCircle className="w-5 h-5 mr-2.5" />
+              Peça seu Orçamento no WhatsApp
+            </a>
+          </div>
         </div>
       </section>
 
@@ -996,6 +1007,17 @@ export default function Home({ setView }: HomeProps) {
               </div>
             </div>
 
+          </div>
+          <div className="mt-12 text-center">
+            <a
+              href="https://api.whatsapp.com/send/?phone=5511913243623&text=Gostaria+de+solicitar+um+or%C3%A7amento%21&type=phone_number&app_absent=0"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-display text-sm font-bold uppercase tracking-widest rounded-xl transition-colors shadow-lg shadow-emerald-600/20 cursor-pointer"
+            >
+              <MessageCircle className="w-5 h-5 mr-2.5" />
+              Falar com a Serra-Ferro no WhatsApp
+            </a>
           </div>
         </div>
       </section>

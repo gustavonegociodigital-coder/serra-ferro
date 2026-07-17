@@ -137,18 +137,18 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
     ],
     vidracaria: [
       {
-        title: "Guarda-Corpos Autoportantes em Vidro (Vidraçaria em São Paulo)",
-        description: "Projetados pela nossa vidraçaria de alto padrão em São Paulo com vidros temperados laminados de alta resistência mecânica e perfis embutidos de alumínio estrutural para máxima transparência.",
+        title: "Guarda-Corpos Autoportantes em Vidro (Vidraçaria de Alto Padrão)",
+        description: "Projetados pela nossa vidraçaria de alto padrão com vidros temperados laminados de alta resistência mecânica e perfis embutidos de alumínio estrutural para máxima transparência.",
         image: "/assets/images/vidracaria_balcony_luxury_card_1782740008784.jpg"
       },
       {
-        title: "Fechamento de Sacadas e Vidraçaria Premium em São Paulo",
-        description: "Instalação executada por experientes vidraceiros em São Paulo com sistema de roldanas ocultas, abertura total das folhas de vidro e vedação de alta densidade contra chuvas.",
+        title: "Fechamento de Sacadas e Vidraçaria Premium",
+        description: "Instalação executada por vidraceiros experientes com sistema de roldanas ocultas, abertura total das folhas de vidro e vedação de alta densidade contra chuvas.",
         image: "/assets/images/luxury_villa_glazing_1782306007983.jpg"
       },
       {
         title: "Espelhos Monumentais e Revestimentos de Luxo",
-        description: "Serviços de vidraçaria em São Paulo para colagem e instalação de espelhos de cristal de alta definição com corte bizotê e lapidação impecável para salas de jantar e closets.",
+        description: "Serviços de vidraçaria de alto padrão para colagem e instalação de espelhos de cristal de alta definição com corte bizotê e lapidação impecável para salas de jantar e closets.",
         image: "/assets/images/portfolio_house_luxury_card_1782740031450.jpg"
       },
       {
@@ -163,24 +163,24 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
       },
       {
         title: "Coberturas de Vidro com Controle Solar",
-        description: "Estruturas modernas com vidros laminados especiais de controle térmico instalados com vedação dupla absoluta contra infiltrações e goteiras em São Paulo.",
+        description: "Estruturas modernas com vidros laminados especiais de controle térmico instalados com vedação dupla absoluta contra infiltrações e goteiras.",
         image: "/assets/images/esquadrias_aluminio_luxury_card_1782739998198.jpg"
       }
     ],
     serralheria: [
       {
-        title: "Escadas Plissadas de Design (Serralheria em São Paulo)",
-        description: "Desenvolvidas por nossa renomada serralheria de alto padrão em São Paulo com soldas 100% invisíveis ao toque, vigas estruturais reforçadas e degraus metálicos perfeitos.",
+        title: "Escadas Plissadas de Design (Serralheria de Alto Padrão)",
+        description: "Desenvolvidas por nossa renomada serralheria de alto padrão com soldas 100% invisíveis ao toque, vigas estruturais reforçadas e degraus metálicos perfeitos.",
         image: "/assets/images/serralheria_staircase_luxury_card_1782740019768.jpg"
       },
       {
-        title: "Portas Pivotantes e Serviços de Serralheria em São Paulo",
-        description: "Portas monumentais de entrada sob medida de aço executadas por serralheiros em São Paulo especializados em grandes vãos, folhas estruturadas e fechaduras de alta segurança.",
+        title: "Portas Pivotantes e Serviços de Serralheria",
+        description: "Portas monumentais de entrada sob medida de aço executadas por serralheiros especializados em grandes vãos, folhas estruturadas e fechaduras de alta segurança.",
         image: "/assets/images/portfolio_house_luxury_card_1782740031450.jpg"
       },
       {
-        title: "Mezaninos e Estruturas Metálicas (Serralheria Fina em São Paulo)",
-        description: "Cálculo técnico e montagem de mezaninos robustos. Projetos de serralheria em São Paulo com vigas de aço laminadas e laudos assinados com ART por equipe de engenharia.",
+        title: "Mezaninos e Estruturas Metálicas (Serralheria Fina de Alto Padrão)",
+        description: "Cálculo técnico e montagem de mezaninos robustos. Projetos de serralheria com vigas de aço laminadas e laudos assinados com ART por equipe de engenharia.",
         image: "/assets/images/minimal_aluminum_frames_1782306022668.jpg"
       },
       {
@@ -230,21 +230,21 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
       {
         name: "Linha Crystal Clear (Extra Clear)",
         badge: "Transparência Absoluta",
-        description: "Vidros especiais com baixo teor de ferro lapidados por nossa vidraçaria de alto padrão em São Paulo para eliminação do tom verde das bordas, trazendo pureza máxima.",
+        description: "Vidros especiais com baixo teor de ferro lapidados por nossa vidraçaria de alto padrão para eliminação do tom verde das bordas, trazendo pureza máxima.",
         features: ["Totalmente transparente e puro", "Sem distorções cromáticas", "Lapidação fina a laser", "Ideal para espelhos premium e vitrines"],
         image: "/assets/images/luxury_villa_glazing_1782306007983.jpg"
       },
       {
         name: "Linha SafeTemp (Laminados e Temperados)",
         badge: "Máxima Segurança Física",
-        description: "Junção de têmpera térmica de alta resistência com películas PVB ou SentryGlas estruturais de alta aderência. Solução de vidraçaria em São Paulo recomendada para guarda-corpos.",
+        description: "Junção de têmpera térmica de alta resistência com películas PVB ou SentryGlas estruturais de alta aderência. Solução de vidraçaria de alto padrão recomendada para guarda-corpos.",
         features: ["Proteção contra quedas e impactos", "Conformidade integral com NBR 14718", "Isolamento acústico otimizado", "Ideal para guarda-corpos e vãos livres"],
         image: "/assets/images/vidracaria_balcony_luxury_card_1782740008784.jpg"
       },
       {
         name: "Linha SolarControl (Vidros Inteligentes)",
         badge: "Conforto Térmico Avançado",
-        description: "Vidros de alta performance em São Paulo com deposição de óxidos metálicos que bloqueiam até 70% da energia solar térmica sem escurecer o ambiente, poupando energia.",
+        description: "Vidros de alta performance com deposição de óxidos metálicos que bloqueiam até 70% da energia solar térmica sem escurecer o ambiente, poupando energia.",
         features: ["Bloqueia até 99% de raios UV", "Redução perceptível de calor", "Estética neutra ou refletiva", "Economia real de ar condicionado"],
         image: "/assets/images/modern_facade_glass_1782306036555.jpg"
       }
@@ -253,21 +253,21 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
       {
         name: "Linha Serralheria Fina",
         badge: "Acabamento Artesanal de Luxo",
-        description: "Peças autorais criadas por nossa serralheria fina em São Paulo com soldas completamente lixadas e invisíveis ao toque, cantos alinhados e pintura microtexturizada.",
+        description: "Peças autorais criadas por nossa serralheria fina com soldas completamente lixadas e invisíveis ao toque, cantos alinhados e pintura microtexturizada.",
         features: ["Sem vestígios ou rebarbas de solda", "Tubos e perfis metálicos finos", "Foco em móveis e divisórias", "Elegância industrial geométrica"],
         image: "/assets/images/serralheria_staircase_luxury_card_1782740019768.jpg"
       },
       {
         name: "Linha Heavy Duty (Serralheria Estrutural)",
         badge: "Robustez e Cálculo Civil",
-        description: "Estruturas e mezaninos robustos calculados e certificados pela nossa equipe de serralheria de alto padrão em São Paulo, com laudos de engenharia aplicados.",
+        description: "Estruturas e mezaninos robustos calculados e certificados pela nossa equipe de serralheria de alto padrão, com laudos de engenharia aplicados.",
         features: ["Suporta toneladas de carga estática", "Projetos em conformidade com NBR 8800", "Galvanização total anti-ferrugem", "Projetos dimensionados contra fadiga"],
         image: "/assets/images/minimal_aluminum_frames_1782306022668.jpg"
       },
       {
         name: "Linha Corten & Design Laser CNC",
         badge: "Arquitetura Monumental Autoral",
-        description: "Criação de brises, portões e painéis decorativos por experientes serralheiros em São Paulo utilizando aço corten legítimo oxidado naturalmente ou chapas sob alta precisão laser.",
+        description: "Criação de brises, portões e painéis decorativos por serralheiros experientes utilizando aço corten legítimo oxidado naturalmente ou chapas sob alta precisão laser.",
         features: ["Oxidação protetora natural (pátina)", "Corte sob desenho customizado", "Longevidade temporal insuperável", "Brises funcionais autônomos"],
         image: "/assets/images/portfolio_house_luxury_card_1782740031450.jpg"
       }
@@ -552,7 +552,7 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
       title: "Parceria Técnica de Vidraçaria para Profissionais",
       description: "Apoio consultivo especializado para arquitetos e construtoras de alto padrão. Dimensionamos vidros laminados temperados seguindo rigidamente a NBR 7199 e NBR 14718.",
       points: [
-        { title: "Condições Comerciais Exclusivas", description: "Tabela especial com possibilidade de faturamento corporativo para construtores e designers em São Paulo." },
+        { title: "Condições Comerciais Exclusivas", description: "Tabela especial com possibilidade de faturamento corporativo para construtores e designers." },
         { title: "Projeto Executivo e Memorial", description: "Cálculos de cargas horizontais de vento e dimensionamento preciso da espessura de vidros de segurança." },
         { title: "Instalação com Equipe Própria", description: "Instaladores próprios treinados e certificados nas NR-35 (Trabalho em Altura) com logística de içamento completa." }
       ],
