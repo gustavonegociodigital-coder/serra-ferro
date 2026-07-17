@@ -51,7 +51,7 @@ export interface RegionHeaders {
   contactSubtitle: string;
 }
 
-export interface EsquadriasRegion {
+export interface RegionPage {
   slug: string;
   city: string;
   keyword: string;
@@ -64,6 +64,9 @@ export interface EsquadriasRegion {
   testimonials: RegionTestimonial[];
   faqs: RegionFAQ[];
 }
+
+/** Alias mantido por retrocompatibilidade. */
+export type EsquadriasRegion = RegionPage;
 
 export const ESQUADRIAS_REGIONS: EsquadriasRegion[] = [
   {

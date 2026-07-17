@@ -6,8 +6,10 @@
 import React from 'react';
 import { Compass, Mail, Phone, MapPin, ShieldCheck, CheckCircle2, ChevronRight } from 'lucide-react';
 import { AppView } from '../types';
-import { ESQUADRIAS_SP_SLUG } from '../seo';
+import { ESQUADRIAS_SP_SLUG, VIDRACARIA_SP_SLUG, SERRALHERIA_SP_SLUG } from '../seo';
 import { ESQUADRIAS_REGIONS } from '../regionsEsquadrias';
+import { VIDRACARIA_REGIONS } from '../regionsVidracaria';
+import { SERRALHERIA_REGIONS } from '../regionsSerralheria';
 import SerraFerroLogo from './SerraFerroLogo';
 
 interface FooterProps {
@@ -69,8 +71,8 @@ export default function Footer({ setView, currentView }: FooterProps) {
               {[
                 { label: 'Início', view: 'home' },
                 { label: 'Esquadrias', view: ESQUADRIAS_SP_SLUG },
-                { label: 'Vidraçaria', view: 'vidracaria' },
-                { label: 'Serralheria', view: 'serralheria' },
+                { label: 'Vidraçaria', view: VIDRACARIA_SP_SLUG },
+                { label: 'Serralheria', view: SERRALHERIA_SP_SLUG },
                 { label: 'Portfólio', view: 'portfolio' },
                 { label: 'Área B2B', view: 'b2b' },
                 { label: 'Sobre Nós', view: 'sobre' },
@@ -146,35 +148,41 @@ export default function Footer({ setView, currentView }: FooterProps) {
 
         </div>
 
-        {/* Esquadrias de Alumínio por Região (link building interno para as landings regionais) */}
-        <div className="py-8 border-b border-neutral-800">
-          <span className="text-xs font-mono font-semibold text-white uppercase tracking-wider block mb-3">
-            Esquadrias de Alumínio por Região em SP
-          </span>
-          <div className="flex flex-wrap gap-x-3 gap-y-2 text-xs">
-            <a
-              href={`/${ESQUADRIAS_SP_SLUG}`}
-              onClick={(e) => handleAnchorNav(e, ESQUADRIAS_SP_SLUG)}
-              className="text-neutral-400 hover:text-brand-orange font-medium transition-colors"
-            >
-              Esquadrias de Alumínio em São Paulo
-            </a>
-            <span className="text-neutral-700">·</span>
-            {ESQUADRIAS_REGIONS.map((region, idx) => (
-              <React.Fragment key={region.slug}>
-                <a
-                  href={`/${region.slug}`}
-                  onClick={(e) => handleAnchorNav(e, region.slug)}
-                  className="text-neutral-400 hover:text-brand-orange font-medium transition-colors"
-                  id={`footer-esquadrias-${region.slug}`}
-                >
-                  Esquadrias de Alumínio em {region.city}
-                </a>
-                {idx < ESQUADRIAS_REGIONS.length - 1 && <span className="text-neutral-700">·</span>}
-              </React.Fragment>
-            ))}
+        {/* Blocos de links internos por região e serviço (SEO local / link building) */}
+        {[
+          { label: 'Esquadrias de Alumínio', spSlug: ESQUADRIAS_SP_SLUG, regions: ESQUADRIAS_REGIONS },
+          { label: 'Vidraçaria', spSlug: VIDRACARIA_SP_SLUG, regions: VIDRACARIA_REGIONS },
+          { label: 'Serralheria', spSlug: SERRALHERIA_SP_SLUG, regions: SERRALHERIA_REGIONS },
+        ].map((group) => (
+          <div key={group.spSlug} className="py-8 border-b border-neutral-800">
+            <span className="text-xs font-mono font-semibold text-white uppercase tracking-wider block mb-3">
+              {group.label} por Região em SP
+            </span>
+            <div className="flex flex-wrap gap-x-3 gap-y-2 text-xs">
+              <a
+                href={`/${group.spSlug}`}
+                onClick={(e) => handleAnchorNav(e, group.spSlug)}
+                className="text-neutral-400 hover:text-brand-orange font-medium transition-colors"
+              >
+                {group.label} em São Paulo
+              </a>
+              <span className="text-neutral-700">·</span>
+              {group.regions.map((region, idx) => (
+                <React.Fragment key={region.slug}>
+                  <a
+                    href={`/${region.slug}`}
+                    onClick={(e) => handleAnchorNav(e, region.slug)}
+                    className="text-neutral-400 hover:text-brand-orange font-medium transition-colors"
+                    id={`footer-link-${region.slug}`}
+                  >
+                    {group.label} em {region.city}
+                  </a>
+                  {idx < group.regions.length - 1 && <span className="text-neutral-700">·</span>}
+                </React.Fragment>
+              ))}
+            </div>
           </div>
-        </div>
+        ))}
 
         {/* Rodapé Final */}
         <div className="pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-neutral-500 font-mono">

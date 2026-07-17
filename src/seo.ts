@@ -5,6 +5,11 @@
 
 import { CITIES_LIST } from './data';
 import { ESQUADRIAS_REGION_BY_SLUG } from './regionsEsquadrias';
+import { SERRALHERIA_REGION_BY_SLUG, SERRALHERIA_SP_SLUG } from './regionsSerralheria';
+import { VIDRACARIA_REGION_BY_SLUG, VIDRACARIA_SP_SLUG } from './regionsVidracaria';
+
+export { SERRALHERIA_SP_SLUG } from './regionsSerralheria';
+export { VIDRACARIA_SP_SLUG } from './regionsVidracaria';
 
 /** Domínio canônico de produção. Trocar aqui caso o domínio final mude. */
 export const SITE_URL = 'https://www.serraferro.com.br';
@@ -73,9 +78,11 @@ export const SEO_META: Record<string, PageSeo> = {
   },
 };
 
-// A página de Esquadrias passou a responder na URL /esquadrias-de-aluminio-em-sao-paulo-sp,
-// mantendo o mesmo conteúdo/meta. Mantemos "esquadrias" como alias para retrocompatibilidade.
+// As páginas de categoria passaram a responder em URLs com a keyword local (SP),
+// mantendo o mesmo conteúdo/meta. Mantemos os slugs curtos como alias.
 SEO_META[ESQUADRIAS_SP_SLUG] = SEO_META.esquadrias;
+SEO_META[SERRALHERIA_SP_SLUG] = SEO_META.serralheria;
+SEO_META[VIDRACARIA_SP_SLUG] = SEO_META.vidracaria;
 
 /** Gera a meta de uma landing de cidade (rota "city-<slug>") a partir da lista de cidades. */
 function getCitySeo(view: string): PageSeo | null {
@@ -91,9 +98,10 @@ function getCitySeo(view: string): PageSeo | null {
 /** Resolve a meta de uma view, com fallback para a home. */
 export function getSeoForView(view: string): PageSeo {
   if (SEO_META[view]) return SEO_META[view];
-  const esquadriasRegion = ESQUADRIAS_REGION_BY_SLUG[view];
-  if (esquadriasRegion) {
-    return { title: esquadriasRegion.metaTitle, description: esquadriasRegion.metaDescription };
+  const region =
+    ESQUADRIAS_REGION_BY_SLUG[view] || SERRALHERIA_REGION_BY_SLUG[view] || VIDRACARIA_REGION_BY_SLUG[view];
+  if (region) {
+    return { title: region.metaTitle, description: region.metaDescription };
   }
   if (view.startsWith('city-')) {
     const citySeo = getCitySeo(view);
@@ -112,6 +120,8 @@ export function isKnownRoute(view: string): boolean {
   if (view === 'home' || view === 'esquadrias') return true;
   if (SEO_META[view]) return true;
   if (ESQUADRIAS_REGION_BY_SLUG[view]) return true;
+  if (SERRALHERIA_REGION_BY_SLUG[view]) return true;
+  if (VIDRACARIA_REGION_BY_SLUG[view]) return true;
   if (view.startsWith('city-')) return true;
   return false;
 }

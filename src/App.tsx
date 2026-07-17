@@ -18,8 +18,10 @@ import CityLanding from './components/CityLanding';
 import ContactForm from './components/ContactForm';
 import NotFound from './components/NotFound';
 import { FAQ_DATA } from './data';
-import { applySeo, getPathForView, ESQUADRIAS_SP_SLUG } from './seo';
+import { applySeo, getPathForView, ESQUADRIAS_SP_SLUG, SERRALHERIA_SP_SLUG, VIDRACARIA_SP_SLUG } from './seo';
 import { ESQUADRIAS_REGION_BY_SLUG } from './regionsEsquadrias';
+import { SERRALHERIA_REGION_BY_SLUG } from './regionsSerralheria';
+import { VIDRACARIA_REGION_BY_SLUG } from './regionsVidracaria';
 
 export default function App() {
   const [view, setViewState] = useState<AppView>('home');
@@ -78,11 +80,19 @@ export default function App() {
     if (esquadriasRegion) {
       return <CategoryPillar category="esquadrias" setView={setView} region={esquadriasRegion} />;
     }
-    if (view === 'vidracaria') {
+    if (view === VIDRACARIA_SP_SLUG || view === 'vidracaria') {
       return <CategoryPillar category="vidracaria" setView={setView} />;
     }
-    if (view === 'serralheria') {
+    const vidracariaRegion = VIDRACARIA_REGION_BY_SLUG[view];
+    if (vidracariaRegion) {
+      return <CategoryPillar category="vidracaria" setView={setView} region={vidracariaRegion} />;
+    }
+    if (view === SERRALHERIA_SP_SLUG || view === 'serralheria') {
       return <CategoryPillar category="serralheria" setView={setView} />;
+    }
+    const serralheriaRegion = SERRALHERIA_REGION_BY_SLUG[view];
+    if (serralheriaRegion) {
+      return <CategoryPillar category="serralheria" setView={setView} region={serralheriaRegion} />;
     }
     if (view === 'portfolio') {
       return <Portfolio setView={setView} />;

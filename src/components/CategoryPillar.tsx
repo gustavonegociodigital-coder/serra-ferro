@@ -19,6 +19,8 @@ import {
 import { AppView } from '../types';
 import { SERVICES_CATEGORIES } from '../data';
 import { EsquadriasRegion, ESQUADRIAS_REGIONS } from '../regionsEsquadrias';
+import { SERRALHERIA_REGIONS, SERRALHERIA_SP_SLUG } from '../regionsSerralheria';
+import { VIDRACARIA_REGIONS, VIDRACARIA_SP_SLUG } from '../regionsVidracaria';
 import { ESQUADRIAS_SP_SLUG } from '../seo';
 
 interface CategoryPillarProps {
@@ -637,7 +639,16 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
   const currentTestimonials = region ? region.testimonials : testimonialsMap[category];
   const currentFAQ = region ? region.faqs : faqMap[category];
   const currentB2B = b2bMap[category];
-  const currentHeaders = region ? { ...headerMap.esquadrias, ...region.headers } : headerMap[category];
+  const currentHeaders = region ? { ...headerMap[category], ...region.headers } : headerMap[category];
+
+  // Configuração do bloco de links internos entre as páginas da categoria (link building local).
+  const regionLinkMap = {
+    esquadrias: { spSlug: ESQUADRIAS_SP_SLUG, regions: ESQUADRIAS_REGIONS, label: 'Esquadrias de Alumínio' },
+    vidracaria: { spSlug: VIDRACARIA_SP_SLUG, regions: VIDRACARIA_REGIONS, label: 'Vidraçaria' },
+    serralheria: { spSlug: SERRALHERIA_SP_SLUG, regions: SERRALHERIA_REGIONS, label: 'Serralheria' },
+  };
+  const regionLinks = regionLinkMap[category];
+  const currentRegionSlug = region ? region.slug : regionLinks.spSlug;
 
   return (
     <div className="space-y-20 pb-20 animate-fade-in" id={`category-pillar-${category}`}>
@@ -1139,8 +1150,8 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
         </div>
       </section>
 
-      {/* SESSÃO DE REGIÕES: LINK BUILDING INTERNO ENTRE AS PÁGINAS DE ESQUADRIAS */}
-      {category === 'esquadrias' && (
+      {/* SESSÃO DE REGIÕES: LINK BUILDING INTERNO ENTRE AS PÁGINAS DA CATEGORIA */}
+      {regionLinks && (
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="bg-neutral-50 border border-neutral-200 rounded-2xl p-6 sm:p-10">
             <div className="text-center max-w-3xl mx-auto mb-8">
@@ -1148,15 +1159,15 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
                 ATENDIMENTO NA GRANDE SÃO PAULO
               </span>
               <h2 className="font-display text-xl sm:text-2xl font-extrabold text-brand-charcoal tracking-tight mt-1">
-                Esquadrias de Alumínio nas Regiões de São Paulo
+                {regionLinks.label} nas Regiões de São Paulo
               </h2>
               <p className="text-xs sm:text-sm text-brand-muted mt-2 leading-relaxed">
                 Fabricação e instalação sob medida com equipe própria. Veja a página da sua cidade:
               </p>
             </div>
             <div className="flex flex-wrap justify-center gap-2.5">
-              {[{ slug: ESQUADRIAS_SP_SLUG, city: 'São Paulo' }, ...ESQUADRIAS_REGIONS].map((item) => {
-                const isCurrent = item.slug === (region ? region.slug : ESQUADRIAS_SP_SLUG);
+              {[{ slug: regionLinks.spSlug, city: 'São Paulo' }, ...regionLinks.regions].map((item) => {
+                const isCurrent = item.slug === currentRegionSlug;
                 if (isCurrent) {
                   return (
                     <span

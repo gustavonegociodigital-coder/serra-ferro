@@ -7,7 +7,7 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, Phone, MessageSquare, ArrowRight, Construction, Compass } from 'lucide-react';
 import { AppView } from '../types';
 import SerraFerroLogo from './SerraFerroLogo';
-import { ESQUADRIAS_SP_SLUG } from '../seo';
+import { ESQUADRIAS_SP_SLUG, VIDRACARIA_SP_SLUG, SERRALHERIA_SP_SLUG } from '../seo';
 
 interface HeaderProps {
   currentView: AppView;
@@ -33,8 +33,8 @@ export default function Header({ currentView, setView }: HeaderProps) {
   const navItems = [
     { label: 'Início', view: 'home' },
     { label: 'Esquadrias', view: ESQUADRIAS_SP_SLUG },
-    { label: 'Vidraçaria', view: 'vidracaria' },
-    { label: 'Serralheria', view: 'serralheria' },
+    { label: 'Vidraçaria', view: VIDRACARIA_SP_SLUG },
+    { label: 'Serralheria', view: SERRALHERIA_SP_SLUG },
     { label: 'Portfólio', view: 'portfolio' },
     { label: 'B2B', view: 'b2b' },
     { label: 'Sobre Nós', view: 'sobre' },

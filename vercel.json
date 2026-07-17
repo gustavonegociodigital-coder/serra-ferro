@@ -4,6 +4,8 @@
   "outputDirectory": "dist",
   "redirects": [
     { "source": "/esquadrias", "destination": "/esquadrias-de-aluminio-em-sao-paulo-sp", "permanent": true },
+    { "source": "/serralheria", "destination": "/serralheria-em-sao-paulo-sp", "permanent": true },
+    { "source": "/vidracaria", "destination": "/vidracaria-em-sao-paulo-sp", "permanent": true },
     { "source": "/city-sao-paulo", "destination": "/esquadrias-de-aluminio-em-sao-paulo-sp", "permanent": true },
     { "source": "/city-barueri", "destination": "/esquadrias-de-aluminio-em-barueri-sp", "permanent": true },
     { "source": "/city-alphaville", "destination": "/esquadrias-de-aluminio-em-alphaville-sp", "permanent": true },
