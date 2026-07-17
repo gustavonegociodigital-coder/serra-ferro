@@ -63,12 +63,14 @@ export const SERRALHERIA_REGIONS: RegionPage[] = [
     testimonials: [
       { author: 'Henrique Salles', role: 'Morador de Alphaville', text: 'A escada da minha casa virou a peça central da sala. Solda invisível de verdade, acabamento impecável e montagem limpa dentro do condomínio.' },
       { author: 'Arq. Camila Prado', role: 'Arquiteta em Alphaville', text: 'Detalharam a serralheria em CAD exatamente como desenhei e ainda entregaram a ART do mezanino. Parceria técnica de altíssimo nível.' },
+      { author: 'Eng. Marcelo Franco', role: 'Construtora em Alphaville', text: 'Estruturas e escadas entregues com ART e solda invisível. A fábrica local de Alphaville deixa o cronograma redondo, sem atrasos.' },
     ],
     faqs: [
       { question: 'A solda das escadas fica realmente invisível?', answer: 'Sim. Em Alphaville, onde o acabamento é decisivo, lixamos e tratamos cada solda até ficar invisível ao toque, finalizando com pintura eletrostática a pó curada em forno para máxima durabilidade.' },
       { question: 'Vocês emitem ART para mezaninos e estruturas em Alphaville?', answer: 'Sim. Mezaninos, escadas monumentais e coberturas metálicas são calculados por engenheiro e acompanham ART registrada no CREA, garantindo a segurança estrutural da obra.' },
       { question: 'A fábrica fica perto de Alphaville?', answer: 'Fica em Alphaville Industrial, Barueri, na própria região — o que agiliza medição, fabricação e instalação, além do suporte técnico presencial.' },
       { question: 'Vocês trabalham com aço corten em Alphaville?', answer: 'Sim. O aço corten é muito procurado em Alphaville pelo visual contemporâneo. Fornecemos portões, painéis e brises em corten legítimo, com pátina natural controlada e sem manutenção periódica.' },
+      { question: 'Qual a garantia da serralheria em Alphaville?', answer: 'Oferecemos garantia contratual sobre a execução, o tratamento anticorrosivo e a estabilidade estrutural das peças, com laudos e ART quando há cálculo de carga.' },
     ],
   },
   {
@@ -113,12 +115,14 @@ export const SERRALHERIA_REGIONS: RegionPage[] = [
     testimonials: [
       { author: 'Vinícius Barros', role: 'Morador da Reserva Santa Maria, Cajamar', text: 'A casa fica numa parte alta e úmida. O portão e o guarda-corpo de aço não deram um ponto de ferrugem — o tratamento deles é diferenciado.' },
       { author: 'Eng. Fábio Assis', role: 'Responsável por galpão em Polvilho, Cajamar', text: 'Executaram a cobertura metálica no prazo e com ART. Estrutura robusta, montagem organizada e zero retrabalho.' },
+      { author: 'Arq. Larissa Prado', role: 'Arquiteta em Cajamar', text: 'Especifiquei estruturas para um condomínio em relevo e a Serra-Ferro calculou o vento certinho, com galvanização reforçada. Acabamento impecável.' },
     ],
     faqs: [
       { question: 'O aço resiste à umidade e ao vento das áreas altas de Cajamar?', answer: 'Sim. Aplicamos galvanização e pintura eletrostática a pó, e dimensionamos as estruturas para as cargas de vento do relevo de Cajamar, evitando corrosão e deformações por décadas.' },
       { question: 'Vocês fazem estruturas e coberturas de galpão em Cajamar?', answer: 'Sim. Atendemos o polo logístico de Polvilho e Jordanésia com estruturas metálicas, coberturas com telha termoacústica e mezaninos calculados, com projeto e ART.' },
       { question: 'Atendem também os condomínios residenciais de Cajamar?', answer: 'Sim. Fazemos escadas, guarda-corpos, portões e pergolados para os condomínios de alto padrão de Cajamar, respeitando as regras de acesso e horário de obra.' },
       { question: 'Emitem ART para as estruturas de Cajamar?', answer: 'Sim, todas as estruturas que exigem cálculo de carga acompanham ART assinada por engenheiro habilitado no CREA.' },
+      { question: 'Qual a garantia da serralheria em Cajamar?', answer: 'Garantia contratual sobre a estrutura, a solda e o tratamento anticorrosivo, com galvanização e pintura eletrostática que resistem à umidade e ao vento das áreas altas.' },
     ],
   },
   {
@@ -163,12 +167,14 @@ export const SERRALHERIA_REGIONS: RegionPage[] = [
     testimonials: [
       { author: 'Anderson Melo', role: 'Proprietário de casa nova em Itapevi', text: 'Chamei ainda na obra e a escada saiu perfeita, encaixada na laje. Montagem no prazo e acabamento acima do que eu esperava.' },
       { author: 'Eng. Priscila Santos', role: 'Construtora em Itapevi', text: 'Deixaram os chumbadores certos desde a estrutura e não tivemos retrabalho. Portões e grades entregues com documentação em ordem.' },
+      { author: 'Arq. Bruno Camargo', role: 'Arquiteto em Itapevi', text: 'Projetei escadas e mezaninos para obras novas e a Serra-Ferro executou desde a estrutura, sem retrabalho. Solda fina e prazo cumprido.' },
     ],
     faqs: [
       { question: 'Vale chamar vocês na fase de obra em Itapevi?', answer: 'Sim. O ideal é definir escadas, mezaninos e chumbadores na fase de estrutura, para que tudo encaixe perfeitamente e sem retrabalho, com segurança garantida.' },
       { question: 'Vocês têm opções de bom custo-benefício em Itapevi?', answer: 'Sim. Oferecemos portões, grades e estruturas com excelente custo-benefício, sem abrir mão da solda fina e da pintura anticorrosiva da Serra-Ferro.' },
       { question: 'Fazem portões automáticos em Itapevi?', answer: 'Sim, fabricamos e instalamos portões deslizantes e basculantes automáticos, com motores de alta durabilidade e abertura rápida.' },
       { question: 'Emitem ART para mezaninos e estruturas em Itapevi?', answer: 'Sim, estruturas com cálculo de carga acompanham ART assinada por engenheiro no CREA.' },
+      { question: 'Qual a garantia da serralheria em Itapevi?', answer: 'Garantia contratual sobre a solda, a pintura anticorrosiva e a estabilidade estrutural, com ART para mezaninos e estruturas que exigem cálculo.' },
     ],
   },
   {
@@ -213,12 +219,14 @@ export const SERRALHERIA_REGIONS: RegionPage[] = [
     testimonials: [
       { author: 'Ricardo Fontes', role: 'Proprietário em Alphaville, Barueri', text: 'Como a fábrica é aqui do lado, mediram e instalaram a escada rapidinho. Solda invisível e acabamento impecável.' },
       { author: 'Eng. Tatiana Lopes', role: 'Construtora em Barueri', text: 'Executaram a estrutura do mezanino corporativo com ART e pontualidade. Serralheria de fábrica local faz diferença no cronograma.' },
+      { author: 'Arq. Fernanda Lima', role: 'Arquiteta em Barueri', text: 'A escada de design ficou perfeita, com solda invisível e ART. Ter a fábrica em Alphaville agilizou tudo, da medição à instalação.' },
     ],
     faqs: [
       { question: 'A fábrica de serralheria fica em Barueri?', answer: 'Sim, na Alameda Rio Negro, 229, Alphaville Industrial, Barueri. Isso garante medição, fabricação e instalação ágeis para qualquer obra na cidade.' },
       { question: 'Atendem residências e obras corporativas em Barueri?', answer: 'Sim. Fazemos escadas e portões residenciais em Alphaville e Tamboré e também mezaninos e estruturas metálicas para edifícios corporativos, com faturamento direto.' },
       { question: 'A solda fica invisível nas escadas?', answer: 'Sim. Lixamos e tratamos cada solda até ficar invisível ao toque, com pintura eletrostática curada em forno para durabilidade.' },
       { question: 'Emitem ART para estruturas em Barueri?', answer: 'Sim, mezaninos e estruturas com cálculo de carga acompanham ART registrada no CREA.' },
+      { question: 'Qual a garantia da serralheria em Barueri?', answer: 'Garantia contratual sobre a execução, o tratamento anticorrosivo e a estabilidade estrutural, com laudos e ART e suporte técnico da fábrica local.' },
     ],
   },
   {
@@ -263,12 +271,14 @@ export const SERRALHERIA_REGIONS: RegionPage[] = [
     testimonials: [
       { author: 'Fernanda Ribeiro', role: 'Moradora de condomínio na Granja Viana, Cotia', text: 'Nossa casa é cercada de mata e ferro sempre enferrujava. O portão e o pergolado da Serra-Ferro continuam intactos depois de dois anos.' },
       { author: 'Arq. Paulo Sérgio', role: 'Arquiteto em Cotia', text: 'Peças metálicas com acabamento fino e proteção anticorrosiva de verdade. Essencial para as casas que projeto em Cotia.' },
+      { author: 'Eng. Rafael Moura', role: 'Construtora em Cotia', text: 'Portões e estruturas em condomínio de mata pedem proteção reforçada. A galvanização da Serra-Ferro segurou a umidade e o acabamento continua intacto.' },
     ],
     faqs: [
       { question: 'Como o aço resiste à umidade da mata em Cotia?', answer: 'Aplicamos galvanização e pintura eletrostática a pó, criando barreira dupla contra a corrosão típica dos terrenos arborizados e úmidos de Cotia e Granja Viana.' },
       { question: 'Vocês atendem condomínios fechados em Cotia?', answer: 'Sim, atendemos Granja Viana, San Fernando, Vale dos Sonhos e Caucaia do Alto, respeitando as regras de acesso e horário de obra.' },
       { question: 'Fazem pergolados e coberturas metálicas em Cotia?', answer: 'Sim, executamos pergolados, coberturas e estruturas metálicas voltadas ao paisagismo, com tratamento reforçado contra a umidade.' },
       { question: 'Emitem ART para estruturas em Cotia?', answer: 'Sim, estruturas com cálculo de carga acompanham ART assinada por engenheiro no CREA.' },
+      { question: 'Qual a garantia da serralheria em Cotia?', answer: 'Garantia contratual sobre a solda, o tratamento anticorrosivo e a estrutura, com galvanização e pintura que enfrentam a umidade constante da mata de Cotia.' },
     ],
   },
   {
@@ -313,12 +323,14 @@ export const SERRALHERIA_REGIONS: RegionPage[] = [
     testimonials: [
       { author: 'Rogério Bianchi', role: 'Artista plástico em Embu das Artes', text: 'Queria um portão que fosse quase uma escultura. Cortaram meu desenho a laser com uma precisão impressionante e acabamento perfeito.' },
       { author: 'Luciana Amaral', role: 'Moradora do Jardim dos Manacás, Embu das Artes', text: 'Os brises de corten deram outra cara para a fachada. Além de lindos, resolveram a privacidade e o sombreamento.' },
+      { author: 'Arq. Tatiana Reis', role: 'Arquiteta em Embu das Artes', text: 'Pedi peças autorais em corten e a Serra-Ferro cortou meu desenho a laser com precisão impressionante. Design e engenharia juntos.' },
     ],
     faqs: [
       { question: 'Vocês cortam desenhos personalizados a laser em Embu das Artes?', answer: 'Sim. Fazemos corte a laser CNC de alta precisão para portões, painéis e brises com desenhos autorais, ideais para o perfil artístico de Embu das Artes.' },
       { question: 'O aço corten precisa de manutenção?', answer: 'Não. O corten desenvolve uma pátina natural protetora que dispensa pintura e manutenção periódica, com visual rústico e contemporâneo muito procurado na cidade.' },
       { question: 'A solda das escadas de design fica aparente?', answer: 'Não. Lixamos e tratamos cada solda até ficar invisível ao toque, preservando o desenho limpo das peças autorais.' },
       { question: 'Atendem casas de campo e ateliês em Embu das Artes?', answer: 'Sim, atendemos casas, ateliês e condomínios da cidade com medição no local e instalação por equipe própria.' },
+      { question: 'Qual a garantia da serralheria em Embu das Artes?', answer: 'Garantia contratual sobre a execução e o acabamento das peças, incluindo tratamento anticorrosivo, com aço corten que dispensa manutenção e pintura curada em forno.' },
     ],
   },
   {
@@ -363,12 +375,14 @@ export const SERRALHERIA_REGIONS: RegionPage[] = [
     testimonials: [
       { author: 'Sandra Prado', role: 'Moradora do Jardim Henriqueta, Taboão da Serra', text: 'Troquei o portão antigo por um automático reforçado. Muito mais seguro, silencioso e com acabamento que valorizou a fachada.' },
       { author: 'Wagner Lima', role: 'Proprietário de sobrado em Taboão da Serra', text: 'Fizeram as grades e a escada sem sujeira e no prazo. Serralheria fina com preço justo, difícil de achar na região.' },
+      { author: 'Eng. Marcos Vieira', role: 'Reformas em Taboão da Serra', text: 'Portões automáticos e grades reforçadas para segurança. A Serra-Ferro entregou com solda fina e instalação limpa, sem quebrar nada.' },
     ],
     faqs: [
       { question: 'Vocês fazem portões automáticos em Taboão da Serra?', answer: 'Sim. Fabricamos e instalamos portões deslizantes e basculantes automáticos reforçados, com motores de alta durabilidade, ideais para a segurança das ruas movimentadas de Taboão da Serra.' },
       { question: 'Fazem só a troca de portões e grades antigos?', answer: 'Sim. Somos especialistas em reforma: medimos, fabricamos sob medida e substituímos portões, grades e escadas com instalação limpa, sem danificar o acabamento.' },
       { question: 'As grades podem ter desenho moderno?', answer: 'Sim, fazemos grades e guarda-corpos com desenho contemporâneo e solda fina, unindo segurança e estética.' },
       { question: 'Atendem sobrados e comércios em Taboão da Serra?', answer: 'Sim, atendemos casas, sobrados e comércios da cidade, do Pirajuçara ao centro.' },
+      { question: 'Qual a garantia da serralheria em Taboão da Serra?', answer: 'Garantia contratual sobre a estrutura, os motores dos portões e o tratamento anticorrosivo, com componentes de alta durabilidade.' },
     ],
   },
   {
@@ -413,12 +427,14 @@ export const SERRALHERIA_REGIONS: RegionPage[] = [
     testimonials: [
       { author: 'Eng. Roberto Dias', role: 'Síndico de edifício no Centro de Osasco', text: 'Executaram a escada de emergência e os guarda-corpos do prédio com ART e dentro da norma. Organização e segurança impecáveis.' },
       { author: 'Patrícia Gomes', role: 'Moradora da Bela Vista, Osasco', text: 'O guarda-corpo da minha varanda ficou seguro e elegante. Instalação em andar alto feita com todo cuidado.' },
+      { author: 'Eng. Vera Prado', role: 'Construtora em Osasco', text: 'Estruturas metálicas prediais entregues com ART e conformidade normativa. A Serra-Ferro respeitou o cronograma e a rotina do condomínio.' },
     ],
     faqs: [
       { question: 'Vocês fazem estruturas e escadas de emergência para prédios em Osasco?', answer: 'Sim. Executamos escadas de emergência, passarelas e estruturas metálicas prediais calculadas por engenharia, com ART e conformidade normativa.' },
       { question: 'Os guarda-corpos atendem à NBR 14718?', answer: 'Sim. Dimensionamos os guarda-corpos metálicos e de aço e vidro para os esforços da norma NBR 14718, essenciais em varandas de torres de Osasco.' },
       { question: 'Fazem retrofit de estruturas em edifícios de Osasco?', answer: 'Sim, atuamos em retrofit e reforço de estruturas, escadas e guarda-corpos prediais, com logística que respeita o condomínio.' },
       { question: 'Atendem também casas em Osasco?', answer: 'Sim, fazemos portões, grades e escadas residenciais em bairros como Vila Yara e Km 18.' },
+      { question: 'Qual a garantia da serralheria em Osasco?', answer: 'Garantia contratual sobre a estrutura, a solda e o tratamento anticorrosivo, com ART e conformidade normativa para estruturas e guarda-corpos prediais.' },
     ],
   },
   {
@@ -463,12 +479,14 @@ export const SERRALHERIA_REGIONS: RegionPage[] = [
     testimonials: [
       { author: 'Juliana Freitas', role: 'Moradora do Jardim Sabará, Jandira', text: 'Portão automático novo com um preço muito justo e acabamento ótimo. Instalação rápida e sem bagunça.' },
       { author: 'Marcos Aurélio', role: 'Proprietário de sobrado em Jandira', text: 'Fizeram grades e a escada com solda fina, coisa que eu não esperava pelo valor. Recomendo demais.' },
+      { author: 'Eng. Paulo Renato', role: 'Construtora em Jandira', text: 'Custo-benefício com acabamento fino. Portões, grades e escadas entregues com solda fina e pintura anticorrosiva, no prazo combinado.' },
     ],
     faqs: [
       { question: 'A serralheria da Serra-Ferro tem bom custo-benefício para Jandira?', answer: 'Sim. Entregamos portões, grades e escadas com excelente custo-benefício, mantendo a solda fina e a pintura anticorrosiva que são marca da Serra-Ferro.' },
       { question: 'Vocês fazem a troca de portões e grades antigos em Jandira?', answer: 'Sim, somos especialistas em reforma: medimos, fabricamos sob medida e substituímos com instalação limpa, sem danificar o acabamento.' },
       { question: 'Fazem portões automáticos em Jandira?', answer: 'Sim, instalamos portões deslizantes e basculantes automáticos com motores de alta durabilidade e abertura rápida.' },
       { question: 'Atendem casas e sobrados em Jandira?', answer: 'Sim, atendemos toda a cidade, do Jardim Sabará à Vila Eutália e centro.' },
+      { question: 'Qual a garantia da serralheria em Jandira?', answer: 'Garantia contratual sobre a solda, a pintura anticorrosiva e a estrutura das peças, mesmo nas opções de melhor custo-benefício.' },
     ],
   },
   {
@@ -513,12 +531,14 @@ export const SERRALHERIA_REGIONS: RegionPage[] = [
     testimonials: [
       { author: 'Marcelo Tavares', role: 'Morador de Alphaville, Santana de Parnaíba', text: 'A cobertura metálica aguentou tempestades fortes sem qualquer problema. Dimensionaram tudo para o vento da região.' },
       { author: 'Arq. Beatriz Nunes', role: 'Arquiteta em Santana de Parnaíba', text: 'A escada escultórica ficou perfeita, com solda invisível e ART. Serralheria fina de verdade.' },
+      { author: 'Eng. Henrique Salgado', role: 'Construtora em Santana de Parnaíba', text: 'Coberturas e estruturas dimensionadas para o vento das áreas altas, com ART. Escadas de design com solda invisível e acabamento de alto padrão.' },
     ],
     faqs: [
       { question: 'As coberturas e estruturas aguentam o vento das áreas altas de Santana de Parnaíba?', answer: 'Sim. Calculamos as cargas de vento de cada estrutura e reforçamos o dimensionamento, com ART, para coberturas, pergolados e portões nas áreas elevadas dos condomínios.' },
       { question: 'Vocês atendem os residenciais de Alphaville em Santana de Parnaíba?', answer: 'Sim, atendemos Alphaville, Tamboré e demais condomínios da cidade, respeitando as regras de acesso e horário de obra.' },
       { question: 'É possível fazer um portão compatível com fachada do centro histórico?', answer: 'Sim, desenhamos portões e grades que respeitam a estética preservada das fachadas históricas, unindo o visual original à segurança moderna.' },
       { question: 'A solda das escadas fica invisível?', answer: 'Sim, lixamos e tratamos cada solda até ficar invisível ao toque, com pintura eletrostática durável.' },
+      { question: 'Qual a garantia da serralheria em Santana de Parnaíba?', answer: 'Garantia contratual sobre a estrutura, a solda e o tratamento anticorrosivo, com cálculo de vento e ART para coberturas, pergolados e portões das áreas elevadas.' },
     ],
   },
   {
@@ -563,12 +583,14 @@ export const SERRALHERIA_REGIONS: RegionPage[] = [
     testimonials: [
       { author: 'Rafael Munhoz', role: 'Morador do Batel, Curitiba', text: 'A escada virou o ponto alto da casa. Solda invisível de verdade e o acabamento continua intacto apesar da umidade de Curitiba.' },
       { author: 'Arq. Camila Stroparo', role: 'Arquiteta em Curitiba', text: 'Detalharam a serralheria em CAD e entregaram a ART do mezanino. Peças de design com engenharia e proteção anticorrosiva impecável.' },
+      { author: 'Eng. Gustavo Lima', role: 'Construtora em Curitiba', text: 'No clima úmido de Curitiba, a proteção anticorrosiva faz diferença. A Serra-Ferro entregou estruturas com galvanização e solda invisível, com ART.' },
     ],
     faqs: [
       { question: 'As peças de aço resistem à umidade e às geadas de Curitiba?', answer: 'Sim. Aplicamos galvanização e pintura eletrostática a pó curada em forno, criando barreira dupla contra a corrosão típica do clima frio e úmido de Curitiba.' },
       { question: 'A solda das escadas fica invisível?', answer: 'Sim, lixamos e tratamos cada solda até ficar invisível ao toque, preservando o desenho limpo das peças de design.' },
       { question: 'Vocês emitem ART para mezaninos e estruturas em Curitiba?', answer: 'Sim, estruturas com cálculo de carga acompanham ART assinada por engenheiro habilitado no CREA.' },
       { question: 'Atendem os bairros de alto padrão de Curitiba?', answer: 'Sim, atendemos Batel, Ecoville, Cabral, Água Verde e demais regiões da cidade, com medição no local.' },
+      { question: 'Qual a garantia da serralheria em Curitiba?', answer: 'Garantia contratual sobre a solda, o tratamento anticorrosivo e a estrutura, com galvanização e pintura curada em forno que resistem à umidade e às geadas de Curitiba.' },
     ],
   },
 ];

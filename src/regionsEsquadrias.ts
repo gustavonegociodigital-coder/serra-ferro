@@ -111,12 +111,14 @@ export const ESQUADRIAS_REGIONS: EsquadriasRegion[] = [
     testimonials: [
       { author: 'Fernanda Ribeiro', role: 'Moradora de condomínio na Granja Viana, Cotia', text: 'Nossa casa fica cercada de mata e sempre tivemos problema de umidade nas janelas antigas. As esquadrias da Serra-Ferro acabaram com a condensação e a instalação foi limpa e no prazo.' },
       { author: 'Arq. Paulo Sérgio', role: 'Arquiteto de residências em Cotia', text: 'Especifico a Serra-Ferro para as casas que projeto em Cotia. Os vãos grandes voltados para o verde ficaram com perfis minimalistas e vedação perfeita contra a chuva da região.' },
+      { author: 'Eng. Marcelo Prado', role: 'Construtora em Cotia', text: 'Executamos condomínios em Cotia e a Serra-Ferro entrega esquadrias com esquadro perfeito e documentação em ordem. Vedação impecável mesmo nas chuvas de mata.' },
     ],
     faqs: [
       { question: 'Vocês atendem condomínios fechados em Cotia e na Granja Viana?', answer: 'Sim. Atendemos os principais condomínios de Cotia, incluindo Granja Viana, San Fernando, Vale dos Sonhos e Caucaia do Alto. Fazemos a medição técnica no local, respeitamos as regras de acesso e horário de obra do condomínio e entregamos com cronograma definido em contrato.' },
       { question: 'Como as esquadrias resistem à umidade da mata em Cotia?', answer: 'Utilizamos borrachas de dupla vedação em EPDM, escovas de alta densidade e drenos usinados que impedem infiltração e reduzem a condensação comum em terrenos arborizados e úmidos de Cotia. Também indicamos vidros duplos quando há grande diferença de temperatura entre interior e exterior.' },
       { question: 'Qual o prazo de entrega para uma obra em Cotia?', answer: 'O prazo é definido no contrato conforme a complexidade e a linha escolhida, com cláusula de multa por atraso. Como Cotia fica próxima da nossa fábrica em Alphaville, a logística de medição e instalação é ágil.' },
       { question: 'Vocês fazem grandes vãos de vidro para casas voltadas ao paisagismo?', answer: 'Sim, é uma das nossas especialidades em Cotia. Projetamos portas de correr de grandes dimensões e cantos de vidro sem coluna, com perfis estruturais reforçados que suportam panos de vidro amplos mantendo total segurança e vedação.' },
+      { question: 'Qual a garantia das esquadrias em Cotia?', answer: 'Oferecemos garantia contratual sobre a execução e o funcionamento das esquadrias, cobrindo vedação, infiltrações, roldanas e ferragens, com perfis, borrachas EPDM e vidros dos melhores fornecedores do Brasil.' },
     ],
   },
   {
@@ -161,12 +163,14 @@ export const ESQUADRIAS_REGIONS: EsquadriasRegion[] = [
     testimonials: [
       { author: 'Ricardo Fontes', role: 'Proprietário em Alphaville, Barueri', text: 'Como a fábrica é aqui em Alphaville mesmo, tudo foi muito rápido: mediram, fabricaram e instalaram sem atraso. A porta pivotante ficou impecável.' },
       { author: 'Eng. Tatiana Lopes', role: 'Construtora de alto padrão em Barueri', text: 'Trabalhar com um fornecedor sediado em Barueri fez diferença no cronograma. Documentação certa, NF e instalação limpa nos apartamentos.' },
+      { author: 'Eng. Ana Beatriz', role: 'Construtora de alto padrão em Barueri', text: 'Por ter a fábrica em Barueri, o cronograma nunca escorregou. Esquadrias entregues no prazo, com nota fiscal e instalação limpa nos apartamentos.' },
     ],
     faqs: [
       { question: 'A fábrica da Serra-Ferro fica em Barueri?', answer: 'Sim. Nossa sede operacional e comercial fica na Alameda Rio Negro, 229, em Alphaville Industrial, Barueri. Isso nos dá agilidade máxima de medição, fabricação e instalação para qualquer obra na cidade.' },
       { question: 'Vocês atendem tanto residências quanto obras corporativas em Barueri?', answer: 'Sim. Executamos esquadrias residenciais de alto padrão em Alphaville e Tamboré e também fachadas e caixilhos de edifícios corporativos, com projeto executivo e faturamento direto para construtoras.' },
       { question: 'Qual a vantagem de contratar uma fábrica local em Barueri?', answer: 'Além do frete e da logística reduzidos, o suporte técnico é presencial e rápido. Conseguimos fazer visitas de compatibilização em obra com facilidade e garantir prazos rigorosos em contrato.' },
       { question: 'Vocês fornecem nota fiscal e contrato para obras em Barueri?', answer: 'Sempre. Emitimos contrato de prestação de serviços e nota fiscal de faturamento integral, com cronograma físico-financeiro e cláusula de multa por atraso.' },
+      { question: 'Qual a garantia das esquadrias em Barueri?', answer: 'Garantia contratual robusta sobre vedação, estanqueidade, roldanas e ferragens, com componentes de primeira linha e suporte técnico presencial da nossa fábrica em Alphaville.' },
     ],
   },
   {
@@ -211,12 +215,14 @@ export const ESQUADRIAS_REGIONS: EsquadriasRegion[] = [
     testimonials: [
       { author: 'Marcelo Tavares', role: 'Morador de Alphaville, Santana de Parnaíba', text: 'Minha casa fica numa parte alta e o vento sempre fez as janelas antigas assoviarem. Depois da Serra-Ferro, silêncio total mesmo nas tempestades.' },
       { author: 'Arq. Beatriz Nunes', role: 'Arquiteta em Santana de Parnaíba', text: 'Precisão de esquadro e vedação impecável nos grandes vãos. A equipe entendeu o desafio do vento na região e entregou perfeito.' },
+      { author: 'Eng. Ricardo Meister', role: 'Construtora em Santana de Parnaíba', text: 'Nos casarões de condomínio, o desafio é o vento. A Serra-Ferro dimensionou as esquadrias corretamente e entregou tudo com ART e no prazo combinado.' },
     ],
     faqs: [
       { question: 'As esquadrias aguentam os ventos fortes das áreas altas de Santana de Parnaíba?', answer: 'Sim. Fazemos o cálculo de carga de vento para cada vão e reforçamos os perfis com ligas de alta resistência mecânica. Isso elimina assovios, vibrações e infiltrações mesmo nas casas mais expostas dos condomínios elevados.' },
       { question: 'Vocês atendem os condomínios de Alphaville Residencial em Santana de Parnaíba?', answer: 'Sim, atendemos todos os residenciais de Alphaville, Tamboré e demais condomínios da cidade, com medição no local e respeito às normas de acesso e horário de obra.' },
       { question: 'É possível trocar esquadrias mantendo a fachada de um imóvel no centro histórico?', answer: 'Sim. Fazemos retrofit compatibilizando as novas esquadrias de alumínio com a estética preservada da fachada, unindo o visual original à vedação e ao desempenho modernos.' },
       { question: 'Qual o prazo de instalação em Santana de Parnaíba?', answer: 'Definido em contrato com multa por atraso. A cidade fica próxima da nossa fábrica em Alphaville, o que agiliza a medição e a instalação.' },
+      { question: 'As esquadrias têm garantia contra infiltração em Santana de Parnaíba?', answer: 'Sim, garantimos a estanqueidade em contrato por escrito, cobrindo infiltrações, vedação e funcionamento das ferragens, essencial nas áreas altas e expostas ao vento da região.' },
     ],
   },
   {
@@ -261,12 +267,14 @@ export const ESQUADRIAS_REGIONS: EsquadriasRegion[] = [
     testimonials: [
       { author: 'Sandra Prado', role: 'Moradora do Jardim Henriqueta, Taboão da Serra', text: 'Moro perto de uma avenida e o barulho era insuportável. Depois das janelas acústicas da Serra-Ferro, o silêncio dentro de casa é impressionante.' },
       { author: 'Wagner Lima', role: 'Proprietário de sobrado em Taboão da Serra', text: 'Fizeram a troca de todas as esquadrias sem sujeira e no prazo combinado. Acabou a infiltração que eu tinha nas janelas antigas.' },
+      { author: 'Eng. Fábio Nunes', role: 'Reformas em Taboão da Serra', text: 'Fizemos várias reformas em Taboão e a Serra-Ferro sempre entrega esquadrias que encaixam nos vãos existentes sem retrabalho. Instalação limpa e rápida.' },
     ],
     faqs: [
       { question: 'As esquadrias reduzem o barulho da rua em Taboão da Serra?', answer: 'Sim. Com vidros laminados acústicos e perfis de bom encaixe mecânico, reduzimos significativamente o ruído de trânsito e da vizinhança, muito comum nas áreas densas de Taboão da Serra.' },
       { question: 'Vocês fazem só a troca das esquadrias antigas?', answer: 'Sim. Somos especialistas em reforma e retrofit. Medimos os vãos existentes, fabricamos as novas esquadrias sob medida e fazemos a substituição com instalação limpa, sem danificar o acabamento pronto.' },
       { question: 'Atendem apartamentos além de casas em Taboão da Serra?', answer: 'Sim, atendemos casas, sobrados e apartamentos. Para prédios, respeitamos as regras do condomínio de horário e uso de elevador de serviço na logística de instalação.' },
       { question: 'Como funciona o orçamento em Taboão da Serra?', answer: 'Você fala com o nosso comercial pelo WhatsApp, enviamos uma estimativa inicial e agendamos a medição gratuita no local para o orçamento final detalhado, com prazo garantido em contrato.' },
+      { question: 'Qual a garantia das esquadrias em Taboão da Serra?', answer: 'Oferecemos garantia contratual sobre a instalação e o desempenho acústico e de vedação das esquadrias, com componentes certificados de alta durabilidade.' },
     ],
   },
   {
@@ -311,12 +319,14 @@ export const ESQUADRIAS_REGIONS: EsquadriasRegion[] = [
     testimonials: [
       { author: 'Cláudia Ferraz', role: 'Moradora do Jardim Aeroporto, Guarulhos', text: 'Morar perto de Cumbica era sinônimo de barulho de avião o tempo todo. As janelas acústicas da Serra-Ferro mudaram completamente o sono da família.' },
       { author: 'Douglas Ramos', role: 'Proprietário em Vila Galvão, Guarulhos', text: 'Além do barulho, a poeira entrava por tudo. As novas esquadrias vedaram perfeitamente e o acabamento ficou de altíssimo nível.' },
+      { author: 'Eng. Sandra Yamamoto', role: 'Construtora em Guarulhos', text: 'Perto do aeroporto, o isolamento acústico é decisivo. As esquadrias com vidro duplo da Serra-Ferro reduziram muito o ruído e a entrega foi pontual.' },
     ],
     faqs: [
       { question: 'As esquadrias reduzem o barulho de avião em Guarulhos?', answer: 'Sim. Para bairros próximos ao Aeroporto de Cumbica, usamos vidros laminados acústicos ou vidros duplos com câmara de ar, que atenuam de forma expressiva o ruído das aeronaves e do tráfego da Dutra.' },
       { question: 'As esquadrias ajudam contra a poeira das áreas industriais?', answer: 'Sim. Com borrachas de dupla vedação em EPDM e escovas de alta densidade, impedimos a entrada de poeira fina, comum nas regiões industriais de Guarulhos, além de bloquear água e vento.' },
       { question: 'Vocês atendem toda a cidade de Guarulhos?', answer: 'Sim, atendemos os principais bairros, como Maia, Bosque Maia, Vila Galvão, Jardim Zaira e região central, com medição no local e instalação por equipe própria.' },
       { question: 'Qual o prazo de entrega para Guarulhos?', answer: 'O prazo é definido em contrato com cláusula de multa por atraso, conforme a complexidade do projeto e a linha de esquadrias escolhida.' },
+      { question: 'Qual a garantia das esquadrias em Guarulhos?', answer: 'Garantia contratual sobre vedação, isolamento acústico e ferragens, com vidros e borrachas de alto desempenho ideais para as regiões de ruído aeronáutico e industrial de Guarulhos.' },
     ],
   },
   {
@@ -361,12 +371,14 @@ export const ESQUADRIAS_REGIONS: EsquadriasRegion[] = [
     testimonials: [
       { author: 'Henrique Salles', role: 'Morador de Alphaville', text: 'Queria perfis o mais finos possível para não atrapalhar a vista, e a Serra-Ferro entregou exatamente isso. O caixilho quase some no vidro.' },
       { author: 'Arq. Camila Prado', role: 'Arquiteta em Alphaville', text: 'Compatibilização perfeita desde a planta. Trilhos embutidos, esquadro milimétrico e uma instalação impecável no condomínio.' },
+      { author: 'Eng. Paulo Serrano', role: 'Construtora de alto padrão em Alphaville', text: 'Os perfis minimalistas exigem precisão absoluta e a Serra-Ferro entrega. Compatibilização perfeita de trilhos e vedação, com a agilidade da fábrica local.' },
     ],
     faqs: [
       { question: 'Vocês fazem perfis minimalistas para as casas de Alphaville?', answer: 'Sim. Nossa Linha Minimalista (Slim) usa perfis de alumínio ultrafinos que maximizam o vidro e a luz, ideais para a arquitetura contemporânea de Alphaville, mantendo total estabilidade estrutural.' },
       { question: 'A Serra-Ferro trabalha junto com o arquiteto do meu projeto em Alphaville?', answer: 'Sim. Temos canal B2B para arquitetos e construtoras. Respeitamos o desenho conceitual, damos suporte técnico de vãos e trilhos e fornecemos amostras físicas de perfis e cores.' },
       { question: 'Vocês fazem grandes vãos e cantos de vidro sem coluna em Alphaville?', answer: 'Sim, é uma especialidade nossa. Projetamos cantos de vidro sem coluna e portas de correr jumbo com engenharia dedicada de reforço estrutural, garantindo segurança e leveza visual.' },
       { question: 'A fábrica fica perto de Alphaville?', answer: 'Sim, nossa sede fica em Alphaville Industrial, Barueri, na própria região, o que garante agilidade total de medição, fabricação e instalação.' },
+      { question: 'Qual a garantia das esquadrias em Alphaville?', answer: 'Garantia contratual completa sobre vedação, estanqueidade e ferragens, com perfis e vidros de primeira linha e suporte técnico presencial da fábrica em Alphaville Industrial.' },
     ],
   },
   {
@@ -411,12 +423,14 @@ export const ESQUADRIAS_REGIONS: EsquadriasRegion[] = [
     testimonials: [
       { author: 'Patrícia Gomes', role: 'Moradora da Bela Vista, Osasco', text: 'Meu apartamento é num andar alto e o vento fazia um barulho horrível nas janelas. Agora é silêncio total e nunca mais entrou água.' },
       { author: 'Eng. Roberto Dias', role: 'Síndico de edifício no Centro de Osasco', text: 'Fizeram o retrofit das esquadrias do prédio com organização e cronograma. A fachada ficou padronizada e os moradores elogiaram o conforto.' },
+      { author: 'Eng. Roberto Dias', role: 'Síndico de edifício em Osasco', text: 'Fizemos o retrofit das esquadrias do prédio com a Serra-Ferro. Organização, cronograma e vedação impecável mesmo nos andares altos expostos ao vento.' },
     ],
     faqs: [
       { question: 'Vocês fazem retrofit de esquadrias em prédios de Osasco?', answer: 'Sim. Somos especialistas em substituir esquadrias antigas de edifícios residenciais e comerciais em Osasco, padronizando a fachada e melhorando o desempenho acústico e térmico, com logística que respeita o condomínio.' },
       { question: 'As esquadrias vedam bem em apartamentos de andar alto?', answer: 'Sim. Dimensionamos os perfis para a maior pressão de vento dos andares altos de Osasco e usamos dupla vedação e drenos usinados para evitar assovios e infiltrações.' },
       { question: 'Atendem tanto casas quanto apartamentos em Osasco?', answer: 'Sim, atendemos casas, apartamentos e edifícios inteiros, dos bairros residenciais como Vila Yara às torres do centro e da Bela Vista.' },
       { question: 'Como é feito o orçamento em Osasco?', answer: 'Fale com o comercial pelo WhatsApp para uma estimativa inicial; em seguida agendamos a medição gratuita no local para o orçamento final com prazo garantido em contrato.' },
+      { question: 'Qual a garantia das esquadrias em Osasco?', answer: 'Garantia contratual sobre vedação, estanqueidade em altura e ferragens, com componentes de alta durabilidade, ideal para apartamentos e edifícios de Osasco.' },
     ],
   },
   {
@@ -461,12 +475,14 @@ export const ESQUADRIAS_REGIONS: EsquadriasRegion[] = [
     testimonials: [
       { author: 'Luciana Amaral', role: 'Moradora do Jardim dos Manacás, Embu das Artes', text: 'Queria janelas grandes para aproveitar o verde sem abrir mão da vedação. Ficou lindo e nunca mais tivemos umidade nas esquadrias.' },
       { author: 'Rogério Bianchi', role: 'Artista plástico em Embu das Artes', text: 'Precisava de muita luz natural no ateliê. As esquadrias slim entregaram exatamente isso, com um acabamento que combinou com a casa.' },
+      { author: 'Eng. Cláudia Bertolini', role: 'Construtora em Embu das Artes', text: 'Casas de campo pedem grandes vãos e boa vedação contra a umidade. A Serra-Ferro uniu design e desempenho e entregou com acabamento impecável.' },
     ],
     faqs: [
       { question: 'Vocês fazem grandes vãos para casas de campo em Embu das Artes?', answer: 'Sim. Projetamos portas de correr amplas e cantos de vidro voltados ao jardim, com perfis estruturais reforçados que suportam grandes panos de vidro mantendo vedação e segurança.' },
       { question: 'As esquadrias resistem à umidade e ao clima serrano de Embu das Artes?', answer: 'Sim. Usamos dupla vedação em EPDM, drenos usinados e, quando necessário, vidros duplos para evitar infiltração e condensação típicas do clima úmido e ameno da cidade.' },
       { question: 'O design das esquadrias combina com casas de estilo mais artístico?', answer: 'Sim. Oferecemos desde perfis minimalistas discretos até linhas mais marcantes, com diversas cores de pintura eletrostática, para harmonizar com a arquitetura de charme de Embu das Artes.' },
       { question: 'Vocês atendem os condomínios de Embu das Artes?', answer: 'Sim, atendemos casas e condomínios da cidade com medição no local e instalação por equipe própria, respeitando as regras de acesso e horário de obra.' },
+      { question: 'Qual a garantia das esquadrias em Embu das Artes?', answer: 'Garantia contratual sobre vedação e funcionamento, com borrachas EPDM e vidros de alta resistência que enfrentam bem o clima úmido e ameno da cidade.' },
     ],
   },
   {
@@ -511,12 +527,14 @@ export const ESQUADRIAS_REGIONS: EsquadriasRegion[] = [
     testimonials: [
       { author: 'Anderson Melo', role: 'Proprietário de casa nova em Itapevi', text: 'Chamei a Serra-Ferro ainda na obra e fez toda a diferença. Os vãos saíram certinhos e a instalação foi no prazo combinado.' },
       { author: 'Eng. Priscila Santos', role: 'Construtora em Itapevi', text: 'Compatibilizaram os contramarcos com a nossa alvenaria e não tivemos retrabalho. Entrega pontual e documentação em ordem.' },
+      { author: 'Eng. Douglas Prado', role: 'Construtora em Itapevi', text: 'Entramos na obra na fase de alvenaria e a Serra-Ferro compatibilizou os contramarcos sem retrabalho. Esquadrias novas com esquadro perfeito e no prazo.' },
     ],
     faqs: [
       { question: 'Vale a pena chamar vocês ainda na fase de obra em Itapevi?', answer: 'Sim. O ideal é entrar na fase de planta ou alvenaria, para que os contramarcos e vãos saiam nas medidas certas, evitando retrabalho e garantindo esquadro e vedação perfeitos.' },
       { question: 'Vocês têm opções de bom custo-benefício para Itapevi?', answer: 'Sim. A Linha Suprema oferece a qualidade, a vedação e o acabamento da Serra-Ferro com excelente custo-benefício, ideal para vãos tradicionais de casas novas e condomínios.' },
       { question: 'Atendem os condomínios em construção de Itapevi?', answer: 'Sim, atendemos obras novas e condomínios da cidade, com medição no local, cronograma físico em contrato e instalação por equipe própria.' },
       { question: 'Qual o prazo de entrega em Itapevi?', answer: 'Definido no contrato conforme a complexidade e a linha escolhida, sempre com cláusula de multa por atraso para garantir a sua obra.' },
+      { question: 'Qual a garantia das esquadrias em Itapevi?', answer: 'Garantia contratual sobre vedação, estanqueidade e ferragens, com cronograma físico em contrato e componentes de alta durabilidade para a sua obra nova.' },
     ],
   },
   {
@@ -561,12 +579,14 @@ export const ESQUADRIAS_REGIONS: EsquadriasRegion[] = [
     testimonials: [
       { author: 'Vinícius Barros', role: 'Morador da Reserva Santa Maria, Cajamar', text: 'A casa fica no alto e o vento é forte. As esquadrias da Serra-Ferro não fazem nenhum barulho e seguraram bem as tempestades.' },
       { author: 'Arq. Renata Coelho', role: 'Arquiteta em Cajamar', text: 'Souberam calcular o reforço para o vento da região sem perder o visual dos grandes vãos. Entrega e acabamento impecáveis.' },
+      { author: 'Eng. Marina Toledo', role: 'Construtora em Cajamar', text: 'Nos condomínios em relevo de Cajamar, o vento é forte. A Serra-Ferro reforçou as esquadrias corretamente e entregou com vedação garantida em contrato.' },
     ],
     faqs: [
       { question: 'As esquadrias suportam o vento forte das áreas altas de Cajamar?', answer: 'Sim. Calculamos a carga de vento de cada vão e reforçamos os perfis com ligas de alta resistência, eliminando assovios, vibrações e infiltrações mesmo nos condomínios em relevo mais exposto.' },
       { question: 'Vocês atendem a Reserva Santa Maria e outros condomínios de Cajamar?', answer: 'Sim, atendemos os condomínios de alto padrão de Cajamar, além de Polvilho e Jordanésia, com medição no local e respeito às regras de acesso e horário de obra.' },
       { question: 'Fazem grandes vãos voltados para a paisagem em Cajamar?', answer: 'Sim. Projetamos portas de correr amplas e cantos de vidro com reforço estrutural, aproveitando a vista dos condomínios de relevo com total segurança e vedação.' },
       { question: 'Qual o prazo de entrega em Cajamar?', answer: 'Definido em contrato com cláusula de multa por atraso, conforme a complexidade do projeto e a linha escolhida.' },
+      { question: 'Qual a garantia das esquadrias em Cajamar?', answer: 'Garantia contratual sobre vedação e resistência ao vento das áreas altas, cobrindo estanqueidade e ferragens, com perfis reforçados e vidros de alta resistência.' },
     ],
   },
   {
@@ -611,12 +631,14 @@ export const ESQUADRIAS_REGIONS: EsquadriasRegion[] = [
     testimonials: [
       { author: 'Juliana Freitas', role: 'Moradora do Jardim Sabará, Jandira', text: 'Troquei todas as janelas antigas e o resultado surpreendeu: mais silêncio, sem infiltração e um preço justo pela qualidade.' },
       { author: 'Marcos Aurélio', role: 'Proprietário de sobrado em Jandira', text: 'Instalação rápida e limpa, sem quebrar nada. As esquadrias ficaram com um acabamento muito acima do que eu esperava.' },
+      { author: 'Eng. Carlos Vidal', role: 'Construtora em Jandira', text: 'Bom custo-benefício sem abrir mão da qualidade. A Serra-Ferro entregou as esquadrias com vedação correta e acabamento fino, dentro do prazo.' },
     ],
     faqs: [
       { question: 'As esquadrias da Serra-Ferro têm bom custo-benefício para Jandira?', answer: 'Sim. A Linha Suprema entrega a qualidade, a vedação e o acabamento da Serra-Ferro com excelente custo-benefício, ideal para casas e sobrados de Jandira.' },
       { question: 'Vocês fazem a troca das esquadrias antigas em Jandira?', answer: 'Sim, somos especialistas em reforma e retrofit. Medimos os vãos existentes, fabricamos sob medida e substituímos com instalação limpa, sem danificar o acabamento pronto.' },
       { question: 'As esquadrias ajudam no isolamento acústico em Jandira?', answer: 'Sim. Com vidros laminados e perfis de bom encaixe, reduzimos o ruído urbano, deixando os ambientes mais silenciosos e confortáveis.' },
       { question: 'Como funciona o orçamento em Jandira?', answer: 'Fale com o comercial pelo WhatsApp para uma estimativa inicial e agende a medição gratuita no local para o orçamento final, com prazo garantido em contrato.' },
+      { question: 'Qual a garantia das esquadrias em Jandira?', answer: 'Garantia contratual sobre vedação, funcionamento das roldanas e ferragens, com componentes de alta durabilidade mesmo nas linhas de melhor custo-benefício.' },
     ],
   },
   {
@@ -661,12 +683,14 @@ export const ESQUADRIAS_REGIONS: EsquadriasRegion[] = [
     testimonials: [
       { author: 'Eduardo Kraus', role: 'Morador do Ecoville, Curitiba', text: 'O frio de Curitiba entrava pelas janelas antigas e dava condensação todo dia. Com os vidros duplos da Serra-Ferro, acabou a umidade e a casa fica muito mais quente.' },
       { author: 'Arq. Helena Vasconcelos', role: 'Arquiteta em Curitiba', text: 'Precisão de esquadro e desempenho térmico de primeira. Os perfis minimalistas valorizaram o projeto e a vedação está impecável mesmo nas chuvas fortes.' },
+      { author: 'Eng. Rodrigo Bittencourt', role: 'Construtora em Curitiba', text: 'No frio de Curitiba, o desempenho térmico é essencial. As esquadrias com vidro duplo da Serra-Ferro reduziram a condensação e a perda de calor, com entrega pontual.' },
     ],
     faqs: [
       { question: 'As esquadrias ajudam contra o frio e a condensação em Curitiba?', answer: 'Sim. Usamos vidros duplos (insulados) com câmara de ar e vedação de alta densidade em EPDM, que reduzem drasticamente a perda de calor e a condensação, muito comuns no clima frio e úmido de Curitiba.' },
       { question: 'Vocês atendem os bairros de alto padrão de Curitiba?', answer: 'Sim, atendemos Batel, Ecoville, Água Verde, Cabral, Champagnat e demais regiões de Curitiba, com medição no local e instalação por equipe própria.' },
       { question: 'As janelas isolam o barulho além do frio?', answer: 'Sim. Os vidros laminados e duplos, somados ao bom encaixe dos perfis, garantem excelente isolamento acústico, deixando os ambientes silenciosos.' },
       { question: 'Qual o prazo de entrega para uma obra em Curitiba?', answer: 'O prazo é definido em contrato conforme a complexidade e a linha escolhida, com cláusula de multa por atraso, garantindo previsibilidade para a sua obra em Curitiba.' },
+      { question: 'Qual a garantia das esquadrias em Curitiba?', answer: 'Garantia contratual sobre vedação, isolamento térmico e ferragens, com vidros duplos e borrachas de alta densidade ideais para o clima frio e úmido de Curitiba.' },
     ],
   },
 ];

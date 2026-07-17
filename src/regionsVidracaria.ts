@@ -63,12 +63,14 @@ export const VIDRACARIA_REGIONS: RegionPage[] = [
     testimonials: [
       { author: 'Henrique Salles', role: 'Morador de Alphaville', text: 'O guarda-corpo de vidro ficou totalmente clean, sem colunas atrapalhando a vista. Sinto total segurança com a espessura do vidro.' },
       { author: 'Arq. Camila Prado', role: 'Arquiteta em Alphaville', text: 'Dimensionaram os vidros pela norma e fizeram o içamento dos painéis grandes com maestria. Acabamento impecável.' },
+      { author: 'Eng. Marcos Vinícius', role: 'Construtora de alto padrão em Alphaville', text: 'Guarda-corpos e peles de vidro executados com içamento profissional e dimensionamento pela norma. Ter a fábrica em Alphaville agilizou tudo.' },
     ],
     faqs: [
       { question: 'O guarda-corpo de vidro é seguro em Alphaville?', answer: 'Sim. Usamos vidro laminado temperado que, em caso de quebra, mantém os fragmentos presos à película, e dimensionamos tudo pela NBR 14718 — padrão exigido nas residências de alto padrão de Alphaville.' },
       { question: 'Vocês fazem pele de vidro e coberturas de vidro?', answer: 'Sim, executamos peles de vidro (structural glazing), cantos de vidro sem coluna e coberturas com vidro laminado de controle solar, com vedação total contra chuva.' },
       { question: 'A fábrica fica perto de Alphaville?', answer: 'Sim, nossa sede fica em Alphaville Industrial, Barueri, garantindo agilidade de medição, fabricação e instalação.' },
       { question: 'Como é feito o içamento de vidros grandes?', answer: 'Com ventosas pneumáticas a vácuo, cabos de alta resistência e equipe certificada em trabalho em altura, garantindo segurança total no içamento de painéis jumbo.' },
+      { question: 'Qual a garantia da vidraçaria em Alphaville?', answer: 'Oferecemos garantia sobre a instalação e as vedações da vidraçaria, cobrindo eventuais vazamentos, ressecamento de borrachas e folgas de ferragens, com vidros de segurança certificados.' },
     ],
   },
   {
@@ -113,12 +115,14 @@ export const VIDRACARIA_REGIONS: RegionPage[] = [
     testimonials: [
       { author: 'Vinícius Barros', role: 'Morador da Reserva Santa Maria, Cajamar', text: 'A casa fica no alto e o vento é forte. O guarda-corpo de vidro é firme, seguro e não tira nada da vista da serra.' },
       { author: 'Arq. Renata Coelho', role: 'Arquiteta em Cajamar', text: 'Dimensionaram os vidros pela norma considerando o vento da região. Fechamento de sacada impecável e sem vazamento.' },
+      { author: 'Eng. Rodrigo Alencar', role: 'Construtora em Cajamar', text: 'Guarda-corpos e fechamentos dimensionados para o vento do relevo, com vedação impecável. A Serra-Ferro entregou tudo no prazo e sem vazamentos.' },
     ],
     faqs: [
       { question: 'O guarda-corpo de vidro aguenta o vento das áreas altas de Cajamar?', answer: 'Sim. Calculamos a espessura do vidro e as fixações pela NBR 14718 considerando as cargas de vento do relevo de Cajamar, garantindo segurança total.' },
       { question: 'O fechamento de sacada veda bem contra chuva com vento?', answer: 'Sim. Usamos vedação de alta densidade, escovas hidrófugas e canais de drenagem, essenciais para as sacadas expostas dos condomínios elevados de Cajamar.' },
       { question: 'Vocês atendem a Reserva Santa Maria e outros condomínios de Cajamar?', answer: 'Sim, atendemos os condomínios de alto padrão de Cajamar, Polvilho e Jordanésia, com medição no local e respeito às regras de acesso.' },
       { question: 'Fazem coberturas de vidro em Cajamar?', answer: 'Sim, executamos coberturas em vidro laminado de controle solar, com calhas integradas e vedação dupla contra infiltrações.' },
+      { question: 'Qual a garantia da vidraçaria em Cajamar?', answer: 'Garantia sobre a instalação, a fixação e a vedação dos vidros, cobrindo vazamentos e ferragens, com dimensionamento pela NBR 14718 para as cargas de vento da região.' },
     ],
   },
   {
@@ -163,12 +167,14 @@ export const VIDRACARIA_REGIONS: RegionPage[] = [
     testimonials: [
       { author: 'Anderson Melo', role: 'Proprietário de casa nova em Itapevi', text: 'Chamei ainda na obra e o box e os espelhos ficaram perfeitos, sem gambiarra. Instalação no prazo combinado.' },
       { author: 'Eng. Priscila Santos', role: 'Construtora em Itapevi', text: 'Guarda-corpos e fechamentos entregues com documentação e esquadro certinho. Ótimo parceiro para as obras que tocamos em Itapevi.' },
+      { author: 'Eng. Paula Ferraz', role: 'Construtora em Itapevi', text: 'Box, guarda-corpos e espelhos instalados na obra nova com esquadro certinho, sem gambiarra. Documentação e prazo em ordem.' },
     ],
     faqs: [
       { question: 'Vale contratar a vidraçaria ainda na obra em Itapevi?', answer: 'Sim. Medindo na fase certa, garantimos que box, guarda-corpos e espelhos fiquem com esquadro perfeito e instalação limpa, sem retrabalho.' },
       { question: 'O box tem roldanas de qualidade?', answer: 'Sim, usamos roldanas de inox de alta durabilidade e vidros temperados de segurança, com acabamento premium.' },
       { question: 'O guarda-corpo de vidro é seguro?', answer: 'Sim, usamos vidro laminado e seguimos a NBR 14718, garantindo segurança em escadas e sacadas.' },
       { question: 'Fazem espelhos e divisórias em Itapevi?', answer: 'Sim, fabricamos espelhos lapidados sob medida e divisórias de vidro temperado para os ambientes da sua obra.' },
+      { question: 'Qual a garantia da vidraçaria em Itapevi?', answer: 'Garantia sobre a instalação e as vedações, cobrindo vazamentos, roldanas de box e ferragens, com vidros temperados e laminados de segurança.' },
     ],
   },
   {
@@ -213,12 +219,14 @@ export const VIDRACARIA_REGIONS: RegionPage[] = [
     testimonials: [
       { author: 'Ricardo Fontes', role: 'Proprietário em Alphaville, Barueri', text: 'Como a fábrica é aqui do lado, mediram e instalaram o guarda-corpo rapidinho. Ficou clean e muito seguro.' },
       { author: 'Eng. Tatiana Lopes', role: 'Construtora em Barueri', text: 'Fizeram a fachada de vidro do nosso corporativo com içamento profissional e prazo cumprido. Excelente parceiro em Barueri.' },
+      { author: 'Eng. Marina Costa', role: 'Construtora em Barueri', text: 'Fachada de vidro e guarda-corpos com içamento profissional e prazo cumprido. Ter a fábrica em Alphaville deixou o cronograma redondo.' },
     ],
     faqs: [
       { question: 'A fábrica de vidraçaria fica em Barueri?', answer: 'Sim, na Alameda Rio Negro, 229, Alphaville Industrial, Barueri, o que garante medição, fabricação e instalação ágeis para qualquer obra na cidade.' },
       { question: 'Atendem residências e obras corporativas em Barueri?', answer: 'Sim. Fazemos guarda-corpos, box e espelhos residenciais em Alphaville e Tamboré e também fachadas de vidro e divisórias corporativas.' },
       { question: 'O guarda-corpo de vidro é seguro?', answer: 'Sim, usamos vidro laminado temperado conforme a NBR 14718, com fixação invisível por canalete embutido.' },
       { question: 'Vocês fazem içamento de vidros grandes em Barueri?', answer: 'Sim, com ventosas a vácuo e equipe certificada em trabalho em altura, garantindo segurança total no içamento de painéis jumbo.' },
+      { question: 'Qual a garantia da vidraçaria em Barueri?', answer: 'Garantia sobre a instalação e as vedações, cobrindo vazamentos e ferragens, com vidros laminados de segurança e suporte técnico da fábrica local.' },
     ],
   },
   {
@@ -263,12 +271,14 @@ export const VIDRACARIA_REGIONS: RegionPage[] = [
     testimonials: [
       { author: 'Fernanda Ribeiro', role: 'Moradora de condomínio na Granja Viana, Cotia', text: 'Fechamos a sacada com vidro e a área virou um cômodo a mais, sem entrar chuva nem vento. A vista da mata continua linda.' },
       { author: 'Arq. Paulo Sérgio', role: 'Arquiteto em Cotia', text: 'Guarda-corpos de vidro voltados ao paisagismo com vedação perfeita nas coberturas. Ideal para as casas de Cotia.' },
+      { author: 'Eng. Luciano Prado', role: 'Construtora em Cotia', text: 'Fechamentos de sacada e coberturas de vidro com vedação reforçada contra a chuva da mata. Entrega no prazo e sem infiltração.' },
     ],
     faqs: [
       { question: 'O fechamento de sacada veda bem a chuva em Cotia?', answer: 'Sim. Usamos vedação de alta densidade, escovas hidrófugas e drenagem, essenciais para as chuvas intensas dos condomínios de Cotia e Granja Viana cercados de mata.' },
       { question: 'O guarda-corpo de vidro atrapalha a vista do jardim?', answer: 'Ao contrário — usamos guarda-corpo autoportante com fixação invisível, que preserva totalmente a vista do verde com segurança pela NBR 14718.' },
       { question: 'Vocês atendem condomínios fechados em Cotia?', answer: 'Sim, atendemos Granja Viana, San Fernando e Caucaia do Alto, respeitando as regras de acesso e horário de obra.' },
       { question: 'Fazem coberturas de vidro em Cotia?', answer: 'Sim, executamos coberturas em vidro laminado com calhas integradas e vedação dupla, ideais para áreas gourmet voltadas ao jardim.' },
+      { question: 'Qual a garantia da vidraçaria em Cotia?', answer: 'Garantia sobre a instalação e as vedações das sacadas e coberturas, cobrindo vazamentos e ferragens, essencial para as chuvas intensas dos condomínios de Cotia.' },
     ],
   },
   {
@@ -313,12 +323,14 @@ export const VIDRACARIA_REGIONS: RegionPage[] = [
     testimonials: [
       { author: 'Rogério Bianchi', role: 'Artista plástico em Embu das Artes', text: 'O espelho de cristal deu profundidade e luz ao ateliê. Corte perfeito e instalação caprichada.' },
       { author: 'Luciana Amaral', role: 'Moradora do Jardim dos Manacás, Embu das Artes', text: 'O guarda-corpo de vidro e a cobertura ficaram lindos e não entra chuva. Uniram estética e vedação como eu queria.' },
+      { author: 'Arq. Beatriz Camargo', role: 'Arquiteta em Embu das Artes', text: 'Espelhos decorativos e guarda-corpos que uniram estética e vedação. A Serra-Ferro entendeu o estilo da casa e entregou com acabamento impecável.' },
     ],
     faqs: [
       { question: 'Os espelhos de cristal mancham com o tempo?', answer: 'Não. Trabalhamos com espelhos de cristal com proteção contra umidade e usamos colas de cura neutra, evitando oxidação — importante no clima úmido de Embu das Artes.' },
       { question: 'O guarda-corpo de vidro preserva a vista do jardim?', answer: 'Sim, usamos guarda-corpo autoportante com fixação invisível e vidro laminado seguro pela NBR 14718, mantendo total transparência.' },
       { question: 'As coberturas de vidro vedam bem no clima úmido?', answer: 'Sim, executamos coberturas com vidro laminado, calhas integradas e vedação dupla contra infiltrações e a umidade da região.' },
       { question: 'Atendem casas de campo e ateliês em Embu das Artes?', answer: 'Sim, atendemos casas, ateliês e condomínios da cidade com medição no local e instalação por equipe própria.' },
+      { question: 'Qual a garantia da vidraçaria em Embu das Artes?', answer: 'Garantia sobre a instalação e as vedações, cobrindo vazamentos, oxidação de espelhos e ferragens, com vidros e espelhos de alta durabilidade para o clima úmido.' },
     ],
   },
   {
@@ -363,12 +375,14 @@ export const VIDRACARIA_REGIONS: RegionPage[] = [
     testimonials: [
       { author: 'Sandra Prado', role: 'Moradora do Jardim Henriqueta, Taboão da Serra', text: 'Reformei o banheiro e o box com espelho novo transformou o ambiente. Instalação limpa e rápida, sem quebrar nada.' },
       { author: 'Wagner Lima', role: 'Proprietário de sobrado em Taboão da Serra', text: 'O guarda-corpo de vidro da escada ficou moderno e seguro. Ótimo acabamento por um preço justo.' },
+      { author: 'Eng. Daniela Souza', role: 'Reformas em Taboão da Serra', text: 'Box, espelhos e divisórias instalados em reforma sem sujeira e no prazo. Acabamento fino que valorizou os ambientes.' },
     ],
     faqs: [
       { question: 'Vocês fazem só a parte de vidro na reforma em Taboão da Serra?', answer: 'Sim. Somos especialistas em reforma: medimos, fabricamos e instalamos box, espelhos, guarda-corpos e divisórias com instalação limpa, sem danificar o acabamento pronto.' },
       { question: 'O box tem boas roldanas?', answer: 'Sim, usamos roldanas de inox de alta durabilidade e vidros temperados de segurança, com acabamento premium.' },
       { question: 'O guarda-corpo de vidro da escada é seguro?', answer: 'Sim, usamos vidro laminado conforme a NBR 14718, com fixação por botões de inox ou canalete, garantindo segurança total.' },
       { question: 'Atendem apartamentos e sobrados em Taboão da Serra?', answer: 'Sim, atendemos casas, sobrados e apartamentos, do Pirajuçara ao centro, respeitando as regras dos condomínios.' },
+      { question: 'Qual a garantia da vidraçaria em Taboão da Serra?', answer: 'Garantia sobre a instalação e as vedações, cobrindo vazamentos, roldanas de box e ferragens, com vidros temperados e laminados de segurança.' },
     ],
   },
   {
@@ -413,12 +427,14 @@ export const VIDRACARIA_REGIONS: RegionPage[] = [
     testimonials: [
       { author: 'Patrícia Gomes', role: 'Moradora da Bela Vista, Osasco', text: 'Fechei a sacada do apartamento alto e o vento parou de incomodar. Vedação perfeita e vista preservada.' },
       { author: 'Eng. Roberto Dias', role: 'Síndico de edifício no Centro de Osasco', text: 'Os guarda-corpos de vidro das varandas foram feitos dentro da norma, com içamento seguro. Trabalho muito profissional.' },
+      { author: 'Eng. Marcelo Dias', role: 'Construtora em Osasco', text: 'Fechamentos de sacada e guarda-corpos em torres com içamento seguro e dimensionamento pela norma. Vedação perfeita mesmo em altura.' },
     ],
     faqs: [
       { question: 'O fechamento de sacada aguenta o vento dos andares altos em Osasco?', answer: 'Sim. Reforçamos a vedação e usamos vidros temperados adequados, garantindo estanqueidade e segurança mesmo nos andares altos e expostos de Osasco.' },
       { question: 'Os guarda-corpos de varanda atendem à NBR 14718?', answer: 'Sim, dimensionamos os guarda-corpos de vidro pelos esforços da norma NBR 14718, essenciais para varandas de torres.' },
       { question: 'Vocês fazem içamento de vidro em prédios de Osasco?', answer: 'Sim, com ventosas a vácuo e equipe certificada em trabalho em altura (NR-35), garantindo segurança total no içamento.' },
       { question: 'Atendem também casas em Osasco?', answer: 'Sim, fazemos box, espelhos e guarda-corpos residenciais em bairros como Vila Yara e Km 18.' },
+      { question: 'Qual a garantia da vidraçaria em Osasco?', answer: 'Garantia sobre a instalação e as vedações, cobrindo vazamentos e ferragens em altura, com dimensionamento pela NBR 14718 e vidros de segurança.' },
     ],
   },
   {
@@ -463,12 +479,14 @@ export const VIDRACARIA_REGIONS: RegionPage[] = [
     testimonials: [
       { author: 'Juliana Freitas', role: 'Moradora do Jardim Sabará, Jandira', text: 'Troquei o box e coloquei espelho novo por um preço muito bom. Ficou com cara de banheiro de revista.' },
       { author: 'Marcos Aurélio', role: 'Proprietário de sobrado em Jandira', text: 'O guarda-corpo de vidro da escada deixou tudo mais moderno e seguro. Ótimo acabamento pelo valor.' },
+      { author: 'Eng. Cristiane Alves', role: 'Construtora em Jandira', text: 'Box, espelhos e guarda-corpos com ótimo custo-benefício e acabamento fino. Instalação rápida e limpa, dentro do orçamento.' },
     ],
     faqs: [
       { question: 'A vidraçaria da Serra-Ferro tem bom custo-benefício para Jandira?', answer: 'Sim. Entregamos box, espelhos, guarda-corpos e divisórias com excelente custo-benefício, mantendo os vidros de segurança e o acabamento fino da Serra-Ferro.' },
       { question: 'Vocês fazem a parte de vidro só na reforma em Jandira?', answer: 'Sim, somos especialistas em reforma: medimos, fabricamos e instalamos com instalação limpa, sem danificar o acabamento pronto.' },
       { question: 'O box tem boas roldanas?', answer: 'Sim, usamos roldanas de inox de alta durabilidade e vidros temperados de segurança.' },
       { question: 'O guarda-corpo de vidro é seguro?', answer: 'Sim, usamos vidro laminado conforme a NBR 14718, com fixação por botões de inox ou canalete.' },
+      { question: 'Qual a garantia da vidraçaria em Jandira?', answer: 'Garantia sobre a instalação e as vedações, cobrindo vazamentos, roldanas de box e ferragens, mesmo nas opções de melhor custo-benefício.' },
     ],
   },
   {
@@ -513,12 +531,14 @@ export const VIDRACARIA_REGIONS: RegionPage[] = [
     testimonials: [
       { author: 'Marcelo Tavares', role: 'Morador de Alphaville, Santana de Parnaíba', text: 'O guarda-corpo de vidro aguenta o vento forte da região sem vibrar e mantém a vista aberta. Segurança e beleza juntas.' },
       { author: 'Arq. Beatriz Nunes', role: 'Arquiteta em Santana de Parnaíba', text: 'Dimensionaram os vidros pela norma considerando o vento e o fechamento de sacada ficou impecável, sem vazar.' },
+      { author: 'Eng. Vinícius Marques', role: 'Construtora em Santana de Parnaíba', text: 'Guarda-corpos e sacadas dimensionados para o vento das áreas altas, com içamento seguro. Vedação impecável e sem vazamentos.' },
     ],
     faqs: [
       { question: 'O guarda-corpo de vidro aguenta o vento das áreas altas de Santana de Parnaíba?', answer: 'Sim. Calculamos a espessura do vidro e as fixações pela NBR 14718 considerando as cargas de vento do relevo, garantindo segurança e estabilidade.' },
       { question: 'Vocês atendem os condomínios de Alphaville em Santana de Parnaíba?', answer: 'Sim, atendemos Alphaville, Tamboré e demais condomínios da cidade, respeitando as regras de acesso e horário de obra.' },
       { question: 'O fechamento de sacada veda a chuva com vento?', answer: 'Sim, usamos vedação de alta densidade e drenagem, essenciais para as sacadas expostas dos condomínios elevados da região.' },
       { question: 'Fazem espelhos monumentais e coberturas de vidro?', answer: 'Sim, fabricamos espelhos de cristal sob medida e coberturas de vidro laminado com vedação dupla contra infiltrações.' },
+      { question: 'Qual a garantia da vidraçaria em Santana de Parnaíba?', answer: 'Garantia sobre a instalação, a fixação e a vedação dos vidros, cobrindo vazamentos e ferragens, com dimensionamento pela NBR 14718 para as áreas expostas ao vento.' },
     ],
   },
   {
@@ -563,12 +583,14 @@ export const VIDRACARIA_REGIONS: RegionPage[] = [
     testimonials: [
       { author: 'Patrícia Lima', role: 'Moradora do Batel, Curitiba', text: 'Fechei a sacada com vidro e ganhei um cômodo a mais que uso até no inverno mais frio. Não entra vento nem chuva e a vista continua linda.' },
       { author: 'Eng. Gustavo Andrade', role: 'Cliente no Ecoville, Curitiba', text: 'O guarda-corpo de vidro ficou clean e seguro, dimensionado pela norma. Instalação caprichada e sem vazamentos nas chuvas de Curitiba.' },
+      { author: 'Eng. Fernanda Rocha', role: 'Construtora em Curitiba', text: 'Fechamentos de sacada para o frio e guarda-corpos dimensionados pela norma. Vedação perfeita nas chuvas de Curitiba e acabamento de alto padrão.' },
     ],
     faqs: [
       { question: 'O fechamento de sacada ajuda no frio de Curitiba?', answer: 'Muito. Fechar a sacada com vidro cria uma barreira contra o vento frio e a chuva, transformando a varanda em um ambiente aproveitável o ano todo, inclusive no inverno rigoroso de Curitiba.' },
       { question: 'O guarda-corpo de vidro é seguro?', answer: 'Sim, usamos vidro laminado temperado e seguimos a NBR 14718, com fixação invisível por canalete ou botões de inox, garantindo segurança e transparência.' },
       { question: 'Vocês trabalham com vidros de controle térmico?', answer: 'Sim, oferecemos vidros de controle térmico e coberturas que ajudam no conforto do clima de Curitiba, reduzindo perdas de calor e o frio nos ambientes.' },
       { question: 'Atendem os bairros de alto padrão de Curitiba?', answer: 'Sim, atendemos Batel, Ecoville, Água Verde, Cabral e demais regiões, com medição no local e instalação por equipe própria.' },
+      { question: 'Qual a garantia da vidraçaria em Curitiba?', answer: 'Garantia sobre a instalação e as vedações, cobrindo vazamentos e ferragens, com vidros de controle térmico e de segurança ideais para o clima frio de Curitiba.' },
     ],
   },
 ];
