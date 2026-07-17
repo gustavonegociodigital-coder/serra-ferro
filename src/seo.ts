@@ -107,6 +107,15 @@ export function getPathForView(view: string): string {
   return view === 'home' ? '/' : `/${view}`;
 }
 
+/** Indica se a view corresponde a uma rota real do site (senão, é 404). */
+export function isKnownRoute(view: string): boolean {
+  if (view === 'home' || view === 'esquadrias') return true;
+  if (SEO_META[view]) return true;
+  if (ESQUADRIAS_REGION_BY_SLUG[view]) return true;
+  if (view.startsWith('city-')) return true;
+  return false;
+}
+
 /** Cria (ou atualiza) uma <meta> por atributo name/property. */
 function upsertMeta(attr: 'name' | 'property', key: string, content: string) {
   let el = document.head.querySelector<HTMLMetaElement>(`meta[${attr}="${key}"]`);
@@ -134,8 +143,26 @@ function upsertCanonical(href: string) {
  * Chamado a cada mudança de rota. O Blog gerencia sua própria meta por post.
  */
 export function applySeo(view: string) {
-  const { title, description } = getSeoForView(view);
-  const url = `${SITE_URL}${getPathForView(view)}`;
+  const known = isKnownRoute(view);
+
+  const { title, description } = known
+    ? getSeoForView(view)
+    : {
+        title: 'Página não encontrada | Serra Ferro',
+        description: 'A página que você procura não existe ou foi movida. Volte à página inicial da Serra Ferro.',
+      };
+
+  // Rotas desconhecidas não devem ser indexadas (evita soft-404 com conteúdo duplicado).
+  upsertMeta(
+    'name',
+    'robots',
+    known
+      ? 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
+      : 'noindex, follow',
+  );
+
+  // Em 404, o canônico aponta para a home (não para a URL inexistente).
+  const url = known ? `${SITE_URL}${getPathForView(view)}` : `${SITE_URL}/`;
 
   document.title = title;
   upsertMeta('name', 'description', description);

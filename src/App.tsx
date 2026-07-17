@@ -16,6 +16,7 @@ import AboutUs from './components/AboutUs';
 import Blog from './components/Blog';
 import CityLanding from './components/CityLanding';
 import ContactForm from './components/ContactForm';
+import NotFound from './components/NotFound';
 import { FAQ_DATA } from './data';
 import { applySeo, getPathForView, ESQUADRIAS_SP_SLUG } from './seo';
 import { ESQUADRIAS_REGION_BY_SLUG } from './regionsEsquadrias';
@@ -241,7 +242,8 @@ export default function App() {
       return <CityLanding citySlug={citySlug} setView={setView} />;
     }
 
-    return <Home setView={setView} />;
+    // Rota desconhecida: página 404 (com noindex via applySeo), nunca a Home.
+    return <NotFound setView={setView} />;
   };
 
   return (
