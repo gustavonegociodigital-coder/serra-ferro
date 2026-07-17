@@ -654,7 +654,7 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
     <div className="space-y-20 pb-20 animate-fade-in" id={`category-pillar-${category}`}>
       
       {/* SESSÃO 1: HERO BANNER (FORMATO EXATAMENTE IGUAL AO BANNER DA HOME, SEM SER ROTATIVO) */}
-      <section className="relative w-full min-h-[540px] sm:min-h-[560px] md:min-h-[600px] overflow-hidden border-b border-neutral-200 bg-neutral-950 flex items-center py-16 sm:py-20" id="hero-section">
+      <section className="relative w-full min-h-[100svh] overflow-hidden border-b border-neutral-200 bg-neutral-950 flex items-center py-20 sm:py-24" id="hero-section">
         
         {/* Static Background Image with Gradient Overlay */}
         <div className="absolute inset-0 z-0">

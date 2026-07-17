@@ -118,7 +118,7 @@ export default function Home({ setView }: HomeProps) {
     <div className="space-y-20 pb-20 animate-fade-in" id="home-view">
       
       {/* SECTION 1: HERO (BANNER ROTATIVO ULTRA MODERNO) */}
-      <section className="relative w-full min-h-[540px] sm:min-h-[560px] md:min-h-[600px] overflow-hidden border-b border-neutral-200 bg-neutral-950 flex items-center py-16 sm:py-20" id="hero-section">
+      <section className="relative w-full min-h-[100svh] overflow-hidden border-b border-neutral-200 bg-neutral-950 flex items-center py-20 sm:py-24" id="hero-section">
         
         {/* Sliding Background Images (Cross-fade effect) */}
         <div className="absolute inset-0 z-0">
