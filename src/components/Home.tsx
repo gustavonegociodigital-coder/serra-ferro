@@ -7,7 +7,10 @@ import React, { useState, useEffect } from 'react';
 import { ArrowRight, Phone, Clock, FileCheck, Shield, Hammer, Users, Calendar, Settings, Compass, Sparkles, AlertTriangle, ChevronLeft, ChevronRight, Instagram, Heart, MessageCircle, Bookmark, BookOpen, MapPin, Building2, Award, Check } from 'lucide-react';
 import { AppView } from '../types';
 import { PORTFOLIO_DATA, TESTIMONIALS_DATA } from '../data';
-import { ESQUADRIAS_SP_SLUG } from '../seo';
+import { ESQUADRIAS_SP_SLUG, VIDRACARIA_SP_SLUG, SERRALHERIA_SP_SLUG } from '../seo';
+import { ESQUADRIAS_REGIONS } from '../regionsEsquadrias';
+import { VIDRACARIA_REGIONS } from '../regionsVidracaria';
+import { SERRALHERIA_REGIONS } from '../regionsSerralheria';
 import PlaceholderImage from './PlaceholderImage';
 import ContactForm from './ContactForm';
 
@@ -25,6 +28,19 @@ export default function Home({ setView }: HomeProps) {
     setView(targetView);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
+
+  // Navegação SPA em links reais (<a href>) para manter as URLs crawláveis pelo Google.
+  const handleAnchorNav = (e: React.MouseEvent, targetView: string) => {
+    e.preventDefault();
+    handlePortaClick(targetView);
+  };
+
+  // Grupos de links internos por serviço e região (SEO local a partir da Home).
+  const regionGroups = [
+    { label: 'Esquadrias de Alumínio', spSlug: ESQUADRIAS_SP_SLUG, regions: ESQUADRIAS_REGIONS },
+    { label: 'Vidraçaria', spSlug: VIDRACARIA_SP_SLUG, regions: VIDRACARIA_REGIONS },
+    { label: 'Serralheria', spSlug: SERRALHERIA_SP_SLUG, regions: SERRALHERIA_REGIONS },
+  ];
 
   const getPortfolioImageSrc = (id: string) => {
     switch (id) {
@@ -334,7 +350,7 @@ export default function Home({ setView }: HomeProps) {
             </div>
             <div className="p-6 pt-0">
               <button
-                onClick={() => handlePortaClick('vidracaria')}
+                onClick={() => handlePortaClick(VIDRACARIA_SP_SLUG)}
                 className="w-full py-2.5 bg-neutral-50 hover:bg-brand-charcoal hover:text-white text-brand-charcoal rounded-lg font-display text-xs font-bold uppercase tracking-wider transition-colors text-center cursor-pointer"
               >
                 Conhecer Vidraçaria
@@ -368,7 +384,7 @@ export default function Home({ setView }: HomeProps) {
             </div>
             <div className="p-6 pt-0">
               <button
-                onClick={() => handlePortaClick('serralheria')}
+                onClick={() => handlePortaClick(SERRALHERIA_SP_SLUG)}
                 className="w-full py-2.5 bg-neutral-50 hover:bg-brand-charcoal hover:text-white text-brand-charcoal rounded-lg font-display text-xs font-bold uppercase tracking-wider transition-colors text-center cursor-pointer"
               >
                 Conhecer Serralheria
@@ -1193,6 +1209,58 @@ export default function Home({ setView }: HomeProps) {
               </div>
             </div>
 
+          </div>
+        </div>
+      </section>
+
+      {/* DOBRA 12: ATENDIMENTO REGIONAL (LINK BUILDING INTERNO A PARTIR DA HOME) */}
+      <section className="bg-neutral-950 text-white py-16 border-t border-neutral-800" id="atendimento-regional">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <span className="font-mono text-xs font-bold text-brand-orange uppercase tracking-widest block">
+              ATENDIMENTO NA GRANDE SÃO PAULO
+            </span>
+            <h2 className="font-display text-2xl sm:text-3xl font-extrabold text-white tracking-tight mt-1">
+              Esquadrias, Vidraçaria e Serralheria por Região
+            </h2>
+            <p className="text-xs sm:text-sm text-neutral-400 mt-2 leading-relaxed max-w-xl mx-auto font-medium">
+              Fabricação e instalação sob medida com equipe própria em São Paulo e em toda a Grande SP. Encontre a página da sua cidade:
+            </p>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            {regionGroups.map((group) => (
+              <div key={group.spSlug} className="bg-neutral-900 border border-neutral-800 rounded-2xl p-6">
+                <h3 className="font-display text-base font-bold text-white mb-4 border-l-2 border-brand-orange pl-2.5">
+                  {group.label}
+                </h3>
+                <ul className="space-y-2">
+                  <li>
+                    <a
+                      href={`/${group.spSlug}`}
+                      onClick={(e) => handleAnchorNav(e, group.spSlug)}
+                      className="inline-flex items-center text-xs font-semibold text-neutral-200 hover:text-brand-orange transition-colors"
+                    >
+                      <MapPin className="w-3.5 h-3.5 mr-1.5 text-brand-orange shrink-0" />
+                      {group.label} em São Paulo
+                    </a>
+                  </li>
+                  {group.regions.map((region) => (
+                    <li key={region.slug}>
+                      <a
+                        href={`/${region.slug}`}
+                        onClick={(e) => handleAnchorNav(e, region.slug)}
+                        className="inline-flex items-center text-xs font-medium text-neutral-400 hover:text-brand-orange transition-colors"
+                        id={`home-link-${region.slug}`}
+                      >
+                        <MapPin className="w-3.5 h-3.5 mr-1.5 text-brand-orange/70 shrink-0" />
+                        {group.label} em {region.city}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
           </div>
         </div>
       </section>
