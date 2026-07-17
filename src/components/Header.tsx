@@ -96,7 +96,7 @@ export default function Header({ currentView, setView }: HeaderProps) {
               href={getWhatsAppLink()}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-lg font-display text-xs font-bold uppercase tracking-wider text-white bg-brand-charcoal hover:bg-brand-orange transition-all duration-300 shadow-sm hover:shadow-brand-orange/10 cursor-pointer"
+              className="inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-lg font-display text-xs font-bold uppercase tracking-wider text-white bg-emerald-600 hover:bg-emerald-700 transition-all duration-300 shadow-sm hover:shadow-emerald-600/10 cursor-pointer"
               id="header-cta-whatsapp"
             >
               <Phone className="w-3.5 h-3.5 mr-1.5" />

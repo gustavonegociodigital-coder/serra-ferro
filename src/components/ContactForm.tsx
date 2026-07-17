@@ -317,7 +317,7 @@ export default function ContactForm({
             <button
               type="submit"
               disabled={loading}
-              className="w-full inline-flex items-center justify-center px-6 py-3 bg-brand-charcoal hover:bg-brand-orange text-white rounded-lg font-display text-sm font-semibold transition-all duration-300 shadow-md hover:shadow-brand-orange/10 cursor-pointer disabled:opacity-50"
+              className="w-full inline-flex items-center justify-center px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg font-display text-sm font-semibold transition-all duration-300 shadow-md hover:shadow-emerald-600/10 cursor-pointer disabled:opacity-50"
               id="btn-submit-lead"
             >
               {loading ? (

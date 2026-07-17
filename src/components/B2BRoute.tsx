@@ -62,7 +62,7 @@ export default function B2BRoute({ setView }: B2BRouteProps) {
                 href={getWhatsAppLink('Olá! Sou profissional especificador e gostaria de agendar uma reunião sobre parcerias com a Serra-Ferro.')}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3.5 bg-brand-orange hover:bg-brand-orange/90 text-white rounded-lg font-display text-xs font-bold uppercase tracking-wider transition-colors cursor-pointer"
+                className="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg font-display text-xs font-bold uppercase tracking-wider transition-colors cursor-pointer"
               >
                 <Phone className="w-4 h-4 mr-2" />
                 Falar com Comercial Técnico
@@ -353,7 +353,7 @@ export default function B2BRoute({ setView }: B2BRouteProps) {
               href={getWhatsAppLink('Olá! Gostaria de falar com o engenheiro comercial da Serra-Ferro sobre o programa de parcerias técnicas e faturamento PJ.')}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full inline-flex items-center justify-center px-6 py-4 bg-brand-orange hover:bg-brand-orange/95 text-white font-display text-xs font-bold uppercase tracking-widest rounded-lg transition-colors shadow-md cursor-pointer"
+              className="w-full inline-flex items-center justify-center px-6 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-display text-xs font-bold uppercase tracking-widest rounded-lg transition-colors shadow-md cursor-pointer"
             >
               <Phone className="w-4 h-4 mr-2" />
               Iniciar Atendimento de Parcerias no WhatsApp

@@ -669,6 +669,56 @@ export const ESQUADRIAS_REGIONS: EsquadriasRegion[] = [
       { question: 'Qual o prazo de entrega para uma obra em Curitiba?', answer: 'O prazo é definido em contrato conforme a complexidade e a linha escolhida, com cláusula de multa por atraso, garantindo previsibilidade para a sua obra em Curitiba.' },
     ],
   },
+  {
+    slug: 'esquadrias-de-aluminio-em-curitiba',
+    city: 'Curitiba',
+    keyword: 'Esquadrias de Alumínio em Curitiba',
+    metaTitle: 'Esquadrias de Alumínio em Curitiba | Portas e Janelas de Alumínio | Serra Ferro',
+    metaDescription: 'Esquadrias de alumínio em Curitiba sob medida com isolamento térmico e acústico para o frio: portas e janelas com vidro duplo e vedação total. Orçamento no WhatsApp.',
+    hero: {
+      tag: 'SERRA-FERRO • ESQUADRIAS DE ALUMÍNIO EM CURITIBA',
+      description: 'Esquadrias de alumínio sob medida em Curitiba com foco no conforto térmico do clima frio: portas e janelas com vidros duplos, isolamento acústico e vedação total contra chuva e vento.',
+      highlights: ['Isolamento térmico para o frio', 'Vidros duplos anticondensação', 'Vedação total contra chuva e vento', 'Alto padrão em bairros nobres'],
+    },
+    localIntro: {
+      tag: 'ATENDIMENTO EM CURITIBA',
+      title: 'Esquadrias de Alumínio em Curitiba com Conforto Térmico',
+      paragraphs: [
+        'O clima frio e úmido de Curitiba, com invernos rigorosos e chuvas frequentes, torna o desempenho térmico das esquadrias tão importante quanto a estética. Projetamos portas e janelas de alumínio com vidros duplos (insulados) e vedação de alta densidade que reduzem a perda de calor, combatem a condensação e mantêm o ambiente aquecido e silencioso.',
+        'Atendemos residências e empreendimentos de alto padrão em bairros como Batel, Ecoville, Água Verde, Cabral e Champagnat, com projeto sob medida, esquadro milimétrico e instalação por equipe própria — unindo a sofisticação da arquitetura curitibana ao alto desempenho do alumínio.',
+      ],
+      bullets: ['Vidros duplos para conforto térmico', 'Combate à condensação do clima frio', 'Cobertura no Batel, Ecoville e Água Verde', 'Isolamento acústico superior'],
+    },
+    headers: {
+      servicesTitle: 'Esquadrias de Alumínio em Curitiba: Serviços de Alto Padrão',
+      servicesSubtitle: 'Portas e janelas de alumínio sob medida para o clima de Curitiba, com vidros duplos, isolamento térmico e acústico e vedação contra chuva e vento frio.',
+      linesTitle: 'Linhas de Esquadrias de Alumínio para Obras em Curitiba',
+      linesSubtitle: 'Compare as linhas ideais para o frio de Curitiba e escolha perfis e vidros com o melhor desempenho térmico e acústico.',
+      casesTitle: 'Projetos de Esquadrias de Alumínio Entregues em Curitiba',
+      casesSubtitle: 'Obras residenciais de alto padrão executadas em Curitiba com isolamento térmico e vedação impecável.',
+      testimonialsTitle: 'Quem Instalou Esquadrias de Alumínio em Curitiba Recomenda',
+      testimonialsSubtitle: 'Moradores de Curitiba comentam o conforto térmico e o silêncio das esquadrias.',
+      faqTitle: 'Dúvidas sobre Esquadrias de Alumínio em Curitiba',
+      faqSubtitle: 'Respostas técnicas para quem vai instalar ou trocar esquadrias no clima de Curitiba.',
+      contactTitle: 'Peça um Orçamento de Esquadrias de Alumínio em Curitiba',
+      contactSubtitle: 'Agende a medição da sua obra em Curitiba e fale com o comercial técnico pelo WhatsApp.',
+    },
+    cases: [
+      { title: 'Residência com Vidro Duplo - Ecoville (Curitiba)', region: 'Ecoville - Curitiba', description: 'Portas e janelas com vidros insulados (duplos) para máximo conforto térmico no inverno, eliminando a condensação e a perda de calor.', image: IMG.villa, highlight: 'Vidro Duplo' },
+      { title: 'Apartamento de Alto Padrão - Batel (Curitiba)', region: 'Batel - Curitiba', description: 'Janelas acústicas com persiana integrada, garantindo silêncio e controle de luz em torre residencial no coração do Batel.', image: IMG.esq, highlight: 'Acústica + Persiana' },
+      { title: 'Sobrado Contemporâneo - Champagnat (Curitiba)', region: 'Champagnat - Curitiba', description: 'Portas de correr amplas com perfis minimalistas e vedação reforçada contra a chuva e o vento frio da região.', image: IMG.min, highlight: 'Perfis Slim' },
+    ],
+    testimonials: [
+      { author: 'Eduardo Kraus', role: 'Morador do Ecoville, Curitiba', text: 'O frio de Curitiba entrava pelas janelas antigas e dava condensação todo dia. Com os vidros duplos da Serra-Ferro, acabou a umidade e a casa fica muito mais quente.' },
+      { author: 'Arq. Helena Vasconcelos', role: 'Arquiteta em Curitiba', text: 'Precisão de esquadro e desempenho térmico de primeira. Os perfis minimalistas valorizaram o projeto e a vedação está impecável mesmo nas chuvas fortes.' },
+    ],
+    faqs: [
+      { question: 'As esquadrias ajudam contra o frio e a condensação em Curitiba?', answer: 'Sim. Usamos vidros duplos (insulados) com câmara de ar e vedação de alta densidade em EPDM, que reduzem drasticamente a perda de calor e a condensação, muito comuns no clima frio e úmido de Curitiba.' },
+      { question: 'Vocês atendem os bairros de alto padrão de Curitiba?', answer: 'Sim, atendemos Batel, Ecoville, Água Verde, Cabral, Champagnat e demais regiões de Curitiba, com medição no local e instalação por equipe própria.' },
+      { question: 'As janelas isolam o barulho além do frio?', answer: 'Sim. Os vidros laminados e duplos, somados ao bom encaixe dos perfis, garantem excelente isolamento acústico, deixando os ambientes silenciosos.' },
+      { question: 'Qual o prazo de entrega para uma obra em Curitiba?', answer: 'O prazo é definido em contrato conforme a complexidade e a linha escolhida, com cláusula de multa por atraso, garantindo previsibilidade para a sua obra em Curitiba.' },
+    ],
+  },
 ];
 
 export const ESQUADRIAS_REGION_BY_SLUG: Record<string, EsquadriasRegion> = Object.fromEntries(

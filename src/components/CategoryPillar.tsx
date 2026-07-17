@@ -49,7 +49,7 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
       tag: "SERRA-FERRO • ESQUADRIAS DE ALUMÍNIO EM SP",
       titleNormal: "",
       titleHighlight: "Esquadrias de Alumínio em SP",
-      titleSuffix: " de Alto Padrão",
+      titleSuffix: "",
       description: "Esquadrias Premium projetadas com excelência acústica, vedação termoacústica absoluta e esquadro perfeito. Proteja o seu investimento com prazos de entrega rigorosamente garantidos em contrato físico.",
       image: "/assets/images/luxury_villa_glazing_1782306007983.jpg",
       highlights: [
@@ -61,9 +61,9 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
     },
     vidracaria: {
       tag: "SERRA-FERRO • VIDRAÇARIA EM SÃO PAULO",
-      titleNormal: "Serviços de ",
+      titleNormal: "",
       titleHighlight: "Vidraçaria em São Paulo",
-      titleSuffix: " de Alto Padrão",
+      titleSuffix: "",
       description: "Procurando por um vidraceiro em São Paulo de confiança? Na nossa vidraçaria em São Paulo, projetamos guarda-corpos autoportantes, fechamentos de sacadas panorâmicas e espelhos monumentais de cristal. Soluções exclusivas instaladas com perfeição por equipe técnica própria.",
       image: "/assets/images/modern_facade_glass_1782306036555.jpg",
       highlights: [
@@ -75,9 +75,9 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
     },
     serralheria: {
       tag: "SERRA-FERRO • SERRALHERIA EM SÃO PAULO",
-      titleNormal: "Serviços de ",
+      titleNormal: "",
       titleHighlight: "Serralheria em São Paulo",
-      titleSuffix: " de Alto Padrão",
+      titleSuffix: "",
       description: "Se você procura por um serralheiro em São Paulo experiente, nossa serralheria em São Paulo projeta escadas plissadas com solda invisível, portas pivotantes monumentais de aço e mezaninos calculados por engenharia aplicada.",
       image: "/assets/images/serralheria_staircase_luxury_card_1782740019768.jpg",
       highlights: [
@@ -654,7 +654,7 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
     <div className="space-y-20 pb-20 animate-fade-in" id={`category-pillar-${category}`}>
       
       {/* SESSÃO 1: HERO BANNER (FORMATO EXATAMENTE IGUAL AO BANNER DA HOME, SEM SER ROTATIVO) */}
-      <section className="relative w-full h-[500px] sm:h-[540px] md:h-[580px] lg:h-[620px] overflow-hidden border-b border-neutral-200 bg-neutral-950 flex items-center" id="hero-section">
+      <section className="relative w-full min-h-[540px] sm:min-h-[560px] md:min-h-[600px] overflow-hidden border-b border-neutral-200 bg-neutral-950 flex items-center py-16 sm:py-20" id="hero-section">
         
         {/* Static Background Image with Gradient Overlay */}
         <div className="absolute inset-0 z-0">
@@ -673,9 +673,9 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
         <div className="absolute inset-0 opacity-10 bg-[linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none z-10" />
 
         {/* Content */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 w-full pt-8 sm:pt-12">
-          <div className="max-w-2xl space-y-4">
-            
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 w-full">
+          <div className="max-w-2xl space-y-5 sm:space-y-6">
+
             {/* Tag / Badge */}
             <div className="inline-flex items-center space-x-2 px-3 py-1 bg-brand-orange/20 border border-brand-orange/30 rounded-full text-brand-orange text-[10px] sm:text-xs font-mono font-bold uppercase tracking-widest">
               <Sparkles className="w-3.5 h-3.5 text-brand-orange" />
@@ -700,7 +700,7 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
                 href={getWhatsAppLink()}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3 bg-brand-orange hover:bg-brand-orange/95 text-white rounded-lg font-display text-[11px] sm:text-xs font-extrabold uppercase tracking-widest transition-all duration-300 shadow-lg shadow-brand-orange/20 cursor-pointer animate-pulse-orange"
+                className="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg font-display text-[11px] sm:text-xs font-extrabold uppercase tracking-widest transition-all duration-300 shadow-lg shadow-emerald-600/20 cursor-pointer animate-pulse-whatsapp"
                 id="hero-cta-primary"
               >
                 <Phone className="w-3.5 h-3.5 mr-2" />
@@ -754,6 +754,17 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
                   {paragraph}
                 </p>
               ))}
+              <div className="pt-2">
+                <a
+                  href={getWhatsAppLink()}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg font-display text-xs font-bold uppercase tracking-widest transition-colors shadow-lg shadow-emerald-600/20 cursor-pointer"
+                >
+                  <Phone className="w-4 h-4 mr-2" />
+                  Orçar {serviceLabel} no WhatsApp
+                </a>
+              </div>
             </div>
             <div className="md:col-span-5">
               <div className="bg-neutral-50 border border-neutral-200 rounded-2xl p-6 space-y-3 shadow-sm">
@@ -818,7 +829,7 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
                     href={getWhatsAppLink(`Olá! Gostaria de consultar um orçamento para o serviço de ${service.title} sob medida para a minha obra.`)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center text-xs font-bold text-brand-orange hover:text-brand-orange/85 transition-colors group/link cursor-pointer"
+                    className="inline-flex items-center text-xs font-bold text-emerald-600 hover:text-emerald-700 transition-colors group/link cursor-pointer"
                   >
                     Consultar Orçamento Técnico
                     <ArrowRight className="w-3.5 h-3.5 ml-1 group-hover/link:translate-x-0.5 transition-transform" />
@@ -835,7 +846,7 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
             href={getWhatsAppLink(`Olá! Gostaria de falar com o comercial técnico da Serra-Ferro para solicitar um orçamento de ${currentCategoryData.title} de alto padrão sob medida.`)}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center px-8 py-4 bg-brand-orange hover:bg-brand-orange/95 text-white rounded-lg font-display text-xs font-bold uppercase tracking-widest transition-colors shadow-lg shadow-brand-orange/20 cursor-pointer"
+            className="inline-flex items-center justify-center px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg font-display text-xs font-bold uppercase tracking-widest transition-colors shadow-lg shadow-emerald-600/20 cursor-pointer"
           >
             <Phone className="w-4 h-4 mr-2" />
             Orçar Meus Serviços Sob Medida de Alto Padrão
@@ -903,7 +914,7 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
                     href={getWhatsAppLink(`Olá! Gostaria de obter mais informações técnicas e orçar projetos utilizando a linha ${line.name} para a minha obra.`)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-full py-3 bg-neutral-800 hover:bg-brand-orange text-white text-center font-display text-xs font-bold uppercase tracking-wider rounded-lg transition-all cursor-pointer"
+                    className="w-full py-3 bg-emerald-600 hover:bg-emerald-700 text-white text-center font-display text-xs font-bold uppercase tracking-wider rounded-lg transition-all cursor-pointer"
                   >
                     Especificar esta Linha
                   </a>
@@ -962,7 +973,7 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
                     href={getWhatsAppLink(`Olá! Vi o case de sucesso "${project.title}" em ${cityLabel} e gostaria de obter um orçamento de alto padrão semelhante sob medida para minha obra.`)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center text-xs font-bold text-brand-orange hover:text-brand-orange/85 transition-colors group/link cursor-pointer"
+                    className="inline-flex items-center text-xs font-bold text-emerald-600 hover:text-emerald-700 transition-colors group/link cursor-pointer"
                   >
                     Orçar Projeto Semelhante
                     <ArrowRight className="w-3.5 h-3.5 ml-1 group-hover/link:translate-x-0.5 transition-transform" />
@@ -979,7 +990,7 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
             href={getWhatsAppLink(`Olá! Vi os cases técnicos de ${currentCategoryData.title} em ${cityLabel} e gostaria de obter um orçamento técnico sob medida para o meu projeto de arquitetura.`)}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center px-8 py-4 bg-brand-orange hover:bg-brand-orange/95 text-white rounded-lg font-display text-xs font-bold uppercase tracking-widest transition-colors shadow-lg shadow-brand-orange/20 cursor-pointer animate-pulse-orange"
+            className="inline-flex items-center justify-center px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg font-display text-xs font-bold uppercase tracking-widest transition-colors shadow-lg shadow-emerald-600/20 cursor-pointer animate-pulse-whatsapp"
           >
             <Phone className="w-4 h-4 mr-2" />
             Iniciar Meu Projeto Sob Medida com a Serra-Ferro
@@ -1027,7 +1038,7 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
               href={getWhatsAppLink(`Olá! Gostaria de conversar com o comercial técnico e ter a entrega no prazo e a qualidade técnica da Serra-Ferro garantidas no meu projeto de ${currentCategoryData.title}.`)}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-8 py-4 bg-brand-orange hover:bg-brand-orange/95 text-white rounded-lg font-display text-xs font-bold uppercase tracking-widest transition-colors shadow-lg shadow-brand-orange/20 cursor-pointer"
+              className="inline-flex items-center justify-center px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg font-display text-xs font-bold uppercase tracking-widest transition-colors shadow-lg shadow-emerald-600/20 cursor-pointer"
             >
               <MessageSquare className="w-4 h-4 mr-2" />
               Garantir Minha Entrega no Prazo por WhatsApp
@@ -1067,7 +1078,7 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
                 href={getWhatsAppLink(`Olá! Gostaria de falar com o comercial técnico da Serra-Ferro sobre o nosso canal de parcerias B2B para arquitetos/construtores de ${currentCategoryData.title}.`)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-6 py-3 bg-brand-charcoal hover:bg-brand-orange text-white rounded-lg font-display text-xs font-bold uppercase tracking-wider transition-colors duration-300 shadow-sm cursor-pointer"
+                className="inline-flex items-center justify-center px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg font-display text-xs font-bold uppercase tracking-wider transition-colors duration-300 shadow-sm cursor-pointer"
               >
                 {currentB2B.buttonText}
               </a>
@@ -1141,7 +1152,7 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
               href={getWhatsAppLink(`Olá! Tenho uma dúvida técnica específica sobre meu projeto de ${currentCategoryData.title} e gostaria de falar com um engenheiro de soluções da Serra-Ferro.`)}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-6 py-3 bg-brand-charcoal hover:bg-brand-orange text-white rounded-lg font-display text-xs font-bold uppercase tracking-widest transition-colors shadow-sm cursor-pointer"
+              className="inline-flex items-center justify-center px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg font-display text-xs font-bold uppercase tracking-widest transition-colors shadow-sm cursor-pointer"
             >
               <Phone className="w-3.5 h-3.5 mr-2" />
               Tirar Dúvidas Técnicas via WhatsApp
@@ -1264,7 +1275,7 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
               href={getWhatsAppLink(`Olá! Gostaria de falar com o comercial técnico da Serra-Ferro para solicitar um orçamento de ${currentCategoryData.title} para minha obra.`)}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full inline-flex items-center justify-center px-6 py-4 bg-brand-orange hover:bg-brand-orange/95 text-white font-display text-xs font-bold uppercase tracking-widest rounded-lg transition-colors shadow-md cursor-pointer"
+              className="w-full inline-flex items-center justify-center px-6 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-display text-xs font-bold uppercase tracking-widest rounded-lg transition-colors shadow-md cursor-pointer"
             >
               <Phone className="w-4 h-4 mr-2" />
               Iniciar Orçamento Gratuito por WhatsApp

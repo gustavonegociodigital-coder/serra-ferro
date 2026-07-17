@@ -128,7 +128,7 @@ export default function CityLanding({ citySlug, setView }: CityLandingProps) {
                 href={getWhatsAppLink()}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-6 py-3.5 bg-brand-charcoal hover:bg-brand-orange text-white rounded-lg font-display text-xs font-bold uppercase tracking-wider transition-colors shadow-sm cursor-pointer"
+                className="inline-flex items-center justify-center px-6 py-3.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg font-display text-xs font-bold uppercase tracking-wider transition-colors shadow-sm cursor-pointer"
                 id="local-hero-cta"
               >
                 <Phone className="w-4 h-4 mr-2" />

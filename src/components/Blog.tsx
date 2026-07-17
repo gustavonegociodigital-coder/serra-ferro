@@ -1432,7 +1432,7 @@ export default function Blog({ setView }: BlogProps) {
                           href={`https://wa.me/5511913243623?text=${encodeURIComponent(`Olá Serra-Ferro! Estava lendo o artigo técnico "${selectedPost.title}" no seu blog e gostaria de solicitar um orçamento ou tirar dúvidas sobre a minha obra.`)}`}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-flex items-center justify-center px-6 py-3.5 bg-brand-orange hover:bg-brand-orange/95 text-white rounded-xl font-display text-xs font-bold uppercase tracking-widest transition-all duration-300 hover:scale-103 shadow-md animate-pulse-orange cursor-pointer"
+                          className="inline-flex items-center justify-center px-6 py-3.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl font-display text-xs font-bold uppercase tracking-widest transition-all duration-300 hover:scale-103 shadow-md animate-pulse-whatsapp cursor-pointer"
                         >
                           <MessageSquare className="w-4 h-4 mr-2" />
                           Consultar Engenheiro no WhatsApp

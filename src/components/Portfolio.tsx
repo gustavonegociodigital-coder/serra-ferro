@@ -258,7 +258,7 @@ export default function Portfolio({ setView }: PortfolioProps) {
               href={getWhatsAppLink('Olá! Gostaria de falar com o comercial técnico da Serra-Ferro para solicitar um orçamento de esquadrias/vidraçaria para minha obra.')}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full inline-flex items-center justify-center px-6 py-4 bg-brand-orange hover:bg-brand-orange/95 text-white font-display text-xs font-bold uppercase tracking-widest rounded-lg transition-colors shadow-md cursor-pointer"
+              className="w-full inline-flex items-center justify-center px-6 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-display text-xs font-bold uppercase tracking-widest rounded-lg transition-colors shadow-md cursor-pointer"
             >
               <Phone className="w-4 h-4 mr-2" />
               Iniciar Orçamento Gratuito por WhatsApp

@@ -118,7 +118,7 @@ export default function Home({ setView }: HomeProps) {
     <div className="space-y-20 pb-20 animate-fade-in" id="home-view">
       
       {/* SECTION 1: HERO (BANNER ROTATIVO ULTRA MODERNO) */}
-      <section className="relative w-full h-[500px] sm:h-[540px] md:h-[580px] lg:h-[620px] overflow-hidden border-b border-neutral-200 bg-neutral-950 flex items-center" id="hero-section">
+      <section className="relative w-full min-h-[540px] sm:min-h-[560px] md:min-h-[600px] overflow-hidden border-b border-neutral-200 bg-neutral-950 flex items-center py-16 sm:py-20" id="hero-section">
         
         {/* Sliding Background Images (Cross-fade effect) */}
         <div className="absolute inset-0 z-0">
@@ -147,9 +147,9 @@ export default function Home({ setView }: HomeProps) {
         <div className="absolute inset-0 opacity-10 bg-[linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none z-10" />
 
         {/* Hero Slider Content */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 w-full pt-8 sm:pt-12">
-          <div className="max-w-2xl space-y-4">
-            
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 w-full">
+          <div className="max-w-2xl space-y-5 sm:space-y-6">
+
             {/* Tag / Badge */}
             <div className="inline-flex items-center space-x-2 px-3 py-1 bg-brand-orange/20 border border-brand-orange/30 rounded-full text-brand-orange text-[10px] sm:text-xs font-mono font-bold uppercase tracking-widest animate-pulse">
               <Sparkles className="w-3.5 h-3.5 text-brand-orange" />
@@ -174,7 +174,7 @@ export default function Home({ setView }: HomeProps) {
                 href={slides[currentSlide].ctaPrimaryLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3 bg-brand-orange hover:bg-brand-orange/95 text-white rounded-lg font-display text-[11px] sm:text-xs font-extrabold uppercase tracking-widest transition-all duration-300 shadow-lg shadow-brand-orange/20 cursor-pointer animate-pulse-orange"
+                className="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg font-display text-[11px] sm:text-xs font-extrabold uppercase tracking-widest transition-all duration-300 shadow-lg shadow-emerald-600/20 cursor-pointer animate-pulse-whatsapp"
                 id="hero-cta-primary"
               >
                 <Phone className="w-3.5 h-3.5 mr-2" />
@@ -399,7 +399,7 @@ export default function Home({ setView }: HomeProps) {
             href="https://api.whatsapp.com/send/?phone=5511913243623&text=Gostaria+de+solicitar+um+or%C3%A7amento%21&type=phone_number&app_absent=0"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center px-8 py-4 bg-brand-orange hover:bg-brand-orange/95 text-white font-display text-sm font-extrabold uppercase tracking-widest rounded-xl transition-all duration-300 shadow-lg shadow-brand-orange/20 hover:scale-[1.02] active:scale-[0.98] group cursor-pointer animate-pulse-orange"
+            className="inline-flex items-center justify-center px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-display text-sm font-extrabold uppercase tracking-widest rounded-xl transition-all duration-300 shadow-lg shadow-emerald-600/20 hover:scale-[1.02] active:scale-[0.98] group cursor-pointer animate-pulse-whatsapp"
           >
             <MessageCircle className="w-5 h-5 mr-2.5 group-hover:scale-110 transition-transform" />
             Fazer Cotação de Fábrica no WhatsApp
@@ -465,7 +465,7 @@ export default function Home({ setView }: HomeProps) {
               href="https://api.whatsapp.com/send/?phone=5511913243623&text=Gostaria+de+solicitar+um+or%C3%A7amento%21&type=phone_number&app_absent=0"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-8 py-4 bg-brand-orange hover:bg-brand-orange/95 text-white font-display text-sm font-extrabold uppercase tracking-widest rounded-xl transition-all duration-300 shadow-lg shadow-brand-orange/20 hover:scale-[1.02] active:scale-[0.98] group cursor-pointer animate-pulse-orange"
+              className="inline-flex items-center justify-center px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-display text-sm font-extrabold uppercase tracking-widest rounded-xl transition-all duration-300 shadow-lg shadow-emerald-600/20 hover:scale-[1.02] active:scale-[0.98] group cursor-pointer animate-pulse-whatsapp"
             >
               <MessageCircle className="w-5 h-5 mr-2.5 group-hover:scale-110 transition-transform" />
               Solicitar Orçamento de Obra via WhatsApp
@@ -581,7 +581,7 @@ export default function Home({ setView }: HomeProps) {
               href="https://api.whatsapp.com/send/?phone=5511913243623&text=Gostaria+de+solicitar+um+or%C3%A7amento%21&type=phone_number&app_absent=0"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-8 py-4 bg-brand-orange hover:bg-brand-orange/95 text-white font-display text-sm font-extrabold uppercase tracking-widest rounded-xl transition-all duration-300 shadow-lg shadow-brand-orange/20 hover:scale-[1.02] active:scale-[0.98] group cursor-pointer animate-pulse-orange"
+              className="inline-flex items-center justify-center px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-display text-sm font-extrabold uppercase tracking-widest rounded-xl transition-all duration-300 shadow-lg shadow-emerald-600/20 hover:scale-[1.02] active:scale-[0.98] group cursor-pointer animate-pulse-whatsapp"
             >
               <MessageCircle className="w-5 h-5 mr-2.5 group-hover:scale-110 transition-transform" />
               Falar Conosco no WhatsApp
@@ -778,7 +778,7 @@ export default function Home({ setView }: HomeProps) {
               href={getWhatsAppLink('Gostaria de solicitar um orçamento!')}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 bg-brand-orange hover:bg-brand-orange/90 text-white rounded-lg font-display text-xs font-bold uppercase tracking-wider transition-colors shadow-md cursor-pointer"
+              className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg font-display text-xs font-bold uppercase tracking-wider transition-colors shadow-md cursor-pointer"
             >
               <Phone className="w-4 h-4 mr-2" />
               Solicitar Orçamento no WhatsApp
@@ -908,7 +908,7 @@ export default function Home({ setView }: HomeProps) {
               href="https://instagram.com/serraferroprime"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center px-4 py-2 bg-white border border-neutral-300 hover:border-brand-orange rounded-lg text-xs font-bold text-brand-charcoal hover:text-brand-orange transition-all tracking-wider uppercase font-mono shadow-sm cursor-pointer"
+              className="inline-flex items-center px-4 py-2 bg-white border border-neutral-300 hover:border-emerald-600 rounded-lg text-xs font-bold text-brand-charcoal hover:text-emerald-700 transition-all tracking-wider uppercase font-mono shadow-sm cursor-pointer"
             >
               <Instagram className="w-4 h-4 mr-2 text-brand-orange" />
               @serraferroprime
@@ -1062,7 +1062,7 @@ export default function Home({ setView }: HomeProps) {
               href={getWhatsAppLink('Olá! Gostaria de falar com o comercial técnico da Serra-Ferro para solicitar um orçamento de esquadrias/vidraçaria para minha obra.')}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full inline-flex items-center justify-center px-6 py-4 bg-brand-orange hover:bg-brand-orange/95 text-white font-display text-xs font-bold uppercase tracking-widest rounded-lg transition-colors shadow-md cursor-pointer"
+              className="w-full inline-flex items-center justify-center px-6 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-display text-xs font-bold uppercase tracking-widest rounded-lg transition-colors shadow-md cursor-pointer"
             >
               <Phone className="w-4 h-4 mr-2" />
               Iniciar Orçamento Gratuito por WhatsApp
@@ -1121,7 +1121,7 @@ export default function Home({ setView }: HomeProps) {
                   href={getWhatsAppLink('Olá! Li o artigo sobre Linha Gold vs Suprema e gostaria de tirar uma dúvida para a minha casa.')}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-xs font-bold text-brand-charcoal hover:text-brand-orange transition-colors inline-flex items-center cursor-pointer"
+                  className="text-xs font-bold text-emerald-600 hover:text-emerald-700 transition-colors inline-flex items-center cursor-pointer"
                 >
                   Falar sobre Linhas
                   <ArrowRight className="w-3.5 h-3.5 ml-1" />
@@ -1161,7 +1161,7 @@ export default function Home({ setView }: HomeProps) {
                   href={getWhatsAppLink('Olá! Li o artigo sobre infiltrações e assovios de vento e gostaria de tirar dúvidas de vedação para minha obra.')}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-xs font-bold text-brand-charcoal hover:text-brand-orange transition-colors inline-flex items-center cursor-pointer"
+                  className="text-xs font-bold text-emerald-600 hover:text-emerald-700 transition-colors inline-flex items-center cursor-pointer"
                 >
                   Tirar Dúvidas
                   <ArrowRight className="w-3.5 h-3.5 ml-1" />
@@ -1201,7 +1201,7 @@ export default function Home({ setView }: HomeProps) {
                   href={getWhatsAppLink('Olá! Gostaria de falar com o engenheiro da Serra-Ferro sobre guarda-corpos seguros de vidro NBR 14718.')}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-xs font-bold text-brand-charcoal hover:text-brand-orange transition-colors inline-flex items-center cursor-pointer"
+                  className="text-xs font-bold text-emerald-600 hover:text-emerald-700 transition-colors inline-flex items-center cursor-pointer"
                 >
                   Falar com Engenheiro
                   <ArrowRight className="w-3.5 h-3.5 ml-1" />
