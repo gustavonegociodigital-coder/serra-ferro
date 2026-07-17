@@ -18,7 +18,8 @@ import {
 } from 'lucide-react';
 import { AppView } from '../types';
 import { SERVICES_CATEGORIES } from '../data';
-import { EsquadriasRegion } from '../regionsEsquadrias';
+import { EsquadriasRegion, ESQUADRIAS_REGIONS } from '../regionsEsquadrias';
+import { ESQUADRIAS_SP_SLUG } from '../seo';
 
 interface CategoryPillarProps {
   category: 'esquadrias' | 'vidracaria' | 'serralheria';
@@ -1137,6 +1138,58 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
           </div>
         </div>
       </section>
+
+      {/* SESSÃO DE REGIÕES: LINK BUILDING INTERNO ENTRE AS PÁGINAS DE ESQUADRIAS */}
+      {category === 'esquadrias' && (
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+          <div className="bg-neutral-50 border border-neutral-200 rounded-2xl p-6 sm:p-10">
+            <div className="text-center max-w-3xl mx-auto mb-8">
+              <span className="font-mono text-xs font-bold text-brand-orange uppercase tracking-widest block">
+                ATENDIMENTO NA GRANDE SÃO PAULO
+              </span>
+              <h2 className="font-display text-xl sm:text-2xl font-extrabold text-brand-charcoal tracking-tight mt-1">
+                Esquadrias de Alumínio nas Regiões de São Paulo
+              </h2>
+              <p className="text-xs sm:text-sm text-brand-muted mt-2 leading-relaxed">
+                Fabricação e instalação sob medida com equipe própria. Veja a página da sua cidade:
+              </p>
+            </div>
+            <div className="flex flex-wrap justify-center gap-2.5">
+              {[{ slug: ESQUADRIAS_SP_SLUG, city: 'São Paulo' }, ...ESQUADRIAS_REGIONS].map((item) => {
+                const isCurrent = item.slug === (region ? region.slug : ESQUADRIAS_SP_SLUG);
+                if (isCurrent) {
+                  return (
+                    <span
+                      key={item.slug}
+                      className="inline-flex items-center px-3.5 py-2 rounded-lg bg-brand-orange text-white text-xs font-bold cursor-default"
+                      aria-current="page"
+                    >
+                      <MapPin className="w-3.5 h-3.5 mr-1.5" />
+                      {item.city}
+                    </span>
+                  );
+                }
+                return (
+                  <a
+                    key={item.slug}
+                    href={`/${item.slug}`}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setView(item.slug);
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }}
+                    className="inline-flex items-center px-3.5 py-2 rounded-lg bg-white border border-neutral-200 text-brand-charcoal hover:border-brand-orange hover:text-brand-orange text-xs font-semibold transition-colors"
+                    title={`Esquadrias de Alumínio em ${item.city}`}
+                  >
+                    <MapPin className="w-3.5 h-3.5 mr-1.5 text-brand-orange" />
+                    {item.city}
+                  </a>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* SESSÃO 8: CONTATO (REPLICADO EXATAMENTE IGUAL À PAGINA HOME COM DIRECIONAMENTO EXCLUSIVO WHATSAPP) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4" id="contato-secao-categoria">

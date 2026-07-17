@@ -8,6 +8,7 @@ import { Compass, Mail, Phone, MapPin, ShieldCheck, CheckCircle2, ChevronRight }
 import { AppView } from '../types';
 import { CITIES_LIST } from '../data';
 import { ESQUADRIAS_SP_SLUG } from '../seo';
+import { ESQUADRIAS_REGIONS } from '../regionsEsquadrias';
 import SerraFerroLogo from './SerraFerroLogo';
 
 interface FooterProps {
@@ -24,6 +25,12 @@ export default function Footer({ setView, currentView }: FooterProps) {
   const handleNavClick = (view: AppView) => {
     setView(view);
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  // Navegação SPA em links reais (<a href>) para manter a URL crawlável pelo Google.
+  const handleAnchorNav = (e: React.MouseEvent, view: AppView) => {
+    e.preventDefault();
+    handleNavClick(view);
   };
 
   const getWhatsAppLink = () => {
@@ -161,6 +168,36 @@ export default function Footer({ setView, currentView }: FooterProps) {
                   {city.name} — Esquadrias e Vidros
                 </button>
                 {idx < CITIES_LIST.length - 1 && <span className="text-neutral-700">·</span>}
+              </React.Fragment>
+            ))}
+          </div>
+        </div>
+
+        {/* Esquadrias de Alumínio por Região (link building interno para as landings regionais) */}
+        <div className="py-8 border-b border-neutral-800">
+          <span className="text-xs font-mono font-semibold text-white uppercase tracking-wider block mb-3">
+            Esquadrias de Alumínio por Região em SP
+          </span>
+          <div className="flex flex-wrap gap-x-3 gap-y-2 text-xs">
+            <a
+              href={`/${ESQUADRIAS_SP_SLUG}`}
+              onClick={(e) => handleAnchorNav(e, ESQUADRIAS_SP_SLUG)}
+              className="text-neutral-400 hover:text-brand-orange font-medium transition-colors"
+            >
+              Esquadrias de Alumínio em São Paulo
+            </a>
+            <span className="text-neutral-700">·</span>
+            {ESQUADRIAS_REGIONS.map((region, idx) => (
+              <React.Fragment key={region.slug}>
+                <a
+                  href={`/${region.slug}`}
+                  onClick={(e) => handleAnchorNav(e, region.slug)}
+                  className="text-neutral-400 hover:text-brand-orange font-medium transition-colors"
+                  id={`footer-esquadrias-${region.slug}`}
+                >
+                  Esquadrias de Alumínio em {region.city}
+                </a>
+                {idx < ESQUADRIAS_REGIONS.length - 1 && <span className="text-neutral-700">·</span>}
               </React.Fragment>
             ))}
           </div>
