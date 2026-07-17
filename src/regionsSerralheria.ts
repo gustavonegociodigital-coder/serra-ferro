@@ -521,6 +521,56 @@ export const SERRALHERIA_REGIONS: RegionPage[] = [
       { question: 'A solda das escadas fica invisível?', answer: 'Sim, lixamos e tratamos cada solda até ficar invisível ao toque, com pintura eletrostática durável.' },
     ],
   },
+  {
+    slug: 'serralheria-em-curitiba',
+    city: 'Curitiba',
+    keyword: 'Serralheria em Curitiba',
+    metaTitle: 'Serralheria em Curitiba | Escadas, Portões e Estruturas | Serra Ferro',
+    metaDescription: 'Serralheria em Curitiba: escadas de design, portões, mezaninos e estruturas metálicas sob medida com solda invisível e tratamento anticorrosivo para o clima úmido. Orçamento no WhatsApp.',
+    hero: {
+      tag: 'SERRA-FERRO • SERRALHERIA EM CURITIBA',
+      description: 'Serralheria fina em Curitiba: escadas de design, portões, mezaninos e estruturas metálicas sob medida com solda invisível e tratamento anticorrosivo reforçado para a umidade e o frio da região.',
+      highlights: ['Solda invisível ao toque', 'Anticorrosão para clima úmido', 'Escadas e portões de design', 'Cálculo estrutural com ART'],
+    },
+    localIntro: {
+      tag: 'ATENDIMENTO EM CURITIBA',
+      title: 'Serralheria Fina em Curitiba para Alto Padrão',
+      paragraphs: [
+        'A arquitetura sofisticada de Curitiba pede serralheria de autor — escadas escultóricas, portões marcantes, mezaninos e brises — mas o clima frio e úmido exige um tratamento anticorrosivo à altura. Executamos cada peça com solda lixada e invisível ao toque e proteção por galvanização e pintura eletrostática que resiste à umidade e às geadas.',
+        'Atendemos residências e empreendimentos em bairros como Batel, Ecoville, Cabral e Água Verde, com detalhamento em CAD e emissão de ART quando há cálculo de carga, unindo design e engenharia.',
+      ],
+      bullets: ['Escadas helicoidais e plissadas', 'Galvanização contra umidade e frio', 'Portões e brises de design', 'Projeto executivo com ART'],
+    },
+    headers: {
+      servicesTitle: 'Serralheria em Curitiba: Serviços de Alto Padrão',
+      servicesSubtitle: 'Escadas de design, portões, mezaninos e estruturas metálicas sob medida para Curitiba, com solda invisível e tratamento anticorrosivo para o clima úmido.',
+      linesTitle: 'Linhas de Serralheria para Obras em Curitiba',
+      linesSubtitle: 'Da serralheria fina ao aço estrutural, escolha a linha ideal para o design e a carga da sua obra em Curitiba.',
+      casesTitle: 'Projetos de Serralheria Entregues em Curitiba',
+      casesSubtitle: 'Escadas de design e estruturas metálicas executadas em Curitiba com acabamento artesanal e proteção anticorrosiva.',
+      testimonialsTitle: 'Quem Contratou Serralheria em Curitiba Recomenda',
+      testimonialsSubtitle: 'Moradores e arquitetos de Curitiba comentam o acabamento e a durabilidade das peças.',
+      faqTitle: 'Dúvidas sobre Serralheria em Curitiba',
+      faqSubtitle: 'Respostas técnicas para escadas, portões e estruturas metálicas em Curitiba.',
+      contactTitle: 'Peça um Orçamento de Serralheria em Curitiba',
+      contactSubtitle: 'Agende a visita técnica da sua obra em Curitiba e tire seu projeto de aço do papel pelo WhatsApp.',
+    },
+    cases: [
+      { title: 'Escada Helicoidal - Batel (Curitiba)', region: 'Batel - Curitiba', description: 'Escada helicoidal metálica com solda invisível e degraus em chapa dobrada, com pintura epóxi de alta durabilidade contra a umidade.', image: IMG.serr, highlight: 'Escada Helicoidal' },
+      { title: 'Portão de Design - Ecoville (Curitiba)', region: 'Ecoville - Curitiba', description: 'Portão pivotante em aço com revestimento corten e galvanização reforçada, deslizamento leve e estrutura anti-empenamento.', image: IMG.house, highlight: 'Portão de Design' },
+      { title: 'Mezanino Estrutural - Água Verde (Curitiba)', region: 'Água Verde - Curitiba', description: 'Mezanino com vigas metálicas aparentes e guarda-corpo de aço e vidro, calculado por engenharia e com ART.', image: IMG.min, highlight: 'Mezanino Calculado' },
+    ],
+    testimonials: [
+      { author: 'Rafael Munhoz', role: 'Morador do Batel, Curitiba', text: 'A escada virou o ponto alto da casa. Solda invisível de verdade e o acabamento continua intacto apesar da umidade de Curitiba.' },
+      { author: 'Arq. Camila Stroparo', role: 'Arquiteta em Curitiba', text: 'Detalharam a serralheria em CAD e entregaram a ART do mezanino. Peças de design com engenharia e proteção anticorrosiva impecável.' },
+    ],
+    faqs: [
+      { question: 'As peças de aço resistem à umidade e às geadas de Curitiba?', answer: 'Sim. Aplicamos galvanização e pintura eletrostática a pó curada em forno, criando barreira dupla contra a corrosão típica do clima frio e úmido de Curitiba.' },
+      { question: 'A solda das escadas fica invisível?', answer: 'Sim, lixamos e tratamos cada solda até ficar invisível ao toque, preservando o desenho limpo das peças de design.' },
+      { question: 'Vocês emitem ART para mezaninos e estruturas em Curitiba?', answer: 'Sim, estruturas com cálculo de carga acompanham ART assinada por engenheiro habilitado no CREA.' },
+      { question: 'Atendem os bairros de alto padrão de Curitiba?', answer: 'Sim, atendemos Batel, Ecoville, Cabral, Água Verde e demais regiões da cidade, com medição no local.' },
+    ],
+  },
 ];
 
 export const SERRALHERIA_REGION_BY_SLUG: Record<string, RegionPage> = Object.fromEntries(

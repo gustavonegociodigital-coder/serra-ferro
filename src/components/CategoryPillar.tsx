@@ -1156,10 +1156,10 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
           <div className="bg-neutral-50 border border-neutral-200 rounded-2xl p-6 sm:p-10">
             <div className="text-center max-w-3xl mx-auto mb-8">
               <span className="font-mono text-xs font-bold text-brand-orange uppercase tracking-widest block">
-                ATENDIMENTO NA GRANDE SÃO PAULO
+                ATENDIMENTO POR REGIÃO
               </span>
               <h2 className="font-display text-xl sm:text-2xl font-extrabold text-brand-charcoal tracking-tight mt-1">
-                {regionLinks.label} nas Regiões de São Paulo
+                {regionLinks.label} por Cidade e Região
               </h2>
               <p className="text-xs sm:text-sm text-brand-muted mt-2 leading-relaxed">
                 Fabricação e instalação sob medida com equipe própria. Veja a página da sua cidade:

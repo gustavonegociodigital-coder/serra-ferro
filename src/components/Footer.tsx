@@ -156,7 +156,7 @@ export default function Footer({ setView, currentView }: FooterProps) {
         ].map((group) => (
           <div key={group.spSlug} className="py-8 border-b border-neutral-800">
             <span className="text-xs font-mono font-semibold text-white uppercase tracking-wider block mb-3">
-              {group.label} por Região em SP
+              {group.label} por Região
             </span>
             <div className="flex flex-wrap gap-x-3 gap-y-2 text-xs">
               <a

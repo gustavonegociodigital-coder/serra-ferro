@@ -1218,13 +1218,13 @@ export default function Home({ setView }: HomeProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <span className="font-mono text-xs font-bold text-brand-orange uppercase tracking-widest block">
-              ATENDIMENTO NA GRANDE SÃO PAULO
+              ATENDIMENTO POR REGIÃO
             </span>
             <h2 className="font-display text-2xl sm:text-3xl font-extrabold text-white tracking-tight mt-1">
               Esquadrias, Vidraçaria e Serralheria por Região
             </h2>
             <p className="text-xs sm:text-sm text-neutral-400 mt-2 leading-relaxed max-w-xl mx-auto font-medium">
-              Fabricação e instalação sob medida com equipe própria em São Paulo e em toda a Grande SP. Encontre a página da sua cidade:
+              Fabricação e instalação sob medida com equipe própria em São Paulo, Curitiba e região. Encontre a página da sua cidade:
             </p>
           </div>
 

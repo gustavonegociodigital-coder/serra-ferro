@@ -521,6 +521,56 @@ export const VIDRACARIA_REGIONS: RegionPage[] = [
       { question: 'Fazem espelhos monumentais e coberturas de vidro?', answer: 'Sim, fabricamos espelhos de cristal sob medida e coberturas de vidro laminado com vedação dupla contra infiltrações.' },
     ],
   },
+  {
+    slug: 'vidracaria-em-curitiba',
+    city: 'Curitiba',
+    keyword: 'Vidraçaria em Curitiba',
+    metaTitle: 'Vidraçaria em Curitiba | Fechamento de Sacada, Guarda-Corpo e Box | Serra Ferro',
+    metaDescription: 'Vidraçaria em Curitiba: fechamento de sacada para o frio, guarda-corpo de vidro, box e espelhos sob medida com vidros de controle térmico e segurança. Orçamento no WhatsApp.',
+    hero: {
+      tag: 'SERRA-FERRO • VIDRAÇARIA EM CURITIBA',
+      description: 'Vidraçaria de alto padrão em Curitiba: fechamento de sacada para aproveitar o ambiente no frio, guarda-corpos de vidro, box e espelhos sob medida, com vidros de controle térmico e segurança.',
+      highlights: ['Fechamento de sacada para o frio', 'Guarda-corpo pela NBR 14718', 'Vidros com controle térmico', 'Box e espelhos sob medida'],
+    },
+    localIntro: {
+      tag: 'ATENDIMENTO EM CURITIBA',
+      title: 'Vidraçaria de Alto Padrão em Curitiba',
+      paragraphs: [
+        'Em Curitiba, o vidro é aliado do conforto no clima frio: fechar a sacada com vidro transforma a varanda em um ambiente aproveitável o ano todo, protegido do vento e da chuva, sem perder a vista. Instalamos fechamentos de sacada retráteis, guarda-corpos de vidro e coberturas com vedação reforçada e vidros de controle térmico.',
+        'Atendemos residências e apartamentos de alto padrão em bairros como Batel, Ecoville, Água Verde e Cabral, com vidros laminados de segurança, fixação invisível, box premium e espelhos de cristal — unindo desempenho térmico e sofisticação.',
+      ],
+      bullets: ['Fechamento de sacada retrátil', 'Guarda-corpo com fixação invisível', 'Vidros de controle térmico', 'Cobertura no Batel, Ecoville e Cabral'],
+    },
+    headers: {
+      servicesTitle: 'Vidraçaria em Curitiba: Serviços de Alto Padrão',
+      servicesSubtitle: 'Fechamento de sacada, guarda-corpos de vidro, box e espelhos sob medida para Curitiba, com vidros de controle térmico e segurança para o clima frio.',
+      linesTitle: 'Tipos de Vidro Premium para Obras em Curitiba',
+      linesSubtitle: 'Do laminado de segurança ao controle térmico, escolha a tecnologia de vidro ideal para o clima de Curitiba.',
+      casesTitle: 'Projetos de Vidraçaria Entregues em Curitiba',
+      casesSubtitle: 'Sacadas, guarda-corpos e coberturas executados em Curitiba com transparência, segurança e conforto térmico.',
+      testimonialsTitle: 'Quem Contratou Vidraçaria em Curitiba Recomenda',
+      testimonialsSubtitle: 'Moradores de Curitiba comentam o conforto do fechamento de sacada e a segurança dos vidros.',
+      faqTitle: 'Dúvidas sobre Vidraçaria em Curitiba',
+      faqSubtitle: 'Respostas técnicas sobre sacadas, guarda-corpos e coberturas de vidro em Curitiba.',
+      contactTitle: 'Peça um Orçamento de Vidraçaria em Curitiba',
+      contactSubtitle: 'Agende a medição do seu imóvel em Curitiba e fale com o comercial técnico pelo WhatsApp.',
+    },
+    cases: [
+      { title: 'Fechamento de Sacada - Batel (Curitiba)', region: 'Batel - Curitiba', description: 'Fechamento de sacada retrátil que transformou a varanda em ambiente útil no inverno, com vedação de alta densidade contra o vento frio.', image: IMG.villa, highlight: 'Sacada no Inverno' },
+      { title: 'Guarda-Corpo de Vidro - Ecoville (Curitiba)', region: 'Ecoville - Curitiba', description: 'Guarda-corpo autoportante de vidro laminado com fixação invisível, preservando a vista com segurança pela NBR 14718.', image: IMG.vidro, highlight: 'Fixação Invisível' },
+      { title: 'Cobertura de Vidro - Cabral (Curitiba)', region: 'Cabral - Curitiba', description: 'Cobertura de área gourmet em vidro laminado de controle térmico com calhas integradas e vedação dupla contra a chuva.', image: IMG.facade, highlight: 'Cobertura de Vidro' },
+    ],
+    testimonials: [
+      { author: 'Patrícia Lima', role: 'Moradora do Batel, Curitiba', text: 'Fechei a sacada com vidro e ganhei um cômodo a mais que uso até no inverno mais frio. Não entra vento nem chuva e a vista continua linda.' },
+      { author: 'Eng. Gustavo Andrade', role: 'Cliente no Ecoville, Curitiba', text: 'O guarda-corpo de vidro ficou clean e seguro, dimensionado pela norma. Instalação caprichada e sem vazamentos nas chuvas de Curitiba.' },
+    ],
+    faqs: [
+      { question: 'O fechamento de sacada ajuda no frio de Curitiba?', answer: 'Muito. Fechar a sacada com vidro cria uma barreira contra o vento frio e a chuva, transformando a varanda em um ambiente aproveitável o ano todo, inclusive no inverno rigoroso de Curitiba.' },
+      { question: 'O guarda-corpo de vidro é seguro?', answer: 'Sim, usamos vidro laminado temperado e seguimos a NBR 14718, com fixação invisível por canalete ou botões de inox, garantindo segurança e transparência.' },
+      { question: 'Vocês trabalham com vidros de controle térmico?', answer: 'Sim, oferecemos vidros de controle térmico e coberturas que ajudam no conforto do clima de Curitiba, reduzindo perdas de calor e o frio nos ambientes.' },
+      { question: 'Atendem os bairros de alto padrão de Curitiba?', answer: 'Sim, atendemos Batel, Ecoville, Água Verde, Cabral e demais regiões, com medição no local e instalação por equipe própria.' },
+    ],
+  },
 ];
 
 export const VIDRACARIA_REGION_BY_SLUG: Record<string, RegionPage> = Object.fromEntries(
