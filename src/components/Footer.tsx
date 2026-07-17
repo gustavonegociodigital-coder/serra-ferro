@@ -6,7 +6,6 @@
 import React from 'react';
 import { Compass, Mail, Phone, MapPin, ShieldCheck, CheckCircle2, ChevronRight } from 'lucide-react';
 import { AppView } from '../types';
-import { CITIES_LIST } from '../data';
 import { ESQUADRIAS_SP_SLUG } from '../seo';
 import { ESQUADRIAS_REGIONS } from '../regionsEsquadrias';
 import SerraFerroLogo from './SerraFerroLogo';
@@ -17,11 +16,6 @@ interface FooterProps {
 }
 
 export default function Footer({ setView, currentView }: FooterProps) {
-  const handleCityClick = (citySlug: string) => {
-    setView(`city-${citySlug}`);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
   const handleNavClick = (view: AppView) => {
     setView(view);
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -150,27 +144,6 @@ export default function Footer({ setView, currentView }: FooterProps) {
             </div>
           </div>
 
-        </div>
-
-        {/* Links de Cidades (SEO Local) */}
-        <div className="py-8 border-b border-neutral-800">
-          <span className="text-xs font-mono font-semibold text-white uppercase tracking-wider block mb-3">
-            Áreas de Atendimento (SEO Local — Grande São Paulo)
-          </span>
-          <div className="flex flex-wrap gap-x-3 gap-y-2 text-xs">
-            {CITIES_LIST.map((city, idx) => (
-              <React.Fragment key={city.slug}>
-                <button
-                  onClick={() => handleCityClick(city.slug)}
-                  className="text-neutral-400 hover:text-brand-orange font-medium transition-colors"
-                  id={`footer-city-link-${city.slug}`}
-                >
-                  {city.name} — Esquadrias e Vidros
-                </button>
-                {idx < CITIES_LIST.length - 1 && <span className="text-neutral-700">·</span>}
-              </React.Fragment>
-            ))}
-          </div>
         </div>
 
         {/* Esquadrias de Alumínio por Região (link building interno para as landings regionais) */}

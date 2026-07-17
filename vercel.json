@@ -3,7 +3,16 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "redirects": [
-    { "source": "/esquadrias", "destination": "/esquadrias-de-aluminio-em-sao-paulo-sp", "permanent": true }
+    { "source": "/esquadrias", "destination": "/esquadrias-de-aluminio-em-sao-paulo-sp", "permanent": true },
+    { "source": "/city-sao-paulo", "destination": "/esquadrias-de-aluminio-em-sao-paulo-sp", "permanent": true },
+    { "source": "/city-barueri", "destination": "/esquadrias-de-aluminio-em-barueri-sp", "permanent": true },
+    { "source": "/city-alphaville", "destination": "/esquadrias-de-aluminio-em-alphaville-sp", "permanent": true },
+    { "source": "/city-tambore", "destination": "/esquadrias-de-aluminio-em-barueri-sp", "permanent": true },
+    { "source": "/city-granja-viana", "destination": "/esquadrias-de-aluminio-em-cotia-sp", "permanent": true },
+    { "source": "/city-santana-de-parnaiba", "destination": "/esquadrias-de-aluminio-em-santana-de-parnaiba-sp", "permanent": true },
+    { "source": "/city-cotia", "destination": "/esquadrias-de-aluminio-em-cotia-sp", "permanent": true },
+    { "source": "/city-osasco", "destination": "/esquadrias-de-aluminio-em-osasco-sp", "permanent": true },
+    { "source": "/city-guarulhos", "destination": "/esquadrias-de-aluminio-em-guarulhos-sp", "permanent": true }
   ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
