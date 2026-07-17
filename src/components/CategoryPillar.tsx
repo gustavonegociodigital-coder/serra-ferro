@@ -829,7 +829,7 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
                     href={getWhatsAppLink(`Olá! Gostaria de consultar um orçamento para o serviço de ${service.title} sob medida para a minha obra.`)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center text-xs font-bold text-emerald-600 hover:text-emerald-700 transition-colors group/link cursor-pointer"
+                    className="inline-flex items-center px-4 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold rounded-lg transition-colors cursor-pointer group/link"
                   >
                     Consultar Orçamento Técnico
                     <ArrowRight className="w-3.5 h-3.5 ml-1 group-hover/link:translate-x-0.5 transition-transform" />
@@ -973,7 +973,7 @@ export default function CategoryPillar({ category, setView, region }: CategoryPi
                     href={getWhatsAppLink(`Olá! Vi o case de sucesso "${project.title}" em ${cityLabel} e gostaria de obter um orçamento de alto padrão semelhante sob medida para minha obra.`)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center text-xs font-bold text-emerald-600 hover:text-emerald-700 transition-colors group/link cursor-pointer"
+                    className="inline-flex items-center px-4 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold rounded-lg transition-colors cursor-pointer group/link"
                   >
                     Orçar Projeto Semelhante
                     <ArrowRight className="w-3.5 h-3.5 ml-1 group-hover/link:translate-x-0.5 transition-transform" />
